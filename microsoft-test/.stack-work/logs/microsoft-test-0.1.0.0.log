@@ -1,0 +1,61 @@
+Preprocessing library microsoft-test-0.1.0.0...
+[2 of 2] Compiling Lib              ( src/Lib.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Lib.o )
+
+src/Lib.hs:46:15: error:
+    • Couldn't match type ‘ExceptT ServantError IO’ with ‘IO’
+      Expected type: IO MicrosoftApiCall.TextPic
+        Actual type: ClientM MicrosoftApiCall.TextPic
+    • In a stmt of a 'do' block:
+        result <- postImage
+                    (Just "4734fe1f149d45278562726fd47b0393")
+                    img
+                    (Just "de")
+                    (Just "true")
+                    manager
+                    baseUrl
+      In the expression:
+        do { file <- B.readFile
+                       "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0650.JPG";
+             img <- return $ CV.imdecode CV.ImreadGrayscale file;
+             manager <- newManager tlsManagerSettings;
+             result <- postImage
+                         (Just "4734fe1f149d45278562726fd47b0393")
+                         img
+                         (Just "de")
+                         (Just "true")
+                         manager
+                         baseUrl;
+             .... }
+      In an equation for ‘imageWork’:
+          imageWork
+            = do { file <- B.readFile
+                             "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0650.JPG";
+                   img <- return $ CV.imdecode CV.ImreadGrayscale file;
+                   manager <- newManager tlsManagerSettings;
+                   .... }
+
+src/Lib.hs:46:67: error:
+    • Couldn't match expected type ‘ByteString’
+                  with actual type ‘CV.Mat ('CV.S '['CV.D, 'CV.D]) 'CV.D 'CV.D’
+    • In the second argument of ‘postImage’, namely ‘img’
+      In a stmt of a 'do' block:
+        result <- postImage
+                    (Just "4734fe1f149d45278562726fd47b0393")
+                    img
+                    (Just "de")
+                    (Just "true")
+                    manager
+                    baseUrl
+      In the expression:
+        do { file <- B.readFile
+                       "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0650.JPG";
+             img <- return $ CV.imdecode CV.ImreadGrayscale file;
+             manager <- newManager tlsManagerSettings;
+             result <- postImage
+                         (Just "4734fe1f149d45278562726fd47b0393")
+                         img
+                         (Just "de")
+                         (Just "true")
+                         manager
+                         baseUrl;
+             .... }

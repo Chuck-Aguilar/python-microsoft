@@ -1,0 +1,312 @@
+{
+  "language": "de",
+  "textAngle": -1.8000000000000336,
+  "orientation": "Up",
+  "regions": [
+    {
+      "boundingBox": "323,547,1190,566",
+      "lines": [
+        {
+          "boundingBox": "820,547,203,66",
+          "words": [
+            {
+              "boundingBox": "820,547,203,66",
+              "text": "Pasing"
+            }
+          ]
+        },
+        {
+          "boundingBox": "509,630,825,68",
+          "words": [
+            {
+              "boundingBox": "509,635,273,63",
+              "text": "Pasinger"
+            },
+            {
+              "boundingBox": "820,630,442,66",
+              "text": "Bahnhofsplatz"
+            },
+            {
+              "boundingBox": "1303,631,31,55",
+              "text": "7"
+            }
+          ]
+        },
+        {
+          "boundingBox": "578,712,688,60",
+          "words": [
+            {
+              "boundingBox": "578,712,124,60",
+              "text": "Tel."
+            },
+            {
+              "boundingBox": "750,714,160,57",
+              "text": "09931"
+            },
+            {
+              "boundingBox": "958,712,308,58",
+              "text": "8956-4293"
+            }
+          ]
+        },
+        {
+          "boundingBox": "610,792,658,61",
+          "words": [
+            {
+              "boundingBox": "610,796,98,57",
+              "text": "USt"
+            },
+            {
+              "boundingBox": "726,840,10,12",
+              "text": ","
+            },
+            {
+              "boundingBox": "752,795,89,57",
+              "text": "ID:"
+            },
+            {
+              "boundingBox": "888,792,380,59",
+              "text": "0813164196"
+            }
+          ]
+        },
+        {
+          "boundingBox": "323,1043,1190,70",
+          "words": [
+            {
+              "boundingBox": "323,1051,60,46",
+              "text": "*"
+            },
+            {
+              "boundingBox": "470,1043,267,63",
+              "text": "Ihre"
+            },
+            {
+              "boundingBox": "818,1045,554,68",
+              "text": "Quittung"
+            },
+            {
+              "boundingBox": "1450,1049,63,46",
+              "text": "*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boundingBox": "179,1216,882,578",
+      "lines": [
+        {
+          "boundingBox": "179,1216,882,71",
+          "words": [
+            {
+              "boundingBox": "179,1219,32,60",
+              "text": "2"
+            },
+            {
+              "boundingBox": "251,1234,31,45",
+              "text": "x"
+            },
+            {
+              "boundingBox": "322,1216,385,63",
+              "text": "Butterbreze"
+            },
+            {
+              "boundingBox": "783,1218,30,60",
+              "text": "\xc3\xa4"
+            },
+            {
+              "boundingBox": "858,1218,133,69",
+              "text": "1,10"
+            },
+            {
+              "boundingBox": "1030,1227,31,47",
+              "text": "\xe2\x82\xac"
+            }
+          ]
+        },
+        {
+          "boundingBox": "181,1393,273,61",
+          "words": [
+            {
+              "boundingBox": "181,1393,273,61",
+              "text": "Tota"
+            }
+          ]
+        },
+        {
+          "boundingBox": "186,1480,378,59",
+          "words": [
+            {
+              "boundingBox": "186,1480,378,59",
+              "text": "Nettoumsatz"
+            }
+          ]
+        },
+        {
+          "boundingBox": "184,1565,314,59",
+          "words": [
+            {
+              "boundingBox": "184,1565,206,59",
+              "text": "Umsatz"
+            },
+            {
+              "boundingBox": "431,1565,67,59",
+              "text": "7%"
+            }
+          ]
+        },
+        {
+          "boundingBox": "187,1650,136,60",
+          "words": [
+            {
+              "boundingBox": "187,1650,136,60",
+              "text": "MWST"
+            }
+          ]
+        },
+        {
+          "boundingBox": "189,1736,199,58",
+          "words": [
+            {
+              "boundingBox": "189,1736,199,58",
+              "text": "Bar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boundingBox": "1238,1391,115,408",
+      "lines": [
+        {
+          "boundingBox": "1240,1391,113,66",
+          "words": [
+            {
+              "boundingBox": "1240,1391,113,66",
+              "text": "2,"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1238,1733,111,66",
+          "words": [
+            {
+              "boundingBox": "1238,1733,111,66",
+              "text": "2,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boundingBox": "1376,1216,286,574",
+      "lines": [
+        {
+          "boundingBox": "1453,1216,209,69",
+          "words": [
+            {
+              "boundingBox": "1453,1216,139,69",
+              "text": "2,20"
+            },
+            {
+              "boundingBox": "1631,1226,31,46",
+              "text": "\xe2\x82\xac"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1380,1475,206,68",
+          "words": [
+            {
+              "boundingBox": "1380,1475,135,68",
+              "text": "2,06"
+            },
+            {
+              "boundingBox": "1555,1485,31,46",
+              "text": "\xe2\x82\xac"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1378,1560,136,67",
+          "words": [
+            {
+              "boundingBox": "1378,1560,136,67",
+              "text": "2,20"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1377,1645,137,68",
+          "words": [
+            {
+              "boundingBox": "1377,1645,137,68",
+              "text": "0,14"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1376,1731,128,59",
+          "words": [
+            {
+              "boundingBox": "1376,1731,128,59",
+              "text": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boundingBox": "197,1815,1132,230",
+      "lines": [
+        {
+          "boundingBox": "197,1815,1032,68",
+          "words": [
+            {
+              "boundingBox": "197,1821,164,58",
+              "text": "19:40"
+            },
+            {
+              "boundingBox": "406,1820,304,59",
+              "text": "15.6.2015"
+            },
+            {
+              "boundingBox": "755,1819,52,56",
+              "text": "Il"
+            },
+            {
+              "boundingBox": "854,1815,375,68",
+              "text": "Sp\xc3\xa4tschicht"
+            }
+          ]
+        },
+        {
+          "boundingBox": "402,1978,927,67",
+          "words": [
+            {
+              "boundingBox": "402,1983,207,62",
+              "text": "Vielen"
+            },
+            {
+              "boundingBox": "647,1979,134,59",
+              "text": "Dank"
+            },
+            {
+              "boundingBox": "821,1978,98,60",
+              "text": "f\xc3\xbcr"
+            },
+            {
+              "boundingBox": "961,1978,165,61",
+              "text": "Ihren"
+            },
+            {
+              "boundingBox": "1167,1979,162,59",
+              "text": "Eine"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}'

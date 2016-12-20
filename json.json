@@ -1,0 +1,481 @@
+{
+  "language": "de",
+  "textAngle": 0.0,
+  "orientation": "Up",
+  "regions": [
+    {
+      "boundingBox": "94,1141,377,1150",
+      "lines": [
+        {
+          "boundingBox": "96,1141,322,51",
+          "words": [
+            {
+              "boundingBox": "96,1141,322,51",
+              "text": "Gesamtsumme"
+            }
+          ]
+        },
+        {
+          "boundingBox": "101,1314,288,52",
+          "words": [
+            {
+              "boundingBox": "101,1314,134,52",
+              "text": "inkl."
+            },
+            {
+              "boundingBox": "274,1317,115,49",
+              "text": "MwSt"
+            }
+          ]
+        },
+        {
+          "boundingBox": "96,1430,375,54",
+          "words": [
+            {
+              "boundingBox": "96,1430,375,54",
+              "text": "Artikelanzahl"
+            }
+          ]
+        },
+        {
+          "boundingBox": "96,1604,204,50",
+          "words": [
+            {
+              "boundingBox": "96,1604,204,50",
+              "text": "GEGEBEN"
+            }
+          ]
+        },
+        {
+          "boundingBox": "96,1661,234,51",
+          "words": [
+            {
+              "boundingBox": "96,1661,234,51",
+              "text": "R\xc3\xbcCKGELD"
+            }
+          ]
+        },
+        {
+          "boundingBox": "96,2005,373,60",
+          "words": [
+            {
+              "boundingBox": "96,2005,344,60",
+              "text": "Rechnungsnr."
+            },
+            {
+              "boundingBox": "456,2020,13,37",
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "boundingBox": "95,2068,146,49",
+          "words": [
+            {
+              "boundingBox": "95,2068,146,49",
+              "text": "Datum"
+            }
+          ]
+        },
+        {
+          "boundingBox": "94,2181,374,52",
+          "words": [
+            {
+              "boundingBox": "94,2181,374,52",
+              "text": "Filialnummer:"
+            }
+          ]
+        },
+        {
+          "boundingBox": "95,2242,374,49",
+          "words": [
+            {
+              "boundingBox": "95,2242,350,49",
+              "text": "Kassennummer"
+            },
+            {
+              "boundingBox": "457,2252,12,37",
+              "text": ":"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boundingBox": "95,144,1193,1805",
+      "lines": [
+        {
+          "boundingBox": "336,144,952,248",
+          "words": [
+            {
+              "boundingBox": "336,144,952,248",
+              "text": "@z\xc3\xb6ttf"
+            }
+          ]
+        },
+        {
+          "boundingBox": "186,445,972,57",
+          "words": [
+            {
+              "boundingBox": "186,447,204,53",
+              "text": "Vinzenz"
+            },
+            {
+              "boundingBox": "423,450,139,52",
+              "text": "Z\xc3\xb6ttl"
+            },
+            {
+              "boundingBox": "600,445,408,56",
+              "text": "B\xc3\xa4ckerei-Kondi"
+            },
+            {
+              "boundingBox": "1020,446,138,50",
+              "text": "torei"
+            }
+          ]
+        },
+        {
+          "boundingBox": "126,503,1099,75",
+          "words": [
+            {
+              "boundingBox": "126,504,258,55",
+              "text": "Adi-Maisl"
+            },
+            {
+              "boundingBox": "399,511,278,67",
+              "text": "inqer-Str."
+            },
+            {
+              "boundingBox": "723,510,73,54",
+              "text": "12;"
+            },
+            {
+              "boundingBox": "837,506,146,51",
+              "text": "81373"
+            },
+            {
+              "boundingBox": "1016,503,209,53",
+              "text": "M\xc3\xbcnchen"
+            }
+          ]
+        },
+        {
+          "boundingBox": "95,1888,909,61",
+          "words": [
+            {
+              "boundingBox": "95,1892,58,49",
+              "text": "Es"
+            },
+            {
+              "boundingBox": "185,1888,233,52",
+              "text": "bediente"
+            },
+            {
+              "boundingBox": "450,1893,85,49",
+              "text": "Sie"
+            },
+            {
+              "boundingBox": "568,1894,85,49",
+              "text": "Rut"
+            },
+            {
+              "boundingBox": "685,1894,319,55",
+              "text": "Gebretensai"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boundingBox": "97,854,84,221",
+      "lines": [
+        {
+          "boundingBox": "97,854,84,50",
+          "words": [
+            {
+              "boundingBox": "97,854,84,50",
+              "text": "Stk"
+            }
+          ]
+        },
+        {
+          "boundingBox": "102,969,14,48",
+          "words": [
+            {
+              "boundingBox": "102,969,14,48",
+              "text": "1"
+            }
+          ]
+        },
+        {
+          "boundingBox": "102,1027,14,48",
+          "words": [
+            {
+              "boundingBox": "102,1027,14,48",
+              "text": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boundingBox": "275,563,677,525",
+      "lines": [
+        {
+          "boundingBox": "422,563,530,55",
+          "words": [
+            {
+              "boundingBox": "422,566,203,52",
+              "text": "Filiale"
+            },
+            {
+              "boundingBox": "658,563,294,55",
+              "text": "Fraunhofer"
+            }
+          ]
+        },
+        {
+          "boundingBox": "481,624,411,59",
+          "words": [
+            {
+              "boundingBox": "481,627,86,48",
+              "text": "089"
+            },
+            {
+              "boundingBox": "599,627,26,56",
+              "text": "/"
+            },
+            {
+              "boundingBox": "658,624,234,51",
+              "text": "85631716"
+            }
+          ]
+        },
+        {
+          "boundingBox": "481,681,381,54",
+          "words": [
+            {
+              "boundingBox": "481,697,85,38",
+              "text": "www"
+            },
+            {
+              "boundingBox": "578,722,10,12",
+              "text": ","
+            },
+            {
+              "boundingBox": "601,682,166,53",
+              "text": "zoettl"
+            },
+            {
+              "boundingBox": "784,720,11,13",
+              "text": "."
+            },
+            {
+              "boundingBox": "806,681,56,51",
+              "text": "de"
+            }
+          ]
+        },
+        {
+          "boundingBox": "275,857,320,52",
+          "words": [
+            {
+              "boundingBox": "275,857,320,52",
+              "text": "Artikelname"
+            }
+          ]
+        },
+        {
+          "boundingBox": "275,971,492,60",
+          "words": [
+            {
+              "boundingBox": "275,971,144,60",
+              "text": "Belag"
+            },
+            {
+              "boundingBox": "451,971,316,52",
+              "text": "Kraut-B\xc3\xbcrli"
+            }
+          ]
+        },
+        {
+          "boundingBox": "275,1028,408,60",
+          "words": [
+            {
+              "boundingBox": "275,1028,51,50",
+              "text": "Al"
+            },
+            {
+              "boundingBox": "339,1028,168,60",
+              "text": "lg\xc3\xa4uer"
+            },
+            {
+              "boundingBox": "539,1030,144,49",
+              "text": "Seele"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boundingBox": "1133,859,149,868",
+      "lines": [
+        {
+          "boundingBox": "1133,859,148,50",
+          "words": [
+            {
+              "boundingBox": "1133,859,148,50",
+              "text": "Preis"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1163,975,117,53",
+          "words": [
+            {
+              "boundingBox": "1163,975,117,53",
+              "text": "2,10"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1167,1033,112,53",
+          "words": [
+            {
+              "boundingBox": "1167,1033,112,53",
+              "text": "1,05"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1163,1148,117,54",
+          "words": [
+            {
+              "boundingBox": "1163,1148,117,54",
+              "text": "3,15"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1244,1440,37,50",
+          "words": [
+            {
+              "boundingBox": "1244,1440,37,50",
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1162,1613,119,55",
+          "words": [
+            {
+              "boundingBox": "1162,1613,119,55",
+              "text": "5,25"
+            }
+          ]
+        },
+        {
+          "boundingBox": "1163,1673,119,54",
+          "words": [
+            {
+              "boundingBox": "1163,1673,119,54",
+              "text": "2,10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boundingBox": "567,2009,346,284",
+      "lines": [
+        {
+          "boundingBox": "573,2009,340,55",
+          "words": [
+            {
+              "boundingBox": "573,2009,228,53",
+              "text": "10062016"
+            },
+            {
+              "boundingBox": "839,2015,74,49",
+              "text": "III"
+            }
+          ]
+        },
+        {
+          "boundingBox": "573,2069,288,53",
+          "words": [
+            {
+              "boundingBox": "573,2069,288,53",
+              "text": "10.06.2016"
+            }
+          ]
+        },
+        {
+          "boundingBox": "567,2128,234,52",
+          "words": [
+            {
+              "boundingBox": "567,2128,138,51",
+              "text": "09:31"
+            },
+            {
+              "boundingBox": "723,2143,11,36",
+              "text": ":"
+            },
+            {
+              "boundingBox": "750,2131,51,49",
+              "text": "18"
+            }
+          ]
+        },
+        {
+          "boundingBox": "567,2186,116,50",
+          "words": [
+            {
+              "boundingBox": "567,2186,116,50",
+              "text": "9016"
+            }
+          ]
+        },
+        {
+          "boundingBox": "572,2245,14,48",
+          "words": [
+            {
+              "boundingBox": "572,2245,14,48",
+              "text": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boundingBox": "184,2409,1002,78",
+      "lines": [
+        {
+          "boundingBox": "184,2409,1002,78",
+          "words": [
+            {
+              "boundingBox": "184,2409,292,55",
+              "text": "Herzlichen"
+            },
+            {
+              "boundingBox": "508,2415,115,52",
+              "text": "Dank"
+            },
+            {
+              "boundingBox": "658,2418,83,53",
+              "text": "f\xc3\xbcr"
+            },
+            {
+              "boundingBox": "780,2423,141,54",
+              "text": "Ihren"
+            },
+            {
+              "boundingBox": "954,2428,232,59",
+              "text": "Einkauf."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
