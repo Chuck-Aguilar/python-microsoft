@@ -1,7 +1,4 @@
-module MicrosoftApiCall
-    (
-        postImage
-    )where
+module MicrosoftApiCall where
 
 
 import Data.Aeson
@@ -44,7 +41,11 @@ data PicWord = PicWord
     } deriving (Eq, Show, Generic)
 
 instance ToJSON PicWord
-instance FromJSON PicWord
+instance FromJSON PicWord where
+  parseJSON (Object val) = PicWord <$>
+                             val .: "boundingBox" <*>
+                             val .: "words"
+  parseJSON val = typeMismatch "PicWord" val
 
 data PicText = PicText
     { boundingBoxText :: String
@@ -52,7 +53,11 @@ data PicText = PicText
     } deriving (Eq, Show, Generic)
 
 instance ToJSON PicText
-instance FromJSON PicText
+instance FromJSON PicText where
+  parseJSON (Object val) = PicText <$>
+                             val .: "boundingBox" <*>
+                             val .: "text"
+  parseJSON val = typeMismatch "PicText" val
 
 type TextPicAPI = "/vision/v1.0/ocr" :> Header "Ocp-Apim-Subscription-Key" String
                                      :> ReqBody '[OctetStream] B.ByteString

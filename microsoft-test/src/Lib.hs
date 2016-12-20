@@ -13,6 +13,7 @@ import Data.List
 import Data.Maybe
 import Data.String.Conversions
 import Data.Time.Calendar
+import Debug.Trace
 import GHC.Generics
 import Lucid
 import Network.HTTP.Media ((//), (/:))
@@ -33,15 +34,17 @@ import qualified OpenCV as CV
 import qualified Text.Blaze.Html
 
 startApp :: IO ()
-startApp = putStrLn "hello"
+startApp = imageWork
 
 baseUrl :: BaseUrl
 baseUrl = BaseUrl Https "api.projectoxford.ai" 443 ""
 
---imageWork :: IO()
+imageWork :: IO ()
 imageWork = do
     file <- B.readFile "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0650.JPG"
     img <- return $ CV.imdecode CV.ImreadGrayscale file
     manager <- newManager tlsManagerSettings
-    result <- postImage (Just "4734fe1f149d45278562726fd47b0393") img (Just "de") (Just "true") manager baseUrl
-    putStrLn (show "hallo")
+    result <- runExceptT $ postImage (Just "4734fe1f149d45278562726fd47b0393") file (Just "de") (Just "true") manager baseUrl
+    case result of
+      Left err -> print err
+      Right json -> print $ language json

@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2016-12-20 12:39:46.12337 UTC
+2016-12-20 13:45:27.961095 UTC
 
 interface main@main:Main 8001
-  interface hash: 1cdf435ebb5e54a36c31eec04d380cc1
-  ABI hash: 4e26f8d9c7ffaf7551f7cbb5d9b6cea2
-  export-list hash: f1ccbb48882f01be44c7f6cce00c1775
+  interface hash: 6990a1c102107c0aaf252704e287f4e3
+  ABI hash: ce5061e8f86651271110b39fdc7cccf6
+  export-list hash: 32ea22e86f4f8e44ca863d946ce158ba
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 99685cd05dd2b7d3cd40dea392868f89
   sig of: Nothing
@@ -23,6 +23,9 @@ package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       ansi-wl-pprint-0.6.7.3@ansi-wl-pprint-0.6.7.3-LVnipygDrAR1FEMFhjxcQX
                       appar-0.1.4@appar-0.1.4-1in4Ewd8JBkAYDZSWXLSe0
                       array-0.5.1.1@array-0.5.1.1
+                      asn1-encoding-0.9.4@asn1-encoding-0.9.4-2Zu5ldLYD571Aw26w0CWF6
+                      asn1-parse-0.9.4@asn1-parse-0.9.4-Ai83ACtrOir9VlSOQtWm2F
+                      asn1-types-0.3.2@asn1-types-0.3.2-4Rz223aP8OG6vnHYiLX5Ab
                       async-2.1.1@async-2.1.1-xFiBzw9xoB8HPZAuxUY2o
                       attoparsec-0.13.1.0@attoparsec-0.13.1.0-5Olk1S76r1CDYzFS6V3sZR
                       auto-update-0.1.4@auto-update-0.1.4-GAesfFmqoZzBz6e09kRyzb
@@ -44,6 +47,7 @@ package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       cereal-0.5.4.0@cereal-0.5.4.0-2FJYHGgtE5C3SxaZjt25xS
                       charset-0.3.7.1@charset-0.3.7.1-4lsFvOcM7i5BbmeeHj6Z66
                       comonad-5@comonad-5-2RMxpSOQ5MCHLHIelJrHD4
+                      connection-0.2.6@connection-0.2.6-HdqI1haOFiwKHVrIKjItoA
                       containers-0.5.7.1@containers-0.5.7.1
                       contravariant-1.4@contravariant-1.4-KSQE31a7FruKHDlp90hIUT
                       cookie-0.4.2.1@cookie-0.4.2.1-2a2c54yIyBn79Ul3iLWclJ
@@ -60,8 +64,10 @@ package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       free-4.12.4@free-4.12.4-Etm59Dm8iExFxAy1L49Ovd
                       ghc-boot-th-8.0.1@ghc-boot-th-8.0.1 ghc-prim-0.5.0.0
                       hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G
+                      hourglass-0.2.10@hourglass-0.2.10-I8h0J4RSF89FN6CuD9x2Xx
                       http-api-data-0.2.4@http-api-data-0.2.4-3jwS7OrPl3l4oJfG3gRZ5C
                       http-client-0.4.31.2@http-client-0.4.31.2-81NyMkNcWWADaJ0Cq5FYRE
+                      http-client-tls-0.2.4.1@http-client-tls-0.2.4.1-IQsASD4utohJimtrNCGUuI
                       http-date-0.0.6.1@http-date-0.0.6.1-150spKQYCuoIrltdbMmYGs
                       http-media-0.6.4@http-media-0.6.4-82jDVCpdN5H696EFF5l5I4
                       http-types-0.9.1@http-types-0.9.1-8WdUZL4twHzANJbxvb1Aoj
@@ -75,7 +81,7 @@ package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE
                       lucid-2.9.7@lucid-2.9.7-KcFbPMesOP0Hxey7hFZLFI
                       memory-0.13@memory-0.13-ABHR5331zHK9scHPRr7afU
-                      microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-FygtV128piT1JZxkFQfjnI
+                      microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M
                       mime-types-0.1.0.7@mime-types-0.1.0.7-AxQ64wFjikqCSdK5pSeZvh
                       mmorph-1.0.9@mmorph-1.0.9-DmSwQqk5nLj7roLAcydGz
                       mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM
@@ -84,6 +90,7 @@ package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz
                       parsec-3.1.11@parsec-3.1.11-BCos4GEVCuDB8dnOCBHO6X
                       parsers-0.12.4@parsers-0.12.4-DyQj7Yl30rDAVZOpaMS8i1
+                      pem-0.2.2@pem-0.2.2-qPMQP6sZm3HgQEmiBojNt
                       prelude-extras-0.4.0.3@prelude-extras-0.4.0.3-FAyB4iuuM7cHXdrLMZtdXq
                       pretty-1.1.3.3@pretty-1.1.3.3
                       primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa
@@ -92,11 +99,14 @@ package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       random-1.1@random-1.1-54KmMHXjttlERYcr1mvsAe
                       reflection-2.1.2@reflection-2.1.2-J1ZzlxijzaHGRixYxgxlf9
                       repa-3.4.1.2@repa-3.4.1.2-4otI2j7m0K2VhkshXfRdQ
+                      safe-0.3.10@safe-0.3.10-1VyrsjWhmjvGnGud5lgW7f
                       scientific-0.3.4.9@scientific-0.3.4.9-6oTYuCcx6H5BsTGU7D2Gk3
                       semigroupoids-5.1@semigroupoids-5.1-1Gay4xNO77GHd4DGCzVuax
                       servant-0.8.1@servant-0.8.1-C41nqWozRFwEkLnlLTnUQc
+                      servant-client-0.8.1@servant-client-0.8.1-4oTNdbuojC8Ec3ToeFy7ll
                       servant-server-0.8.1@servant-server-0.8.1-CVE3aaCCZrRO3q9bzeepw
                       simple-sendfile-0.2.25@simple-sendfile-0.2.25-FZS0Stqtwd5AOyFRQgM4IV
+                      socks-0.5.5@socks-0.5.5-GieRokcgjQCIzUyRn9wVby
                       stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF
                       streaming-commons-0.1.16@streaming-commons-0.1.16-KtRawhq8O97EWCabefpk66
                       string-conversions-0.4@string-conversions-0.4-8T0UFmRDEly2gsNJzmHrNQ
@@ -106,6 +116,7 @@ package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       tf-random-0.5@tf-random-0.5-4z8OJUaXC1FRNfrLPFWAD
                       time-1.6.0.1@time-1.6.0.1
                       time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-1j5dGjxxtiTDuAsO86iSk0
+                      tls-1.3.8@tls-1.3.8-5FNpX1ar5fUDvPXr9oTBwU
                       transformers-0.5.2.0@transformers-0.5.2.0
                       transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-81lZyuOJOvsD0zyCv2TKld
                       unix-2.7.2.0@unix-2.7.2.0
@@ -118,6 +129,10 @@ package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       wai-app-static-3.1.6.1@wai-app-static-3.1.6.1-Y5BgITaOwCDdLFeUawo4r
                       warp-3.2.9@warp-3.2.9-1srGDEsq7RWF9RsucFj6bw
                       word8-0.1.2@word8-0.1.2-2E1SgvvAV2fK8vZPDHbRan
+                      x509-1.6.5@x509-1.6.5-HjCowFpmcM8HnxtXMnFeKC
+                      x509-store-1.6.2@x509-store-1.6.2-7384mRFE6N95dT3g57GZ4k
+                      x509-system-1.6.4@x509-system-1.6.4-GZ2eHV03TV52Kz7CzPq5ks
+                      x509-validation-1.6.5@x509-validation-1.6.5-CWrkfsWQ7JuF1tW2ozdqZN
                       zlib-0.6.1.2@zlib-0.6.1.2-4CWLN1T27kOJhNvXgy46ZV
 orphans: aeson-0.11.2.1@aeson-0.11.2.1-5ZQWuTFmffALcfpzDCXoOz:Data.Aeson.Types.Generic
          aeson-0.11.2.1@aeson-0.11.2.1-5ZQWuTFmffALcfpzDCXoOz:Data.Aeson.Types.Instances
@@ -203,8 +218,7 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc:
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V2
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V3
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V4
-                         microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-FygtV128piT1JZxkFQfjnI:Lib
-                         microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-FygtV128piT1JZxkFQfjnI:MicrosoftApiCall
+                         microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M:MicrosoftApiCall
                          network-uri-2.6.1.0@network-uri-2.6.1.0-DDHh2FNiPirBRgkuU9DEt2:Network.URI
                          opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz:OpenCV.Core.Types
                          opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz:OpenCV.Core.Types.Mat.Repa
@@ -242,6 +256,8 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc:
                          servant-0.8.1@servant-0.8.1-C41nqWozRFwEkLnlLTnUQc:Servant.API.ContentTypes
                          servant-0.8.1@servant-0.8.1-C41nqWozRFwEkLnlLTnUQc:Servant.API.Verbs
                          servant-0.8.1@servant-0.8.1-C41nqWozRFwEkLnlLTnUQc:Servant.Utils.Links
+                         servant-client-0.8.1@servant-client-0.8.1-4oTNdbuojC8Ec3ToeFy7ll:Servant.Client
+                         servant-client-0.8.1@servant-client-0.8.1-4oTNdbuojC8Ec3ToeFy7ll:Servant.Common.BaseUrl
                          servant-server-0.8.1@servant-server-0.8.1-CVE3aaCCZrRO3q9bzeepw:Servant.Server.Internal
                          servant-server-0.8.1@servant-server-0.8.1-CVE3aaCCZrRO3q9bzeepw:Servant.Server.Internal.BasicAuth
                          tagged-0.8.5@tagged-0.8.5-CtgV6EcN0do8F92i1S6iYx:Data.Tagged
@@ -258,7 +274,7 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc:
                          zlib-0.6.1.2@zlib-0.6.1.2-4CWLN1T27kOJhNvXgy46ZV:Codec.Compression.Zlib.Stream
 import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
 import  -/  ghc-prim-0.5.0.0:GHC.Types 7378e41b7749213c8c88ceb6b0665d4c
-import  -/  microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-FygtV128piT1JZxkFQfjnI:Lib 8c08153f2ce9ee83fe21e4105c824eba
+import  -/  microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M:Lib 684fe067c752fcfc9237ace1a0e9120f
 d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
@@ -271,12 +287,12 @@ d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "main"#) -}
-3cc9d17aa0684ebcb62ae92da5ba2f13
+083c346471c0a68707720f4ee835fef9
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.startApp1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-610a5f9a3d589a6e53a305918db9f11f
+46acc935b1623101913f365590892f25
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
