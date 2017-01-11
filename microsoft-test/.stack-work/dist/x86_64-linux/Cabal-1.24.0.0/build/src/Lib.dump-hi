@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-11 09:05:07.298537 UTC
+2017-01-11 10:37:53.729649 UTC
 
 interface microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M:Lib 8001
-  interface hash: 4ceaaccff64f1d885a8e32ada3c4d5c9
-  ABI hash: 6ff940a04740a75370bc7fc5f90d28b1
+  interface hash: bcf101321c4c41c702bba4681db56d50
+  ABI hash: 04e302d1097101a958d0852b6716f0ca
   export-list hash: 870d67f60aaee7b780d6df20b65884c7
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 8b1bd7c28a19048880f5b37bc429c264
@@ -13,7 +13,7 @@ interface microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M:Lib 8001
   where
 exports:
   Lib.startApp
-module dependencies: MicrosoftApiCall
+module dependencies: JSONInterpreter MicrosoftApiCall TextOrderer
 package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       StateVar-1.1.0.4@StateVar-1.1.0.4-CJpWsiXJdd89SnV9dZtTwc
                       adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc
@@ -294,10 +294,15 @@ import  -/  http-client-0.4.31.2@http-client-0.4.31.2-81NyMkNcWWADaJ0Cq5FYRE:Net
 import  -/  http-client-tls-0.2.4.1@http-client-tls-0.2.4.1-IQsASD4utohJimtrNCGUuI:Network.HTTP.Client.TLS 52d6e9f186cb7205a7f4ab08457f9d2a
 import  -/  http-media-0.6.4@http-media-0.6.4-82jDVCpdN5H696EFF5l5I4:Network.HTTP.Media 1c5de2273ab85a0c671e60e65691660a
 import  -/  lucid-2.9.7@lucid-2.9.7-KcFbPMesOP0Hxey7hFZLFI:Lucid f5038b9d586b48215a25dda28037565f
+import  -/  JSONInterpreter 895a0ca49a9524aa5d0331c6e7bb4809
+  exports: c52205e9a7d3941f3ee6824dbe100495
+  jsonParser 3e57efdeb6cde2f9b7bbddb52eff43f4
 import  -/  MicrosoftApiCall 95cc7fb65bd1f21939c81eed1d1ace8e
   exports: f98464dd4f721a3d1f344d1711b269b0
   postImage 39da8c45e3ec1ec3bdd2b4e6bb970e51
   regions 3c06a50309be434e98dff03a5cc9e957
+import  -/  TextOrderer a430a6c97ff6edb3d9d63c27838e2fd5
+  exports: a7ad2b0f4189ae26b5be64a8a8b06851
 import  -/  mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM:Control.Monad.Except 99ba8f4995df0e7f2f512551a0ca666a
 import  -/  mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM:Control.Monad.Reader 859b39f57eb3bed457106c30aac21473
 import  -/  opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz:OpenCV df2798f12b5a86424cd3ea5082e73bcb
@@ -326,12 +331,12 @@ import  -/  warp-3.2.9@warp-3.2.9-1srGDEsq7RWF9RsucFj6bw:Network.Wai.Handler.War
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"#) -}
-23188698480fa7252d8e04ab959afca4
+16a367963b879dfa15099d111e59b901
   startApp :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.startApp1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-6294b51195e6f6bc76f189fcc4b6efe5
+9c7865df0fdf14f94693f169e9c742ef
   startApp1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -437,11 +442,19 @@ import  -/  warp-3.2.9@warp-3.2.9-1srGDEsq7RWF9RsucFj6bw:Network.Wai.Handler.War
                    -> GHC.IO.Handle.Text.hPutStr2
                         GHC.IO.Handle.FD.stdout
                         (case json of wild1 { MicrosoftApiCall.TextPic ds4 ds5 ds6 ds7 ->
-                         GHC.Show.showList__
-                           @ MicrosoftApiCall.Line
-                           MicrosoftApiCall.$fShowLine1
-                           ds7
-                           (GHC.Types.[] @ GHC.Types.Char) })
+                         case ds7 of wild2 {
+                           []
+                           -> GHC.CString.unpackAppendCString#
+                                "[]"#
+                                (GHC.Types.[] @ GHC.Types.Char)
+                           : ipv6 ipv7
+                           -> GHC.Show.showList__
+                                @ MicrosoftApiCall.PicText
+                                MicrosoftApiCall.$fShowPicText1
+                                (JSONInterpreter.listLinesToListPicText_go
+                                   wild2
+                                   (GHC.Types.[] @ MicrosoftApiCall.PicText))
+                                (GHC.Types.[] @ GHC.Types.Char) } })
                         GHC.Types.True
                         ipv4 } } } } }) -}
 f7a216152be5eeafad6ec63a882ffdfb

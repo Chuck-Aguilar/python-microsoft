@@ -3,6 +3,8 @@ module Lib
     ) where
 
 import MicrosoftApiCall
+import JSONInterpreter
+import TextOrderer
 import Control.Monad.Except
 import Control.Monad.Reader
 import Data.Aeson.Compat
@@ -47,4 +49,4 @@ imageWork = do
     result <- runExceptT $ postImage (Just "4734fe1f149d45278562726fd47b0393") file (Just "de") (Just "true") manager baseUrl
     case result of
       Left err -> print err
-      Right json -> print $ regions json
+      Right json -> print $ jsonParser (regions json)
