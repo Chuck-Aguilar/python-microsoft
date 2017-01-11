@@ -54,6 +54,7 @@ library
                      , servant
                      , servant-server
                      , servant-client
+                     , split
                      , string-conversions
                      , time
                      , transformers

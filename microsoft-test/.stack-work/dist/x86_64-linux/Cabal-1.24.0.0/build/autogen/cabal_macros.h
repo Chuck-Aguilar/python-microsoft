@@ -154,6 +154,13 @@
   (major1) == 0 && (major2) <  8 || \
   (major1) == 0 && (major2) == 8 && (minor) <= 1)
 
+/* package split-0.2.3.1 */
+#define VERSION_split "0.2.3.1"
+#define MIN_VERSION_split(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 3)
+
 /* package string-conversions-0.4 */
 #define VERSION_string_conversions "0.4"
 #define MIN_VERSION_string_conversions(major1,major2,minor) (\
@@ -287,7 +294,7 @@
   (major1) == 2 && (major2) <  25 || \
   (major1) == 2 && (major2) == 25 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+#define CURRENT_COMPONENT_ID "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
 
-#define CURRENT_PACKAGE_KEY "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+#define CURRENT_PACKAGE_KEY "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
 

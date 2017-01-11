@@ -1,12 +1,12 @@
 
 ==================== FINAL INTERFACE ====================
-2016-12-20 13:45:25.360233 UTC
+2017-01-11 10:50:43.548123 UTC
 
-interface microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M:MicrosoftApiCall [family instance module] 8001
-  interface hash: 3fd845e6095ee0752ac406ceb268ae6e
-  ABI hash: 95cc7fb65bd1f21939c81eed1d1ace8e
-  export-list hash: f98464dd4f721a3d1f344d1711b269b0
-  orphan hash: 201299d5dd0c9360f133147dd133bf6d
+interface microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp:MicrosoftApiCall [family instance module] 8001
+  interface hash: 0ee8c0cb51c646a938c2b7526151de0a
+  ABI hash: f373ccfd4d5e4332ce88f265c3a7e5cb
+  export-list hash: 94b56e4614b1fe4a69ee52d5e8b736c0
+  orphan hash: 2f66c5f7f624eb24e14f740e34a42437
   flag hash: 8b1bd7c28a19048880f5b37bc429c264
   sig of: Nothing
   used TH splices: False
@@ -284,7 +284,7 @@ import  -/  servant-client-0.8.1@servant-client-0.8.1-4oTNdbuojC8Ec3ToeFy7ll:Ser
 import  -/  servant-client-0.8.1@servant-client-0.8.1-4oTNdbuojC8Ec3ToeFy7ll:Servant.Common.BaseUrl 004274d6c6b447aa3cdda6aa33c089e7
 import  -/  servant-client-0.8.1@servant-client-0.8.1-4oTNdbuojC8Ec3ToeFy7ll:Servant.Common.Req 463c1a52762fa4d6ac1209d040f107fc
 import  -/  servant-server-0.8.1@servant-server-0.8.1-CVE3aaCCZrRO3q9bzeepw:Servant dfef177f64c1e42682297110ba8b7e76
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fEqLine :: GHC.Classes.Eq MicrosoftApiCall.Line
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -292,7 +292,7 @@ import  -/  servant-server-0.8.1@servant-server-0.8.1-CVE3aaCCZrRO3q9bzeepw:Serv
                   @ MicrosoftApiCall.Line
                   MicrosoftApiCall.$fEqLine_$c==
                   MicrosoftApiCall.$fEqLine_$c/= -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fEqLine_$c/= ::
     MicrosoftApiCall.Line -> MicrosoftApiCall.Line -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs,
@@ -302,7 +302,7 @@ import  -/  servant-server-0.8.1@servant-server-0.8.1-CVE3aaCCZrRO3q9bzeepw:Serv
                  case MicrosoftApiCall.$fEqLine_$c== a b of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fEqLine_$c== ::
     MicrosoftApiCall.Line -> MicrosoftApiCall.Line -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs,
@@ -313,7 +313,7 @@ import  -/  servant-server-0.8.1@servant-server-0.8.1-CVE3aaCCZrRO3q9bzeepw:Serv
                  case w of ww { MicrosoftApiCall.Line ww1 ww2 ->
                  case w1 of ww3 { MicrosoftApiCall.Line ww4 ww5 ->
                  MicrosoftApiCall.$w$c== ww1 ww2 ww4 ww5 } }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fEqPicText :: GHC.Classes.Eq MicrosoftApiCall.PicText
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -321,7 +321,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   @ MicrosoftApiCall.PicText
                   MicrosoftApiCall.$fEqPicText_$c==
                   MicrosoftApiCall.$fEqPicText_$c/= -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fEqPicText_$c/= ::
     MicrosoftApiCall.PicText
     -> MicrosoftApiCall.PicText -> GHC.Types.Bool
@@ -334,7 +334,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  case w of ww { MicrosoftApiCall.PicText ww1 ww2 ->
                  case w1 of ww3 { MicrosoftApiCall.PicText ww4 ww5 ->
                  MicrosoftApiCall.$w$c/= ww1 ww2 ww4 ww5 } }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fEqPicText_$c== ::
     MicrosoftApiCall.PicText
     -> MicrosoftApiCall.PicText -> GHC.Types.Bool
@@ -347,7 +347,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  case w of ww { MicrosoftApiCall.PicText ww1 ww2 ->
                  case w1 of ww3 { MicrosoftApiCall.PicText ww4 ww5 ->
                  MicrosoftApiCall.$w$c==2 ww1 ww2 ww4 ww5 } }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fEqPicWord :: GHC.Classes.Eq MicrosoftApiCall.PicWord
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -355,7 +355,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   @ MicrosoftApiCall.PicWord
                   MicrosoftApiCall.$fEqPicWord_$c==
                   MicrosoftApiCall.$fEqPicWord_$c/= -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fEqPicWord_$c/= ::
     MicrosoftApiCall.PicWord
     -> MicrosoftApiCall.PicWord -> GHC.Types.Bool
@@ -367,7 +367,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  case MicrosoftApiCall.$fEqPicWord_$c== a b of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fEqPicWord_$c== ::
     MicrosoftApiCall.PicWord
     -> MicrosoftApiCall.PicWord -> GHC.Types.Bool
@@ -380,7 +380,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  case w of ww { MicrosoftApiCall.PicWord ww1 ww2 ->
                  case w1 of ww3 { MicrosoftApiCall.PicWord ww4 ww5 ->
                  MicrosoftApiCall.$w$c==1 ww1 ww2 ww4 ww5 } }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fEqTextPic :: GHC.Classes.Eq MicrosoftApiCall.TextPic
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -388,7 +388,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   @ MicrosoftApiCall.TextPic
                   MicrosoftApiCall.$fEqTextPic_$c==
                   MicrosoftApiCall.$fEqTextPic_$c/= -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fEqTextPic_$c/= ::
     MicrosoftApiCall.TextPic
     -> MicrosoftApiCall.TextPic -> GHC.Types.Bool
@@ -400,7 +400,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  case MicrosoftApiCall.$fEqTextPic_$c== a b of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fEqTextPic_$c== ::
     MicrosoftApiCall.TextPic
     -> MicrosoftApiCall.TextPic -> GHC.Types.Bool
@@ -413,7 +413,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  case w of ww { MicrosoftApiCall.TextPic ww1 ww2 ww3 ww4 ->
                  case w1 of ww5 { MicrosoftApiCall.TextPic ww6 ww7 ww8 ww9 ->
                  MicrosoftApiCall.$w$c==3 ww1 ww2 ww3 ww4 ww6 ww7 ww8 ww9 } }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fFromJSONLine ::
     Data.Aeson.Types.Class.FromJSON MicrosoftApiCall.Line
   DFunId
@@ -423,7 +423,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   `cast`
                 (Sym (Data.Aeson.Types.Class.N:FromJSON[0]
                           <MicrosoftApiCall.Line>_N)) -}
-263e1e676df85e0edc64a1da04677441
+0d3e01ce1e8bc7f0a6ed6ef423876115
   $fFromJSONLine1 ::
     Data.Aeson.Types.Internal.Options
     -> GHC.Base.Maybe Data.Text.Internal.Text
@@ -455,10 +455,10 @@ f72ea900cde1e39ea623f7e8d0ca353c
                    (w1 :: GHC.Base.Maybe Data.Text.Internal.Text)
                    (w2 :: Data.Aeson.Types.Internal.Value) ->
                  MicrosoftApiCall.$w$dConsFromJSON' @ a w w2) -}
-8b88fef5d78442dce5ec3e88997f66f9
+ac582ec329ae42f7e02fe68473e48e9c
   $fFromJSONLine10 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "[a]"#) -}
-a2dd040a8d32ecd56fa67d6e755ce702
+03037dd9a145e240f5a1e27087f74673
   $fFromJSONLine11 :: GHC.Generics.SingI ('GHC.Base.Just "lines")
   {- Unfolding: InlineRule (0, True, True)
                 MicrosoftApiCall.$fFromJSONLine12
@@ -468,7 +468,7 @@ a2dd040a8d32ecd56fa67d6e755ce702
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Base.Maybe
                                                        GHC.Types.Symbol>_N) <'GHC.Base.Just
                                                                                "lines">_N) -}
-3aeeb0564ce2cfc57c48b41abce2c0d9
+f140a1e9f8ffe5a04fe53d32fe3664f6
   $fFromJSONLine12 ::
     GHC.Generics.R:SingMaybeb GHC.Types.Symbol ('GHC.Base.Just "lines")
   {- Unfolding: (GHC.Generics.SJust
@@ -479,7 +479,7 @@ a2dd040a8d32ecd56fa67d6e755ce702
                    MicrosoftApiCall.$fFromJSONLine13
                      `cast`
                    (Sym (GHC.Generics.D:R:SingSymbols0[0]) <"lines">_N)) -}
-52314e0e65fee5dabcc2674d244059c6
+c60ab3f625c7be19db9c5956235c3fdd
   $fFromJSONLine13 :: GHC.Generics.R:SingSymbols "lines"
   {- Strictness: m,
      Unfolding: (GHC.Generics.SSym
@@ -489,10 +489,10 @@ a2dd040a8d32ecd56fa67d6e755ce702
                    (Trans
                         (Sym (GHC.TypeLits.N:SSymbol[0] <"lines">_P))
                         (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"lines">_N))) -}
-a4cc01301a888b54e00e7bea3ddbac2a
+97ad1aa59256dda23140bff4603ba76b
   $fFromJSONLine14 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "lines"#) -}
-8d91db362bae87d0400b13cf33bd9897
+dabf91e167ad2c3739754ded1004208d
   $fFromJSONLine15 ::
     (GHC.Generics.:*:)
       (GHC.Generics.M1
@@ -535,7 +535,7 @@ a4cc01301a888b54e00e7bea3ddbac2a
                                 (GHC.Generics.Rec0 [MicrosoftApiCall.PicWord]))
                              a) ->
                  GHC.Types.False) -}
-1f91759ea9861df9b539f8e94c2523b8
+0b6aa3718a96fbe11123acfac142bbf6
   $fFromJSONLine2 ::
     Data.Aeson.Types.Internal.Options
     -> Data.Aeson.Types.Internal.Value
@@ -547,10 +547,10 @@ a4cc01301a888b54e00e7bea3ddbac2a
                    (w :: Data.Aeson.Types.Internal.Options)
                    (w1 :: Data.Aeson.Types.Internal.Value) ->
                  MicrosoftApiCall.$w$dGFromJSON @ a1 w1) -}
-9a2290a8144b8a8576cb39c1825bad8d
+f0bcd7146776ffafdd2d4688361a9b7f
   $fFromJSONLine3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "String"#) -}
-322ee54c5e7157a1359038e9a0ded85b
+61717e056767d7f467d90e1294372a0d
   $fFromJSONLine4 ::
     GHC.Generics.SingI ('GHC.Base.Just "boundingBox")
   {- Unfolding: InlineRule (0, True, True)
@@ -561,7 +561,7 @@ a4cc01301a888b54e00e7bea3ddbac2a
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Base.Maybe
                                                        GHC.Types.Symbol>_N) <'GHC.Base.Just
                                                                                "boundingBox">_N) -}
-e3195cdf500b43e631310e0b6cc5a649
+a07d553e0b004d359ed89b1bc7833d8e
   $fFromJSONLine5 ::
     GHC.Generics.R:SingMaybeb
       GHC.Types.Symbol ('GHC.Base.Just "boundingBox")
@@ -573,7 +573,7 @@ e3195cdf500b43e631310e0b6cc5a649
                    MicrosoftApiCall.$fFromJSONLine6
                      `cast`
                    (Sym (GHC.Generics.D:R:SingSymbols0[0]) <"boundingBox">_N)) -}
-ab20db736a813a57b802409abe990cf2
+af925f237cdc65ee9aa6cba54290a30d
   $fFromJSONLine6 :: GHC.Generics.R:SingSymbols "boundingBox"
   {- Strictness: m,
      Unfolding: (GHC.Generics.SSym
@@ -583,10 +583,10 @@ ab20db736a813a57b802409abe990cf2
                    (Trans
                         (Sym (GHC.TypeLits.N:SSymbol[0] <"boundingBox">_P))
                         (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"boundingBox">_N))) -}
-0a680a95ba9a8eb8dae5348f500088b3
+746eb2e59282dd187aa3ffd42ce476b9
   $fFromJSONLine7 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "boundingBox"#) -}
-c10dc119f989cb4a6dcad3e2ee2fb0a8
+e850b258b4611a4bbe8a29e6a37ab338
   $fFromJSONLine8 ::
     Data.Aeson.Types.Internal.Options
     -> Data.Aeson.Types.Internal.Value
@@ -598,7 +598,7 @@ c10dc119f989cb4a6dcad3e2ee2fb0a8
                    (w :: Data.Aeson.Types.Internal.Options)
                    (w1 :: Data.Aeson.Types.Internal.Value) ->
                  MicrosoftApiCall.$w$dGFromJSON1 @ a1 w1) -}
-0fed70dbedd09cf446a1aac32e1ea848
+01a02e2b9641383cad630ee2b29f1628
   $fFromJSONLine9 ::
     [Data.Aeson.Types.Internal.Parser MicrosoftApiCall.PicWord]
     -> forall (f :: * -> *) r.
@@ -607,7 +607,7 @@ c10dc119f989cb4a6dcad3e2ee2fb0a8
        -> Data.Aeson.Types.Internal.Success [MicrosoftApiCall.PicWord] f r
        -> f r
   {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fFromJSONLine_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser MicrosoftApiCall.Line
@@ -772,12 +772,12 @@ c10dc119f989cb4a6dcad3e2ee2fb0a8
                    `cast`
                  (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                            <MicrosoftApiCall.Line>_R))) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fFromJSONLine_$cparseJSON1 ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser MicrosoftApiCall.PicWord
   {- Arity: 1, Strictness: <S,1*U> -}
-9511ca45a9c82b3808fe9c3c36748045
+a80144a2222e24fe5f68134ed28fdf8f
   $fFromJSONLine_$s$fSelectorMetaMetaSel ::
     GHC.Generics.Selector
       ('GHC.Generics.MetaSel
@@ -839,7 +839,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                      GHC.Generics.$WSDecidedLazy
                        `cast`
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N)) -}
-ea73d9a79635bf958bc1e1ed741f7e91
+8335f1be115984b0568bc96b980dda2b
   $fFromJSONLine_$s$fSelectorMetaMetaSel1 ::
     GHC.Generics.Selector
       ('GHC.Generics.MetaSel
@@ -901,7 +901,7 @@ ea73d9a79635bf958bc1e1ed741f7e91
                      GHC.Generics.$WSDecidedLazy
                        `cast`
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N)) -}
-daac2f9a4b35fca5ea55e0d39212b4ed
+b59ba23985251c9245d5296618f023df
   $fFromJSONLine_$s$fSelectorMetaMetaSel_$cselName ::
     forall k (t :: GHC.Generics.Meta
                    -> (GHC.Types.* -> GHC.Types.*) -> k -> *) (f :: GHC.Types.*
@@ -925,7 +925,7 @@ daac2f9a4b35fca5ea55e0d39212b4ed
                                 'GHC.Generics.NoSourceStrictness
                                 'GHC.Generics.DecidedLazy) f a) ->
                  MicrosoftApiCall.$fFromJSONLine7) -}
-f5956c1f5aa5fd392e5bd617729c2b31
+4f5f1a25f5252090000f59a3aeca173c
   $fFromJSONLine_$s$fSelectorMetaMetaSel_$cselName1 ::
     forall k (t :: GHC.Generics.Meta
                    -> (GHC.Types.* -> GHC.Types.*) -> k -> *) (f :: GHC.Types.*
@@ -949,7 +949,7 @@ f5956c1f5aa5fd392e5bd617729c2b31
                                 'GHC.Generics.NoSourceStrictness
                                 'GHC.Generics.DecidedLazy) f a) ->
                  MicrosoftApiCall.$fFromJSONLine14) -}
-70d424360e2a41d73a0397c336574f1c
+f60e8cbf4299f96a0837276055769e15
   $fFromJSONLine_f1 ::
     GHC.Types.Int
     -> Data.Aeson.Types.Internal.Value
@@ -986,10 +986,10 @@ f5956c1f5aa5fd392e5bd617729c2b31
                    `cast`
                  (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                            <MicrosoftApiCall.PicWord>_R))) -}
-24c3456ebb7d731f561e54d47a64628f
+847ad6030d36bc33393d50818c2fbd4c
   $fFromJSONLine_f2 :: [GHC.Types.Int]
   {- Unfolding: (GHC.Enum.eftInt 0# 9223372036854775807#) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fFromJSONPicText ::
     Data.Aeson.Types.Class.FromJSON MicrosoftApiCall.PicText
   DFunId
@@ -999,12 +999,12 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   `cast`
                 (Sym (Data.Aeson.Types.Class.N:FromJSON[0]
                           <MicrosoftApiCall.PicText>_N)) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fFromJSONPicText_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser MicrosoftApiCall.PicText
   {- Arity: 1, Strictness: <S,1*U> -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fFromJSONPicWord ::
     Data.Aeson.Types.Class.FromJSON MicrosoftApiCall.PicWord
   DFunId
@@ -1014,7 +1014,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   `cast`
                 (Sym (Data.Aeson.Types.Class.N:FromJSON[0]
                           <MicrosoftApiCall.PicWord>_N)) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fFromJSONTextPic ::
     Data.Aeson.Types.Class.FromJSON MicrosoftApiCall.TextPic
   DFunId
@@ -1024,7 +1024,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   `cast`
                 (Sym (Data.Aeson.Types.Class.N:FromJSON[0]
                           <MicrosoftApiCall.TextPic>_N)) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fFromJSONTextPic1 ::
     Data.Aeson.Types.Internal.Options
     -> GHC.Base.Maybe Data.Text.Internal.Text
@@ -1070,7 +1070,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                    (w1 :: GHC.Base.Maybe Data.Text.Internal.Text)
                    (w2 :: Data.Aeson.Types.Internal.Value) ->
                  MicrosoftApiCall.$w$dConsFromJSON'1 @ a w w2) -}
-8ed5386b5f9ebcb6c35b6fd7cdcec429
+11d1717e9c5ca7790b35dc3062680979
   $fFromJSONTextPic10 ::
     GHC.Generics.R:SingMaybeb
       GHC.Types.Symbol ('GHC.Base.Just "textAngle")
@@ -1082,7 +1082,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                    MicrosoftApiCall.$fFromJSONTextPic11
                      `cast`
                    (Sym (GHC.Generics.D:R:SingSymbols0[0]) <"textAngle">_N)) -}
-e5bedf4ce47f0cda046ad81f96c59683
+6fa12f55e9aeec1d86c2cf9186412824
   $fFromJSONTextPic11 :: GHC.Generics.R:SingSymbols "textAngle"
   {- Strictness: m,
      Unfolding: (GHC.Generics.SSym
@@ -1092,10 +1092,10 @@ e5bedf4ce47f0cda046ad81f96c59683
                    (Trans
                         (Sym (GHC.TypeLits.N:SSymbol[0] <"textAngle">_P))
                         (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"textAngle">_N))) -}
-1492ef36ada697d57467d6a544e5592c
+423f018802510eff2b944cd6e4af6476
   $fFromJSONTextPic12 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "textAngle"#) -}
-4b6eb979ff2e296b89d36c9dfec5689c
+ffd23d7f074e6af40871d28c09ff5941
   $fFromJSONTextPic13 ::
     Data.Aeson.Types.Internal.Options
     -> Data.Aeson.Types.Internal.Value
@@ -1107,7 +1107,7 @@ e5bedf4ce47f0cda046ad81f96c59683
                    (w :: Data.Aeson.Types.Internal.Options)
                    (w1 :: Data.Aeson.Types.Internal.Value) ->
                  MicrosoftApiCall.$w$dGFromJSON3 @ a1 w1) -}
-ff11945394fa9c19cd47bd101b5a72b6
+26a2d6f23e8d12fb1b34f5ed1402523b
   $fFromJSONTextPic14 ::
     GHC.Generics.SingI ('GHC.Base.Just "orientation")
   {- Unfolding: InlineRule (0, True, True)
@@ -1118,7 +1118,7 @@ ff11945394fa9c19cd47bd101b5a72b6
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Base.Maybe
                                                        GHC.Types.Symbol>_N) <'GHC.Base.Just
                                                                                "orientation">_N) -}
-9d204192f67a9d5b9bca6fe11edf55b6
+b27ebb64a701c1f4c13de65a3f5e83eb
   $fFromJSONTextPic15 ::
     GHC.Generics.R:SingMaybeb
       GHC.Types.Symbol ('GHC.Base.Just "orientation")
@@ -1130,7 +1130,7 @@ ff11945394fa9c19cd47bd101b5a72b6
                    MicrosoftApiCall.$fFromJSONTextPic16
                      `cast`
                    (Sym (GHC.Generics.D:R:SingSymbols0[0]) <"orientation">_N)) -}
-c2d671c76baa08d914b59660d857069c
+74c748e6f139a7edfd638187baf1d02a
   $fFromJSONTextPic16 :: GHC.Generics.R:SingSymbols "orientation"
   {- Strictness: m,
      Unfolding: (GHC.Generics.SSym
@@ -1140,10 +1140,10 @@ c2d671c76baa08d914b59660d857069c
                    (Trans
                         (Sym (GHC.TypeLits.N:SSymbol[0] <"orientation">_P))
                         (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"orientation">_N))) -}
-5b34210b13c00040731293d4ab39ddd3
+8b94f6b06829c18f5a9727d3fcac2d15
   $fFromJSONTextPic17 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "orientation"#) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fFromJSONTextPic18 ::
     Data.Aeson.Types.Internal.Options
     -> Data.Aeson.Types.Internal.Value
@@ -1155,7 +1155,7 @@ c2d671c76baa08d914b59660d857069c
                    (w :: Data.Aeson.Types.Internal.Options)
                    (w1 :: Data.Aeson.Types.Internal.Value) ->
                  MicrosoftApiCall.$w$dGFromJSON4 @ a1 w1) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fFromJSONTextPic19 ::
     [Data.Aeson.Types.Internal.Parser MicrosoftApiCall.Line]
     -> forall (f :: * -> *) r.
@@ -1164,7 +1164,7 @@ c2d671c76baa08d914b59660d857069c
        -> Data.Aeson.Types.Internal.Success [MicrosoftApiCall.Line] f r
        -> f r
   {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
-fe0c229e240a10ad4f9b9376254e653f
+23afceb4820125b91c72e7a0c2e6f7cb
   $fFromJSONTextPic2 ::
     GHC.Generics.SingI ('GHC.Base.Just "language")
   {- Unfolding: InlineRule (0, True, True)
@@ -1175,7 +1175,7 @@ fe0c229e240a10ad4f9b9376254e653f
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Base.Maybe
                                                        GHC.Types.Symbol>_N) <'GHC.Base.Just
                                                                                "language">_N) -}
-7784c3c8824faa557a894a04a45843b0
+38e52c273a5e647ff2e0bae5a4ff10d7
   $fFromJSONTextPic20 ::
     GHC.Generics.SingI ('GHC.Base.Just "regions")
   {- Unfolding: InlineRule (0, True, True)
@@ -1186,7 +1186,7 @@ fe0c229e240a10ad4f9b9376254e653f
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Base.Maybe
                                                        GHC.Types.Symbol>_N) <'GHC.Base.Just
                                                                                "regions">_N) -}
-5e40e9e3f17f24a94879addece765f35
+7ae9b8aa7a9cc8d07973906d63e8f979
   $fFromJSONTextPic21 ::
     GHC.Generics.R:SingMaybeb
       GHC.Types.Symbol ('GHC.Base.Just "regions")
@@ -1198,7 +1198,7 @@ fe0c229e240a10ad4f9b9376254e653f
                    MicrosoftApiCall.$fFromJSONTextPic22
                      `cast`
                    (Sym (GHC.Generics.D:R:SingSymbols0[0]) <"regions">_N)) -}
-dd8cef913925ad0431093c160caccd09
+c0ee6853ad88403cb3ad8256eb0cf956
   $fFromJSONTextPic22 :: GHC.Generics.R:SingSymbols "regions"
   {- Strictness: m,
      Unfolding: (GHC.Generics.SSym
@@ -1208,10 +1208,10 @@ dd8cef913925ad0431093c160caccd09
                    (Trans
                         (Sym (GHC.TypeLits.N:SSymbol[0] <"regions">_P))
                         (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"regions">_N))) -}
-967f9083db24fcc8c7ee331d8c919732
+9468fa037eff2ba43a5d08f197d47c5f
   $fFromJSONTextPic23 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "regions"#) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fFromJSONTextPic24 ::
     (GHC.Generics.:*:)
       (GHC.Generics.S1
@@ -1278,7 +1278,7 @@ dd8cef913925ad0431093c160caccd09
                                                  (GHC.Generics.Rec0 [MicrosoftApiCall.Line]))
                              a) ->
                  GHC.Types.False) -}
-174c61cc24ff353231f84a0d8e2fc52b
+be50b44fd641d412beaeef3c2d06777f
   $fFromJSONTextPic3 ::
     GHC.Generics.R:SingMaybeb
       GHC.Types.Symbol ('GHC.Base.Just "language")
@@ -1290,7 +1290,7 @@ dd8cef913925ad0431093c160caccd09
                    MicrosoftApiCall.$fFromJSONTextPic4
                      `cast`
                    (Sym (GHC.Generics.D:R:SingSymbols0[0]) <"language">_N)) -}
-8c88683854981e53bff32a99a7fd1c27
+79ea0801b54bbf5b237efeef65f8d33f
   $fFromJSONTextPic4 :: GHC.Generics.R:SingSymbols "language"
   {- Strictness: m,
      Unfolding: (GHC.Generics.SSym
@@ -1300,10 +1300,10 @@ dd8cef913925ad0431093c160caccd09
                    (Trans
                         (Sym (GHC.TypeLits.N:SSymbol[0] <"language">_P))
                         (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"language">_N))) -}
-151de2fd71be5fcb44256393242be9c7
+45e4e4cdb5c13cbd777b7cb5983aa163
   $fFromJSONTextPic5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "language"#) -}
-717f04ce4b9018cd327087a6ad5b00eb
+de23344acda0c9ffcdbe4280157356c2
   $fFromJSONTextPic6 ::
     Data.Aeson.Types.Internal.Options
     -> Data.Aeson.Types.Internal.Value
@@ -1315,7 +1315,7 @@ dd8cef913925ad0431093c160caccd09
                    (w :: Data.Aeson.Types.Internal.Options)
                    (w1 :: Data.Aeson.Types.Internal.Value) ->
                  MicrosoftApiCall.$w$dGFromJSON2 @ a1 w1) -}
-b8592e386cc7a4c65528949b5d2a568f
+c3e77372245794f8f9a0f47b5c8503ac
   $fFromJSONTextPic7 ::
     Data.Aeson.Types.Internal.JSONPath
     -> Data.Aeson.Types.Internal.Failure f1 r
@@ -1328,10 +1328,10 @@ b8592e386cc7a4c65528949b5d2a568f
                    (_kf :: Data.Aeson.Types.Internal.Failure f1 r)
                    (ks :: Data.Aeson.Types.Internal.Success GHC.Types.Double f1 r) ->
                  ks MicrosoftApiCall.$fFromJSONTextPic_a1) -}
-07a488fa1cbc72de0de7daa93dbe58f9
+d0d27df9686e95a683432aacac8977b1
   $fFromJSONTextPic8 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "Double"#) -}
-1a8825de5afcd6131209e88ea289d931
+a0c8d0898d29f81890f6c7ba5db06ce1
   $fFromJSONTextPic9 ::
     GHC.Generics.SingI ('GHC.Base.Just "textAngle")
   {- Unfolding: InlineRule (0, True, True)
@@ -1342,7 +1342,7 @@ b8592e386cc7a4c65528949b5d2a568f
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Base.Maybe
                                                        GHC.Types.Symbol>_N) <'GHC.Base.Just
                                                                                "textAngle">_N) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fFromJSONTextPic_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser MicrosoftApiCall.TextPic
@@ -1599,7 +1599,7 @@ b8592e386cc7a4c65528949b5d2a568f
                                               <'GHC.Generics.MetaData
                                                  "TextPic"
                                                  "MicrosoftApiCall"
-                                                 "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+                                                 "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                                                  'GHC.Types.False>_P
                                               <GHC.Generics.M1
                                                  GHC.Generics.C
@@ -1643,7 +1643,7 @@ b8592e386cc7a4c65528949b5d2a568f
                    `cast`
                  (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                            <MicrosoftApiCall.TextPic>_R))) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fFromJSONTextPic_$cto ::
     GHC.Generics.Rep MicrosoftApiCall.TextPic x
     -> MicrosoftApiCall.TextPic
@@ -1661,7 +1661,7 @@ b8592e386cc7a4c65528949b5d2a568f
                                      <'GHC.Generics.MetaData
                                         "TextPic"
                                         "MicrosoftApiCall"
-                                        "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+                                        "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -1800,7 +1800,7 @@ b8592e386cc7a4c65528949b5d2a568f
                              <GHC.Generics.K1 GHC.Generics.R [MicrosoftApiCall.Line]>_R <x>_N)
                         (GHC.Generics.N:K1[0]
                              <GHC.Generics.R>_P <[MicrosoftApiCall.Line]>_R <x>_P)) } } }) -}
-c0fd0ea456effd1912d40f1ce3bf7a56
+31777401abd748a0e87f38a88139e9bd
   $fFromJSONTextPic_$s$fSelectorMetaMetaSel ::
     GHC.Generics.Selector
       ('GHC.Generics.MetaSel
@@ -1862,7 +1862,7 @@ c0fd0ea456effd1912d40f1ce3bf7a56
                      GHC.Generics.$WSDecidedLazy
                        `cast`
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N)) -}
-147501ca45f3b4ba642b90e7fff2cea4
+eb8d661dcc92ac9a492b73f23a6517db
   $fFromJSONTextPic_$s$fSelectorMetaMetaSel1 ::
     GHC.Generics.Selector
       ('GHC.Generics.MetaSel
@@ -1924,7 +1924,7 @@ c0fd0ea456effd1912d40f1ce3bf7a56
                      GHC.Generics.$WSDecidedLazy
                        `cast`
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N)) -}
-c305037d71fe180a36289c37e529e417
+d975834ee77625bc0637cb94b28fcebd
   $fFromJSONTextPic_$s$fSelectorMetaMetaSel2 ::
     GHC.Generics.Selector
       ('GHC.Generics.MetaSel
@@ -1986,7 +1986,7 @@ c305037d71fe180a36289c37e529e417
                      GHC.Generics.$WSDecidedLazy
                        `cast`
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N)) -}
-1230701c2d121105a57061e9539b6252
+f7a7fb2dbfe5ab574355ee2404e48bdb
   $fFromJSONTextPic_$s$fSelectorMetaMetaSel3 ::
     GHC.Generics.Selector
       ('GHC.Generics.MetaSel
@@ -2048,7 +2048,7 @@ c305037d71fe180a36289c37e529e417
                      GHC.Generics.$WSDecidedLazy
                        `cast`
                      (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N)) -}
-dee6c58863907266d2bc4f7da7b518fc
+13253e8dcb6ed371b0ce77923678b6c8
   $fFromJSONTextPic_$s$fSelectorMetaMetaSel_$cselName ::
     forall k (t :: GHC.Generics.Meta
                    -> (GHC.Types.* -> GHC.Types.*) -> k -> *) (f :: GHC.Types.*
@@ -2072,7 +2072,7 @@ dee6c58863907266d2bc4f7da7b518fc
                                 'GHC.Generics.NoSourceStrictness
                                 'GHC.Generics.DecidedLazy) f a) ->
                  MicrosoftApiCall.$fFromJSONTextPic5) -}
-6651a81efe6b5ca1a30607791bc436e4
+bcebb0a4ed66539000722220f8961602
   $fFromJSONTextPic_$s$fSelectorMetaMetaSel_$cselName1 ::
     forall k (t :: GHC.Generics.Meta
                    -> (GHC.Types.* -> GHC.Types.*) -> k -> *) (f :: GHC.Types.*
@@ -2096,7 +2096,7 @@ dee6c58863907266d2bc4f7da7b518fc
                                 'GHC.Generics.NoSourceStrictness
                                 'GHC.Generics.DecidedLazy) f a) ->
                  MicrosoftApiCall.$fFromJSONTextPic12) -}
-5da6fa46fabf28f743a05aa65017d9e8
+7853330fe1e15fdcd39400dba0d54756
   $fFromJSONTextPic_$s$fSelectorMetaMetaSel_$cselName2 ::
     forall k (t :: GHC.Generics.Meta
                    -> (GHC.Types.* -> GHC.Types.*) -> k -> *) (f :: GHC.Types.*
@@ -2120,7 +2120,7 @@ dee6c58863907266d2bc4f7da7b518fc
                                 'GHC.Generics.NoSourceStrictness
                                 'GHC.Generics.DecidedLazy) f a) ->
                  MicrosoftApiCall.$fFromJSONTextPic17) -}
-99c3039b66d5a35ec8d4ba38767ebc97
+990ce145eabe91d7751ccf7f9e60d042
   $fFromJSONTextPic_$s$fSelectorMetaMetaSel_$cselName3 ::
     forall k (t :: GHC.Generics.Meta
                    -> (GHC.Types.* -> GHC.Types.*) -> k -> *) (f :: GHC.Types.*
@@ -2144,11 +2144,11 @@ dee6c58863907266d2bc4f7da7b518fc
                                 'GHC.Generics.NoSourceStrictness
                                 'GHC.Generics.DecidedLazy) f a) ->
                  MicrosoftApiCall.$fFromJSONTextPic23) -}
-c876128fc503d9e6f2609b188f1729ff
+41b3941d6a9553242a444dcd4049b789
   $fFromJSONTextPic_a1 :: GHC.Types.Double
   {- Unfolding: (case GHC.Prim./## 0.0## 0.0## of wild2 { DEFAULT ->
                  GHC.Types.D# wild2 }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fFromJSONTextPic_f1 ::
     GHC.Types.Int
     -> Data.Aeson.Types.Internal.Value
@@ -2184,7 +2184,7 @@ c876128fc503d9e6f2609b188f1729ff
                    `cast`
                  (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                            <MicrosoftApiCall.Line>_R))) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fGenericLine :: GHC.Generics.Generic MicrosoftApiCall.Line
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -2192,7 +2192,7 @@ c876128fc503d9e6f2609b188f1729ff
                   @ MicrosoftApiCall.Line
                   MicrosoftApiCall.$fGenericLine_$cfrom
                   MicrosoftApiCall.$fGenericLine_$cto -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fGenericLine_$cfrom ::
     MicrosoftApiCall.Line -> GHC.Generics.Rep MicrosoftApiCall.Line x
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
@@ -2274,7 +2274,7 @@ c876128fc503d9e6f2609b188f1729ff
                                      <'GHC.Generics.MetaData
                                         "Line"
                                         "MicrosoftApiCall"
-                                        "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+                                        "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -2299,7 +2299,7 @@ c876128fc503d9e6f2609b188f1729ff
                                                                GHC.Generics.R
                                                                [MicrosoftApiCall.PicWord]))>_R))
                            (Sub (Sym (MicrosoftApiCall.Rep_Line[0])))) <x>_N) }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fGenericLine_$cto ::
     GHC.Generics.Rep MicrosoftApiCall.Line x -> MicrosoftApiCall.Line
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
@@ -2315,7 +2315,7 @@ c876128fc503d9e6f2609b188f1729ff
                                      <'GHC.Generics.MetaData
                                         "Line"
                                         "MicrosoftApiCall"
-                                        "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+                                        "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -2389,7 +2389,7 @@ c876128fc503d9e6f2609b188f1729ff
                                 GHC.Generics.R [MicrosoftApiCall.PicWord]>_R <x>_N)
                         (GHC.Generics.N:K1[0]
                              <GHC.Generics.R>_P <[MicrosoftApiCall.PicWord]>_R <x>_P)) }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fGenericPicText :: GHC.Generics.Generic MicrosoftApiCall.PicText
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -2397,7 +2397,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   @ MicrosoftApiCall.PicText
                   MicrosoftApiCall.$fGenericPicText_$cfrom
                   MicrosoftApiCall.$fGenericPicText_$cto -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fGenericPicText_$cfrom ::
     MicrosoftApiCall.PicText
     -> GHC.Generics.Rep MicrosoftApiCall.PicText x
@@ -2478,7 +2478,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                      <'GHC.Generics.MetaData
                                         "PicText"
                                         "MicrosoftApiCall"
-                                        "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+                                        "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -2502,7 +2502,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                                             (GHC.Generics.K1
                                                                GHC.Generics.R GHC.Base.String))>_R))
                            (Sub (Sym (MicrosoftApiCall.Rep_PicText[0])))) <x>_N) }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fGenericPicText_$cto ::
     GHC.Generics.Rep MicrosoftApiCall.PicText x
     -> MicrosoftApiCall.PicText
@@ -2519,7 +2519,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                      <'GHC.Generics.MetaData
                                         "PicText"
                                         "MicrosoftApiCall"
-                                        "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+                                        "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -2591,7 +2591,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                              <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
                         (GHC.Generics.N:K1[0]
                              <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P)) }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fGenericPicWord :: GHC.Generics.Generic MicrosoftApiCall.PicWord
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -2599,7 +2599,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   @ MicrosoftApiCall.PicWord
                   MicrosoftApiCall.$fGenericPicWord_$cfrom
                   MicrosoftApiCall.$fGenericPicWord_$cto -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fGenericPicWord_$cfrom ::
     MicrosoftApiCall.PicWord
     -> GHC.Generics.Rep MicrosoftApiCall.PicWord x
@@ -2682,7 +2682,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                      <'GHC.Generics.MetaData
                                         "PicWord"
                                         "MicrosoftApiCall"
-                                        "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+                                        "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -2707,7 +2707,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                                                GHC.Generics.R
                                                                [MicrosoftApiCall.PicText]))>_R))
                            (Sub (Sym (MicrosoftApiCall.Rep_PicWord[0])))) <x>_N) }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fGenericPicWord_$cto ::
     GHC.Generics.Rep MicrosoftApiCall.PicWord x
     -> MicrosoftApiCall.PicWord
@@ -2724,7 +2724,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                      <'GHC.Generics.MetaData
                                         "PicWord"
                                         "MicrosoftApiCall"
-                                        "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+                                        "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -2798,7 +2798,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                 GHC.Generics.R [MicrosoftApiCall.PicText]>_R <x>_N)
                         (GHC.Generics.N:K1[0]
                              <GHC.Generics.R>_P <[MicrosoftApiCall.PicText]>_R <x>_P)) }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fGenericTextPic :: GHC.Generics.Generic MicrosoftApiCall.TextPic
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -2806,7 +2806,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   @ MicrosoftApiCall.TextPic
                   MicrosoftApiCall.$fGenericTextPic_$cfrom
                   MicrosoftApiCall.$fFromJSONTextPic_$cto -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fGenericTextPic_$cfrom ::
     MicrosoftApiCall.TextPic
     -> GHC.Generics.Rep MicrosoftApiCall.TextPic x
@@ -2985,7 +2985,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                      <'GHC.Generics.MetaData
                                         "TextPic"
                                         "MicrosoftApiCall"
-                                        "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+                                        "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -3029,7 +3029,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                                                                  GHC.Generics.R
                                                                                  [MicrosoftApiCall.Line])))>_R))
                            (Sub (Sym (MicrosoftApiCall.Rep_TextPic[0])))) <x>_N) }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fShowLine :: GHC.Show.Show MicrosoftApiCall.Line
   DFunId
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -3038,47 +3038,47 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   MicrosoftApiCall.$fShowLine_$cshowsPrec
                   MicrosoftApiCall.$fShowLine_$cshow
                   MicrosoftApiCall.$fShowLine_$cshowList -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fShowLine1 :: MicrosoftApiCall.Line -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (\ (w :: MicrosoftApiCall.Line)
                    (w1 :: GHC.Base.String) ->
                  case w of ww { MicrosoftApiCall.Line ww1 ww2 ->
                  MicrosoftApiCall.$w$cshowsPrec 0# ww1 ww2 w1 }) -}
-5c09c33e458129ea9a1ec784ef2278b0
+88430127522265b21ae6db811fa0de7e
   $fShowLine10 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "lines = "#) -}
-b09a8be3f041e02eedbba39ee5ace5e2
+069043c10912e363b86e264ecd2439ae
   $fShowLine11 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "boundingBox = "#) -}
-fe3cb020c30507131b704fb0f760ecfb
+6844d6334f4f641c377b60cca0d90c00
   $fShowLine12 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "Line {"#) -}
-6f077e26014073578c25142c4314603a
+4abae0cde6884debd3cce1f00dd37e14
   $fShowLine2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
-d518d9484ae48ee97aa583b7a21f6bef
+eb136e6087b7122b1a45700603468120
   $fShowLine3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "text = "#) -}
-0840a7202b06d732e7a022e9df9dabb2
+8aa61eaef056e6713e7a23cf837aea2f
   $fShowLine4 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
-217e28376bfd62d26d261d5469086f2b
+e1231082bd992c5d9e3ea292d95b587a
   $fShowLine5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "boundingBoxText = "#) -}
-b1ce66e897c87898abb1f6b957a52ecb
+d41469f1bc283007485fa74090017e20
   $fShowLine6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "PicText {"#) -}
-b8a532333086b3659093a2868a0f7a43
+e0825cb4c35a16d5377ac9a669807afc
   $fShowLine7 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "words = "#) -}
-094a46dd76d335420aca07c91a867170
+3ad5f914abba4c7a0a47055466c9526e
   $fShowLine8 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "boundingBoxWord = "#) -}
-e94469cd9b8f0dfe8797ce3e25957114
+d5546b37c16b2c0e7bda90b11aad1545
   $fShowLine9 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "PicWord {"#) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fShowLine_$cshow :: MicrosoftApiCall.Line -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
      Unfolding: InlineRule (1, True, False)
@@ -3087,13 +3087,13 @@ e94469cd9b8f0dfe8797ce3e25957114
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fShowLine_$cshowList :: [MicrosoftApiCall.Line] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ MicrosoftApiCall.Line
                    MicrosoftApiCall.$fShowLine1) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fShowLine_$cshowsPrec ::
     GHC.Types.Int -> MicrosoftApiCall.Line -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U)><L,U>,
@@ -3105,7 +3105,7 @@ e94469cd9b8f0dfe8797ce3e25957114
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { MicrosoftApiCall.Line ww3 ww4 ->
                  MicrosoftApiCall.$w$cshowsPrec ww1 ww3 ww4 w2 } }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fShowPicText :: GHC.Show.Show MicrosoftApiCall.PicText
   DFunId
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -3114,14 +3114,14 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   MicrosoftApiCall.$fShowPicText_$cshowsPrec
                   MicrosoftApiCall.$fShowPicText_$cshow
                   MicrosoftApiCall.$fShowPicText_$cshowList -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fShowPicText1 :: MicrosoftApiCall.PicText -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (\ (w :: MicrosoftApiCall.PicText)
                    (w1 :: GHC.Base.String) ->
                  case w of ww { MicrosoftApiCall.PicText ww1 ww2 ->
                  MicrosoftApiCall.$w$cshowsPrec2 0# ww1 ww2 w1 }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fShowPicText_$cshow :: MicrosoftApiCall.PicText -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
      Unfolding: InlineRule (1, True, False)
@@ -3130,14 +3130,14 @@ f72ea900cde1e39ea623f7e8d0ca353c
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fShowPicText_$cshowList ::
     [MicrosoftApiCall.PicText] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ MicrosoftApiCall.PicText
                    MicrosoftApiCall.$fShowPicText1) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fShowPicText_$cshowsPrec ::
     GHC.Types.Int -> MicrosoftApiCall.PicText -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U)><L,U>,
@@ -3149,7 +3149,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { MicrosoftApiCall.PicText ww3 ww4 ->
                  MicrosoftApiCall.$w$cshowsPrec2 ww1 ww3 ww4 w2 } }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fShowPicWord :: GHC.Show.Show MicrosoftApiCall.PicWord
   DFunId
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -3158,14 +3158,14 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   MicrosoftApiCall.$fShowPicWord_$cshowsPrec
                   MicrosoftApiCall.$fShowPicWord_$cshow
                   MicrosoftApiCall.$fShowPicWord_$cshowList -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fShowPicWord1 :: MicrosoftApiCall.PicWord -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (\ (w :: MicrosoftApiCall.PicWord)
                    (w1 :: GHC.Base.String) ->
                  case w of ww { MicrosoftApiCall.PicWord ww1 ww2 ->
                  MicrosoftApiCall.$w$cshowsPrec1 0# ww1 ww2 w1 }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fShowPicWord_$cshow :: MicrosoftApiCall.PicWord -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
      Unfolding: InlineRule (1, True, False)
@@ -3174,14 +3174,14 @@ f72ea900cde1e39ea623f7e8d0ca353c
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fShowPicWord_$cshowList ::
     [MicrosoftApiCall.PicWord] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ MicrosoftApiCall.PicWord
                    MicrosoftApiCall.$fShowPicWord1) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fShowPicWord_$cshowsPrec ::
     GHC.Types.Int -> MicrosoftApiCall.PicWord -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U)><L,U>,
@@ -3193,7 +3193,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { MicrosoftApiCall.PicWord ww3 ww4 ->
                  MicrosoftApiCall.$w$cshowsPrec1 ww1 ww3 ww4 w2 } }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fShowTextPic :: GHC.Show.Show MicrosoftApiCall.TextPic
   DFunId
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -3202,31 +3202,31 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   MicrosoftApiCall.$fShowTextPic_$cshowsPrec
                   MicrosoftApiCall.$fShowTextPic_$cshow
                   MicrosoftApiCall.$fShowTextPic_$cshowList -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fShowTextPic1 :: MicrosoftApiCall.TextPic -> GHC.Show.ShowS
   {- Arity: 1,
      Unfolding: (\ (w :: MicrosoftApiCall.TextPic) ->
                  case w of ww { MicrosoftApiCall.TextPic ww1 ww2 ww3 ww4 ->
                  MicrosoftApiCall.$w$cshowsPrec3 0# ww1 ww2 ww3 ww4 }) -}
-89717ca2ae19bcf45727bc8b5b5f1c0b
+bdc7ea329e34764ed859611159dc50a3
   $fShowTextPic2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "regions = "#) -}
-afa02b77991213a89a41c4993d59e635
+e6bf52495df66874ced7b4ec2cae8da9
   $fShowTextPic3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "orientation = "#) -}
-13a1833b06e7256e237c64813a1e956a
+7d41f07fee5533b92ec2d970dde69c74
   $fShowTextPic4 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "textAngle = "#) -}
-782e67b45706d78d0a811db76bd06386
+aae366c2127ea6bc0405990d3baeeb3f
   $fShowTextPic5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "language = "#) -}
-d56bf2130ae8cd19a49b9743e10486e9
+108d801a0e46b47f662f74882062ca1d
   $fShowTextPic6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "TextPic {"#) -}
-dc2902f385124b24f6996ef58785b8ed
+b123033baad04db7060353825d1c3901
   $fShowTextPic7 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fShowTextPic_$cshow :: MicrosoftApiCall.TextPic -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U(U,1*U(U),U,U)>,
      Unfolding: InlineRule (1, True, False)
@@ -3235,14 +3235,14 @@ dc2902f385124b24f6996ef58785b8ed
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fShowTextPic_$cshowList ::
     [MicrosoftApiCall.TextPic] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ MicrosoftApiCall.TextPic
                    MicrosoftApiCall.$fShowTextPic1) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fShowTextPic_$cshowsPrec ::
     GHC.Types.Int -> MicrosoftApiCall.TextPic -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U(U,1*U(U),U,U)>,
@@ -3252,7 +3252,7 @@ dc2902f385124b24f6996ef58785b8ed
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { MicrosoftApiCall.TextPic ww3 ww4 ww5 ww6 ->
                  MicrosoftApiCall.$w$cshowsPrec3 ww1 ww3 ww4 ww5 ww6 } }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fToJSONLine :: Data.Aeson.Types.Class.ToJSON MicrosoftApiCall.Line
   DFunId
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -3260,7 +3260,7 @@ dc2902f385124b24f6996ef58785b8ed
                   @ MicrosoftApiCall.Line
                   MicrosoftApiCall.$fToJSONLine_$ctoJSON
                   MicrosoftApiCall.$fToJSONLine_$ctoEncoding -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fToJSONLine1 ::
     MicrosoftApiCall.Line
     -> Data.Aeson.Types.Generic.Tagged
@@ -3275,10 +3275,10 @@ dc2902f385124b24f6996ef58785b8ed
                  (Sym (Data.Aeson.Types.Generic.N:Tagged[0]
                            <Data.Aeson.Types.Generic.True>_P
                            <Data.Aeson.Types.Internal.Value>_R)) } }) -}
-93f9f42fec86f02531579e3c5c9b4ae0
+512bee5934edf76e9a661b9206c24ca3
   $fToJSONLine10 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "boundingBoxText"#) -}
-0dab226f6b0192a92ce6984677d7a8fe
+15036e114fa80ebb54a66eb08da4faea
   $fToJSONLine11 ::
     GHC.Types.SPEC
     -> (Data.Vector.Generic.Base.Mutable
@@ -3295,14 +3295,14 @@ dc2902f385124b24f6996ef58785b8ed
              Data.Aeson.Types.Internal.Value,
            GHC.Types.Int) #)
   {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
-87e9894396e4d0ae74ef32c3520159c4
+424c1a06061b6bcfa0cf8c91c9344efd
   $fToJSONLine12 :: Data.Text.Internal.Text
   {- Unfolding: (case GHC.Magic.runRW#
                         @ 'GHC.Types.PtrRepLifted
                         @ Data.Text.Internal.Text
                         MicrosoftApiCall.$fToJSONLine13 of ds7 { (#,#) ipv ipv1 ->
                  ipv1 }) -}
-9dd2e5d8a20cc878572169149655d49d
+32f0a4465f40635b5df850c30ad95dba
   $fToJSONLine13 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -3320,17 +3320,17 @@ dc2902f385124b24f6996ef58785b8ed
                    MicrosoftApiCall.$fToJSONLine14
                    0#
                    ipv }) -}
-fe6e10f85225c4c4f50b92fa9e7ce1a9
+ac01378ec4c125e93c07978d4900c853
   $fToJSONLine14 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "words"#) -}
-a3a1ea5e1a77c91a1c09c5e1aeac6e71
+26f72772c5b2b6865375dd74d830439a
   $fToJSONLine15 :: Data.Text.Internal.Text
   {- Unfolding: (case GHC.Magic.runRW#
                         @ 'GHC.Types.PtrRepLifted
                         @ Data.Text.Internal.Text
                         MicrosoftApiCall.$fToJSONLine16 of ds7 { (#,#) ipv ipv1 ->
                  ipv1 }) -}
-f29e8e242b3b97e093722be2890b3bfa
+3bb3829c62783bad1acf9686df75eed6
   $fToJSONLine16 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -3348,10 +3348,10 @@ f29e8e242b3b97e093722be2890b3bfa
                    MicrosoftApiCall.$fToJSONLine17
                    0#
                    ipv }) -}
-f601957b793a9b200d65389e245c4ab4
+5157124e8c548e8daa8d0bdf01687715
   $fToJSONLine17 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "boundingBoxWord"#) -}
-0c90dc0de55e868e94935816db47c5e7
+3fc84cba15721a715f1b950c231f4605
   $fToJSONLine18 ::
     GHC.Types.SPEC
     -> (Data.Vector.Generic.Base.Mutable
@@ -3368,14 +3368,14 @@ f601957b793a9b200d65389e245c4ab4
              Data.Aeson.Types.Internal.Value,
            GHC.Types.Int) #)
   {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
-d43cd4f3db3c8b3d03fe14ea2d252bda
+a079aff0003b6a11145b63abab1cacc5
   $fToJSONLine19 :: Data.Text.Internal.Text
   {- Unfolding: (case GHC.Magic.runRW#
                         @ 'GHC.Types.PtrRepLifted
                         @ Data.Text.Internal.Text
                         MicrosoftApiCall.$fToJSONLine20 of ds7 { (#,#) ipv ipv1 ->
                  ipv1 }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fToJSONLine2 ::
     MicrosoftApiCall.PicWord
     -> Data.Aeson.Types.Generic.Tagged
@@ -3390,7 +3390,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  (Sym (Data.Aeson.Types.Generic.N:Tagged[0]
                            <Data.Aeson.Types.Generic.True>_P
                            <Data.Aeson.Types.Internal.Value>_R)) } }) -}
-61e594955d0368c903977dabe48e6741
+20c9602fc6955affe8756ddbcb3ab639
   $fToJSONLine20 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -3408,14 +3408,14 @@ f72ea900cde1e39ea623f7e8d0ca353c
                    MicrosoftApiCall.$fFromJSONLine14
                    0#
                    ipv }) -}
-613bc9a2aaf93e787db12603ccb002af
+46d3f51150ab8bf2d9d19a3127ef7fad
   $fToJSONLine21 :: Data.Text.Internal.Text
   {- Unfolding: (case GHC.Magic.runRW#
                         @ 'GHC.Types.PtrRepLifted
                         @ Data.Text.Internal.Text
                         MicrosoftApiCall.$fToJSONLine22 of ds7 { (#,#) ipv ipv1 ->
                  ipv1 }) -}
-0076c55bd40d6b76e9ffcd5f873dde2c
+b1d92edf51f6498ee221b5d915e0d4cb
   $fToJSONLine22 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -3433,7 +3433,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                    MicrosoftApiCall.$fFromJSONLine7
                    0#
                    ipv }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fToJSONLine3 ::
     MicrosoftApiCall.PicText
     -> Data.Aeson.Types.Generic.Tagged
@@ -3448,14 +3448,14 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  (Sym (Data.Aeson.Types.Generic.N:Tagged[0]
                            <Data.Aeson.Types.Generic.True>_P
                            <Data.Aeson.Types.Internal.Value>_R)) } }) -}
-f676e20e8af4e93aa8c6a049b5ec8242
+74a2d8de53f4301e0e16f6101cb1872c
   $fToJSONLine4 :: Data.Text.Internal.Text
   {- Unfolding: (case GHC.Magic.runRW#
                         @ 'GHC.Types.PtrRepLifted
                         @ Data.Text.Internal.Text
                         MicrosoftApiCall.$fToJSONLine5 of ds7 { (#,#) ipv ipv1 ->
                  ipv1 }) -}
-895dd0b8bb0667a58b0ed8b9063ffb13
+aaf5e5a28d154d0cbae10d6562a1d5ce
   $fToJSONLine5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -3473,20 +3473,20 @@ f676e20e8af4e93aa8c6a049b5ec8242
                    MicrosoftApiCall.$fToJSONLine6
                    0#
                    ipv }) -}
-328b29d50ed6a839c010bf235c50fff3
+59f9c0e934403ca1155d03e2fdc344df
   $fToJSONLine6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "text"#) -}
-0440ec8dc815ab0cb20f04c244780930
+229e0d965118443d16a4a1477f65a006
   $fToJSONLine7 :: GHC.Types.Int
   {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4#) -}
-e435cbc4ae742bfdd24e1a43120d5092
+16ea1170122e952a3aad9ee87dad56a0
   $fToJSONLine8 :: Data.Text.Internal.Text
   {- Unfolding: (case GHC.Magic.runRW#
                         @ 'GHC.Types.PtrRepLifted
                         @ Data.Text.Internal.Text
                         MicrosoftApiCall.$fToJSONLine9 of ds7 { (#,#) ipv ipv1 ->
                  ipv1 }) -}
-0300ca70c41cb885d7a80731c48355cd
+7b6b010cf5d7250ddb1a2af62db1434b
   $fToJSONLine9 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -3504,7 +3504,7 @@ e435cbc4ae742bfdd24e1a43120d5092
                    MicrosoftApiCall.$fToJSONLine10
                    0#
                    ipv }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fToJSONLine_$ctoEncoding ::
     MicrosoftApiCall.Line -> Data.Aeson.Types.Internal.Encoding
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
@@ -3516,7 +3516,7 @@ e435cbc4ae742bfdd24e1a43120d5092
                   `cast`
                 (<MicrosoftApiCall.Line>_R
                  ->_R Sym (Data.Aeson.Types.Internal.N:Encoding[0])) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fToJSONLine_$ctoJSON ::
     MicrosoftApiCall.Line -> Data.Aeson.Types.Internal.Value
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>m1,
@@ -3527,7 +3527,7 @@ e435cbc4ae742bfdd24e1a43120d5092
                  ->_R Data.Aeson.Types.Generic.N:Tagged[0]
                           <Data.Aeson.Types.Generic.True>_P
                           <Data.Aeson.Types.Internal.Value>_R) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fToJSONPicText ::
     Data.Aeson.Types.Class.ToJSON MicrosoftApiCall.PicText
   DFunId
@@ -3536,7 +3536,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   @ MicrosoftApiCall.PicText
                   MicrosoftApiCall.$fToJSONPicText_$ctoJSON
                   MicrosoftApiCall.$fToJSONPicText_$ctoEncoding -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fToJSONPicText_$ctoEncoding ::
     MicrosoftApiCall.PicText -> Data.Aeson.Types.Internal.Encoding
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
@@ -3548,7 +3548,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   `cast`
                 (<MicrosoftApiCall.PicText>_R
                  ->_R Sym (Data.Aeson.Types.Internal.N:Encoding[0])) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fToJSONPicText_$ctoJSON ::
     MicrosoftApiCall.PicText -> Data.Aeson.Types.Internal.Value
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>m1,
@@ -3559,7 +3559,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  ->_R Data.Aeson.Types.Generic.N:Tagged[0]
                           <Data.Aeson.Types.Generic.True>_P
                           <Data.Aeson.Types.Internal.Value>_R) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fToJSONPicWord ::
     Data.Aeson.Types.Class.ToJSON MicrosoftApiCall.PicWord
   DFunId
@@ -3568,7 +3568,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   @ MicrosoftApiCall.PicWord
                   MicrosoftApiCall.$fToJSONPicWord_$ctoJSON
                   MicrosoftApiCall.$fToJSONPicWord_$ctoEncoding -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fToJSONPicWord_$ctoEncoding ::
     MicrosoftApiCall.PicWord -> Data.Aeson.Types.Internal.Encoding
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
@@ -3580,7 +3580,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   `cast`
                 (<MicrosoftApiCall.PicWord>_R
                  ->_R Sym (Data.Aeson.Types.Internal.N:Encoding[0])) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $fToJSONPicWord_$ctoJSON ::
     MicrosoftApiCall.PicWord -> Data.Aeson.Types.Internal.Value
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>m1,
@@ -3591,7 +3591,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  ->_R Data.Aeson.Types.Generic.N:Tagged[0]
                           <Data.Aeson.Types.Generic.True>_P
                           <Data.Aeson.Types.Internal.Value>_R) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fToJSONTextPic ::
     Data.Aeson.Types.Class.ToJSON MicrosoftApiCall.TextPic
   DFunId
@@ -3600,7 +3600,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                   @ MicrosoftApiCall.TextPic
                   MicrosoftApiCall.$fToJSONTextPic_$ctoJSON
                   MicrosoftApiCall.$fToJSONTextPic_$ctoEncoding -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fToJSONTextPic1 ::
     MicrosoftApiCall.TextPic
     -> Data.Aeson.Types.Generic.Tagged
@@ -3709,7 +3709,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                  (Sym (Data.Aeson.Types.Generic.N:Tagged[0]
                            <Data.Aeson.Types.Generic.True>_P
                            <Data.Aeson.Types.Internal.Value>_R)) } }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fToJSONTextPic2 ::
     Data.Aeson.Types.Internal.Options
     -> GHC.Generics.K1 GHC.Generics.R [MicrosoftApiCall.Line] a1
@@ -3722,7 +3722,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                             GHC.Generics.R [MicrosoftApiCall.Line] a1) ->
                  case MicrosoftApiCall.$w$dGToJSON5 @ a1 w1 of ww { Unit# ww1 ->
                  Data.Aeson.Types.Internal.Array ww1 }) -}
-a3f80442d9501edf7a220eaaac6a7641
+7afa72206b82c3441f9e2d388c6178d5
   $fToJSONTextPic3 ::
     GHC.Types.SPEC
     -> (Data.Vector.Generic.Base.Mutable
@@ -3739,7 +3739,7 @@ a3f80442d9501edf7a220eaaac6a7641
              Data.Aeson.Types.Internal.Value,
            GHC.Types.Int) #)
   {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
-6d2ef0fbc0ae7b7b974466bd61b6a3e6
+b0fe7159cae258a43995b21d2bc0fcf6
   $fToJSONTextPic4 ::
     Data.Aeson.Types.Internal.Options
     -> GHC.Generics.K1 GHC.Generics.R GHC.Types.Double a1
@@ -3754,7 +3754,7 @@ a3f80442d9501edf7a220eaaac6a7641
                      `cast`
                    (GHC.Generics.N:K1[0]
                         <GHC.Generics.R>_P <GHC.Types.Double>_R <a1>_P)) -}
-fb3d9ee27973dc172b692b40460cb766
+8dd4a113695010acf5dbf33230e8dc53
   $fToJSONTextPic5 ::
     Data.Aeson.Types.Internal.Options
     -> GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1
@@ -3766,7 +3766,7 @@ fb3d9ee27973dc172b692b40460cb766
                    (w1 :: GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1) ->
                  case MicrosoftApiCall.$w$dGToJSON6 @ a1 w1 of ww { Unit# ww1 ->
                  Data.Aeson.Types.Internal.String ww1 }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fToJSONTextPic_$ctoEncoding ::
     MicrosoftApiCall.TextPic -> Data.Aeson.Types.Internal.Encoding
   {- Arity: 1, Strictness: <S,1*U(U,U,U,U)>,
@@ -3778,7 +3778,7 @@ fb3d9ee27973dc172b692b40460cb766
                   `cast`
                 (<MicrosoftApiCall.TextPic>_R
                  ->_R Sym (Data.Aeson.Types.Internal.N:Encoding[0])) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $fToJSONTextPic_$ctoJSON ::
     MicrosoftApiCall.TextPic -> Data.Aeson.Types.Internal.Value
   {- Arity: 1, Strictness: <S,1*U(U,U,U,U)>m1,
@@ -3789,7 +3789,7 @@ fb3d9ee27973dc172b692b40460cb766
                  ->_R Data.Aeson.Types.Generic.N:Tagged[0]
                           <Data.Aeson.Types.Generic.True>_P
                           <Data.Aeson.Types.Internal.Value>_R) -}
-35854ff93df8aeb4b3d3093e271fd4b1
+3a0537a9926a3dbef95dba0c2fd51c0e
   $s$fMimeUnrenderTYPEJSONa ::
     Servant.API.ContentTypes.MimeUnrender
       Servant.API.ContentTypes.JSON MicrosoftApiCall.TextPic
@@ -3805,7 +3805,7 @@ fb3d9ee27973dc172b692b40460cb766
                      (Sym (Data.Aeson.Types.Class.N:FromJSON[0]
                                <MicrosoftApiCall.TextPic>_N)))
                   MicrosoftApiCall.$s$fMimeUnrenderTYPEJSONa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender -}
-7416c88b6adfb9b3de6a36fbe05e188b
+3f9498a5ef9b469c68c812fd694ab8f6
   $s$fMimeUnrenderTYPEJSONa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender ::
     Data.Proxy.Proxy Servant.API.ContentTypes.JSON
     -> Data.ByteString.Lazy.Internal.ByteString
@@ -3821,7 +3821,7 @@ fb3d9ee27973dc172b692b40460cb766
                    (Sym (Data.Aeson.Types.Class.N:FromJSON[0]
                              <MicrosoftApiCall.TextPic>_N))
                    eta) -}
-a813fbec34445143682972ec7c81032b
+98186e9e82be8e9644174a02418f5f97
   $s.:4 ::
     [Data.Aeson.Types.Internal.Parser MicrosoftApiCall.PicText]
     -> forall (f :: * -> *) r.
@@ -3830,7 +3830,7 @@ a813fbec34445143682972ec7c81032b
        -> Data.Aeson.Types.Internal.Success [MicrosoftApiCall.PicText] f r
        -> f r
   {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
-5bbfae80f4589a33ff2e638be2c06f7b
+7645920a807cb8742226e5a4f085a6de
   $s.:_f1 ::
     GHC.Types.Int
     -> Data.Aeson.Types.Internal.Value
@@ -3867,10 +3867,10 @@ a813fbec34445143682972ec7c81032b
                    `cast`
                  (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                            <MicrosoftApiCall.PicText>_R))) -}
-71f77885802750eb7a3a368efc48485c
+9366c20dd5819ca456099970711a52e0
   $sclient2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "/vision/v1.0/ocr"#) -}
-c23d8a2ef299dfeee91b9e3cce619330
+39ce05c71a95b003f9e45f76cacf5339
   $sclient4 ::
     Data.Proxy.Proxy
       (Servant.API.QueryParam.QueryParam
@@ -3936,7 +3936,7 @@ c23d8a2ef299dfeee91b9e3cce619330
                                               MicrosoftApiCall.TextPic))
                    w4
                    w5 }) -}
-b114fd20c85888c998b22f9d153e8eac
+ab505db9746ed0b3687a02663ded688a
   $sclient5 ::
     Data.Proxy.Proxy
       (Servant.API.Verbs.Verb
@@ -3969,14 +3969,14 @@ b114fd20c85888c998b22f9d153e8eac
                      `cast`
                    (Sym (Data.Type.Equality.N:~[0]
                              <[*]>_N) <'[Servant.API.ContentTypes.JSON]>_N <'[Servant.API.ContentTypes.JSON]>_N)) -}
-bea757709ba136d16c0f7ec9ab0246c8
+85c129aaf988244c823e695b6428ae2f
   $sclient6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "detectOrientation"#) -}
-3696d73335bce76b8cbab0071d050f98
+7dd8d8c23a542351760a9404089398e8
   $sclient7 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "Ocp-Apim-Subscription-Key"#) -}
-00128e1bbb95a1ebc4124452eae21431
+b63e9cc936b9e4c616ade9a59e39d1e8
   $sclient_$d~~ ::
     '[Servant.API.ContentTypes.JSON]
     GHC.Types.~~ '[Servant.API.ContentTypes.JSON]
@@ -3987,118 +3987,118 @@ bea757709ba136d16c0f7ec9ab0246c8
                    @ '[Servant.API.ContentTypes.JSON]
                    @ '[Servant.API.ContentTypes.JSON]
                    @~ <'[Servant.API.ContentTypes.JSON]>_N) -}
-6f5a7b30533088d897e2d5be3a7a0265
+b524859cb759a96c77cb9e4eb5a1ae4e
   $tc'Line :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   1820825580175199101##
-                   12014461629380763994##
+                   11981650060967283645##
+                   15964567876447652457##
                    MicrosoftApiCall.$trModule
                    MicrosoftApiCall.$tc'Line1) -}
-6c908b6f78264647608d166b9408fcf8
+b0db2cd64f16a88e7188f2470d782736
   $tc'Line1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "'Line"#) -}
-b1e71e028b2f23bf3300366e9aab86bd
+2fff3449fc5d907c18ca8e5d2ea120a5
   $tc'PicText :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   12283540271955624972##
-                   4406143774822402819##
+                   7681397502243342777##
+                   7733778559382606567##
                    MicrosoftApiCall.$trModule
                    MicrosoftApiCall.$tc'PicText1) -}
-216430f9cb3edd6ac6a8a9cdb73ecd00
+8704160988346affa4075f92e5ae6f5c
   $tc'PicText1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "'PicText"#) -}
-7cd865a1d03cb5b578c4c8d54e8f3c36
+215dd4952f4619a1cb1a0847b783365b
   $tc'PicWord :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   3466496563652441502##
-                   11013817202808327452##
+                   14708749161323177086##
+                   8184521894323377764##
                    MicrosoftApiCall.$trModule
                    MicrosoftApiCall.$tc'PicWord1) -}
-725c6167f70ecf1d3153ac10ab68867b
+45865e8895275d264ba8bcb4b841bcc5
   $tc'PicWord1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "'PicWord"#) -}
-17a2c73d702778b457a18e9bb2dede54
+42522e569a4cc42025f763b6d92f3f92
   $tc'TextPic :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   15840593867891269841##
-                   4054566488192329249##
+                   14190855441300177762##
+                   9250367238844709090##
                    MicrosoftApiCall.$trModule
                    MicrosoftApiCall.$tc'TextPic1) -}
-6e10899ad5dd21e456f28357c4509dc6
+5a073ed236255386bdb2230eafdbb6be
   $tc'TextPic1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "'TextPic"#) -}
-75105071f9d7768eb30fb75c18c6953a
+b2400d596c57b83e7d2800eae374b0dd
   $tcLine :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   11987871074884156277##
-                   9938669908825823968##
+                   3202489917544056358##
+                   802293326691999345##
                    MicrosoftApiCall.$trModule
                    MicrosoftApiCall.$tcLine1) -}
-5e1d8e1412b201ce8e5262cc21ea3546
+9e045438e9d8d2bf481c2bd5c7b5dc02
   $tcLine1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Line"#) -}
-f87fc8d0b8935fc196e0f1b43921c1bb
+df092d114e82a602245ec9a68163f9a7
   $tcPicText :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   12921534742359009094##
-                   1914121907668908814##
+                   981212366999574323##
+                   17339044992925417537##
                    MicrosoftApiCall.$trModule
                    MicrosoftApiCall.$tcPicText1) -}
-92d97bcb3a6e59f3fde1f58ffb5e5e45
+44747970d66f5c990122d8069ecb207d
   $tcPicText1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "PicText"#) -}
-d0d47ff774aedd16ca978e6ab085ddb2
+742d122155197aef992b3d13fee5f47b
   $tcPicWord :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   8223300675023674913##
-                   5150385370278807937##
+                   727503153408086666##
+                   10023615040114093678##
                    MicrosoftApiCall.$trModule
                    MicrosoftApiCall.$tcPicWord1) -}
-26c5a824cc63652ad09f3bf58d04c7a9
+ba7b2e5160d07ae13491624c143e114a
   $tcPicWord1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "PicWord"#) -}
-f152f286326a212666432af97dbabaac
+bd20889a5baff3849edf481f094a4003
   $tcTextPic :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   8828140388803780071##
-                   3667627092021509032##
+                   7180505775803926229##
+                   3369309630634493080##
                    MicrosoftApiCall.$trModule
                    MicrosoftApiCall.$tcTextPic1) -}
-3c3af4f9f1f57b1fe9948d1bd00b97fe
+35f96f837fe47b424edfbbf9203be502
   $tcTextPic1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "TextPic"#) -}
-1ac7f7815a6b08bb8665981fba903fc3
+aea42c82fc5f00724181a250a0668faa
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    MicrosoftApiCall.$trModule2
                    MicrosoftApiCall.$trModule1) -}
-d874ef367fb489df63a3b20e26e5d974
+122d34def7dc41c9df8a16ee64e322d3
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "MicrosoftApiCall"#) -}
-e8a67a3b496f69cd6c66969357a48c42
+1b5635324c45047b2db4e6eff967bff4
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"#) -}
-e14f8fe2a42832c4b1dba13a88b766b5
+                   "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"#) -}
+9dc318768e5e7aed3dd66eca13e32f44
   $w$c/= ::
     GHC.Base.String
     -> GHC.Base.String
@@ -4117,7 +4117,7 @@ e14f8fe2a42832c4b1dba13a88b766b5
                    -> case GHC.Base.eqString ww1 ww3 of wild1 {
                         GHC.Types.False -> GHC.Types.True
                         GHC.Types.True -> GHC.Types.False } }) -}
-89e1fb9c03e7450ab9fd582dc8745627
+2e5401c5e595fb39f5466922f7f0a1db
   $w$c== ::
     GHC.Base.String
     -> [MicrosoftApiCall.PicWord]
@@ -4138,7 +4138,7 @@ e14f8fe2a42832c4b1dba13a88b766b5
                         MicrosoftApiCall.$fEqPicWord
                         ww1
                         ww3 }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $w$c==1 ::
     GHC.Base.String
     -> [MicrosoftApiCall.PicText]
@@ -4159,7 +4159,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                         MicrosoftApiCall.$fEqPicText
                         ww1
                         ww3 }) -}
-a2791d18ea1780c4b6878946a154a0c4
+1854c7031f90e3f0f708b31a5836bcc0
   $w$c==2 ::
     GHC.Base.String
     -> GHC.Base.String
@@ -4175,7 +4175,7 @@ a2791d18ea1780c4b6878946a154a0c4
                  case GHC.Base.eqString ww ww2 of wild {
                    GHC.Types.False -> GHC.Types.False
                    GHC.Types.True -> GHC.Base.eqString ww1 ww3 }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $w$c==3 ::
     GHC.Base.String
     -> GHC.Types.Double
@@ -4215,7 +4215,7 @@ a2791d18ea1780c4b6878946a154a0c4
                                   MicrosoftApiCall.$fEqLine
                                   ww3
                                   ww7 } } } } }) -}
-d9b54fa544aeeec9da852f7a4ba006f1
+22fc3982e0666bf18bb95f3d6661109c
   $w$cshowsPrec ::
     GHC.Prim.Int#
     -> GHC.Base.String
@@ -4304,7 +4304,7 @@ d9b54fa544aeeec9da852f7a4ba006f1
                         @ GHC.Types.Char
                         GHC.Show.shows9
                         (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows6 w)) }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $w$cshowsPrec1 ::
     GHC.Prim.Int#
     -> GHC.Base.String
@@ -4393,7 +4393,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                         @ GHC.Types.Char
                         GHC.Show.shows9
                         (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows6 w)) }) -}
-8846ba9fb6431e1527429583baa54262
+5fb6cb24f8f833cf03c0094bff54c172
   $w$cshowsPrec2 ::
     GHC.Prim.Int#
     -> GHC.Base.String
@@ -4450,7 +4450,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                         @ GHC.Types.Char
                         GHC.Show.shows9
                         (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows6 w)) }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $w$cshowsPrec3 ::
     GHC.Prim.Int#
     -> GHC.Base.String
@@ -4577,7 +4577,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                         @ GHC.Types.Char
                         GHC.Show.shows9
                         (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows6 x)) }) -}
-e69c8c005842969f68ff04764b1f3de4
+38ea8941744a427fffc8b10a8c2f1806
   $w$ctoJSON ::
     GHC.Base.String
     -> [MicrosoftApiCall.PicWord]
@@ -4616,7 +4616,7 @@ e69c8c005842969f68ff04764b1f3de4
                            @ Data.Text.Internal.Text
                            @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
                  (# dt #) }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $w$ctoJSON1 ::
     GHC.Base.String
     -> [MicrosoftApiCall.PicText]
@@ -4655,7 +4655,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                            @ Data.Text.Internal.Text
                            @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
                  (# dt #) }) -}
-3d6bc044c278d11b3ad37fe9e38768f9
+57a9f4344c11cf497e2319b12f8e8cda
   $w$ctoJSON2 ::
     GHC.Base.String
     -> GHC.Base.String -> (# Data.Aeson.Types.Internal.Object #)
@@ -4692,7 +4692,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                            @ Data.Text.Internal.Text
                            @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
                  (# dt #) }) -}
-a1e8661b964a793cc16114c0de8b83bb
+7ea2bb2c988aa7ca14d4ec22997d34b2
   $w$dConsFromJSON' ::
     Data.Aeson.Types.Internal.Options
     -> Data.Aeson.Types.Internal.Value
@@ -4952,7 +4952,7 @@ a1e8661b964a793cc16114c0de8b83bb
                                                  'GHC.Generics.DecidedLazy)
                                               (GHC.Generics.Rec0 [MicrosoftApiCall.PicWord]))
                                            a)>_R))) }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $w$dConsFromJSON'1 ::
     Data.Aeson.Types.Internal.Options
     -> Data.Aeson.Types.Internal.Value
@@ -5472,7 +5472,7 @@ a1e8661b964a793cc16114c0de8b83bb
                                                                (GHC.Generics.Rec0
                                                                   [MicrosoftApiCall.Line]))
                                            a)>_R))) }) -}
-a8c8abef1e332bfb147dff2b3ea885e3
+766c0691fc86a7d20fcd199c7869cb0f
   $w$dGFromJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -5576,7 +5576,7 @@ a8c8abef1e332bfb147dff2b3ea885e3
                    `cast`
                  (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                            <GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1>_R))) -}
-b5f3d5768e121c72a38c1d1ca65fe947
+6129d40b8f9ad3ac1a5be86ab4a7f212
   $w$dGFromJSON1 ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -5649,7 +5649,7 @@ b5f3d5768e121c72a38c1d1ca65fe947
                  (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                            <GHC.Generics.K1
                               GHC.Generics.R [MicrosoftApiCall.PicWord] a1>_R))) -}
-1dab76d9c7270b8e74d72bba223c49a8
+34c6eaff3263b5c632f42710a0420ba3
   $w$dGFromJSON2 ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -5711,7 +5711,7 @@ b5f3d5768e121c72a38c1d1ca65fe947
                    `cast`
                  (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                            <GHC.Generics.K1 GHC.Generics.R GHC.Types.Double a1>_R))) -}
-e3263e172c1518f76984daa649d63513
+bd77b6ae0ff709ee12826e70a549c5a8
   $w$dGFromJSON3 ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -5815,7 +5815,7 @@ e3263e172c1518f76984daa649d63513
                    `cast`
                  (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                            <GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1>_R))) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $w$dGFromJSON4 ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -5886,7 +5886,7 @@ e3263e172c1518f76984daa649d63513
                    `cast`
                  (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                            <GHC.Generics.K1 GHC.Generics.R [MicrosoftApiCall.Line] a1>_R))) -}
-0af75bffc8b6b0a9ea142a2378a1a9b6
+5755fa8a3e6b7819e41091b0a0888e79
   $w$dGToJSON ::
     GHC.Generics.K1 GHC.Generics.R [MicrosoftApiCall.PicWord] a1
     -> (# Data.Aeson.Types.Internal.Array #)
@@ -5970,7 +5970,7 @@ e3263e172c1518f76984daa649d63513
                               ipv3 #) } } } } } }) of ds1 { (#,#) ipv1 ipv2 ->
                  case ipv2 of dt { Data.Vector.Vector ipv ipv4 ipv5 ->
                  (# dt #) } }) -}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   $w$dGToJSON1 ::
     GHC.Generics.K1 GHC.Generics.R [MicrosoftApiCall.PicText] a1
     -> (# Data.Aeson.Types.Internal.Array #)
@@ -6054,7 +6054,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                               ipv3 #) } } } } } }) of ds1 { (#,#) ipv1 ipv2 ->
                  case ipv2 of dt { Data.Vector.Vector ipv ipv4 ipv5 ->
                  (# dt #) } }) -}
-5a922495d8afe4a5f3d89407bff3acad
+8c478463f5f82431b5d7095c717eddb9
   $w$dGToJSON2 ::
     GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1
     -> (# Data.Text.Internal.Text #)
@@ -6079,7 +6079,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                            ipv }) of ds1 { (#,#) ipv ipv1 ->
                  case ipv1 of dt { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
                  (# dt #) } }) -}
-3315b5144d2670783ca9352c6af652ae
+d5313cd918f1bbd0ec316c27a527687c
   $w$dGToJSON3 ::
     GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1
     -> (# Data.Text.Internal.Text #)
@@ -6104,7 +6104,7 @@ f72ea900cde1e39ea623f7e8d0ca353c
                            ipv }) of ds1 { (#,#) ipv ipv1 ->
                  case ipv1 of dt { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
                  (# dt #) } }) -}
-dc5d8173540e4f0f06f2fd45825cd4f3
+97ba525b2c299bde35dd7e7dc29c7700
   $w$dGToJSON4 ::
     GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1
     -> (# Data.Text.Internal.Text #)
@@ -6129,7 +6129,7 @@ dc5d8173540e4f0f06f2fd45825cd4f3
                            ipv }) of ds1 { (#,#) ipv ipv1 ->
                  case ipv1 of dt { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
                  (# dt #) } }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $w$dGToJSON5 ::
     GHC.Generics.K1 GHC.Generics.R [MicrosoftApiCall.Line] a1
     -> (# Data.Aeson.Types.Internal.Array #)
@@ -6212,7 +6212,7 @@ dc5d8173540e4f0f06f2fd45825cd4f3
                               ipv3 #) } } } } } }) of ds1 { (#,#) ipv1 ipv2 ->
                  case ipv2 of dt { Data.Vector.Vector ipv ipv4 ipv5 ->
                  (# dt #) } }) -}
-e7a11f5ec98a1893352c7acb4d87fa34
+223f8a11b331309222afb620727983a3
   $w$dGToJSON6 ::
     GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1
     -> (# Data.Text.Internal.Text #)
@@ -6237,7 +6237,7 @@ e7a11f5ec98a1893352c7acb4d87fa34
                            ipv }) of ds1 { (#,#) ipv ipv1 ->
                  case ipv1 of dt { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
                  (# dt #) } }) -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   $w$dRecordToPairs ::
     Data.Aeson.Types.Internal.Options
     -> GHC.Generics.S1
@@ -6375,7 +6375,7 @@ e7a11f5ec98a1893352c7acb4d87fa34
                             w
                             b1
                             w1) }))) -}
-b919a7b4fb0781a03e7e9478d6b9eb94
+07200c7c7846cb07183a31e86474ebfe
   $wouter ::
     Data.Text.Array.MArray GHC.Prim.RealWorld
     -> GHC.Types.Int
@@ -6386,7 +6386,7 @@ b919a7b4fb0781a03e7e9478d6b9eb94
           Data.Text.Internal.Text #)
   {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><S,U><S,U>,
      Inline: [0] -}
-37b9210199eb56fb73c9eabe058f0cbc
+2e1dfb46a70ed8d679a0a0d53d50e32c
   $wouter1 ::
     Data.Text.Array.MArray GHC.Prim.RealWorld
     -> GHC.Types.Int
@@ -6397,7 +6397,7 @@ b919a7b4fb0781a03e7e9478d6b9eb94
           Data.Text.Internal.Text #)
   {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><S,U><S,U>,
      Inline: [0] -}
-39179a1c889e4db736b35e0df04f378f
+46f42e2bad190637e6a068d2a3e083e7
   $wouter2 ::
     Data.Text.Array.MArray GHC.Prim.RealWorld
     -> GHC.Types.Int
@@ -6408,7 +6408,7 @@ b919a7b4fb0781a03e7e9478d6b9eb94
           Data.Text.Internal.Text #)
   {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><S,U><S,U>,
      Inline: [0] -}
-4847f8e5a7c8721ba0a7a5b5bddce6e8
+94e6d593cae7c6ab67b4758f043a9710
   $wouter3 ::
     Data.Text.Array.MArray GHC.Prim.RealWorld
     -> GHC.Types.Int
@@ -6419,26 +6419,26 @@ b919a7b4fb0781a03e7e9478d6b9eb94
           Data.Text.Internal.Text #)
   {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><S,U><S,U>,
      Inline: [0] -}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   data Line
     = Line {boundingBox :: GHC.Base.String,
             lines :: [MicrosoftApiCall.PicWord]}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   data PicText
     = PicText {boundingBoxText :: GHC.Base.String,
                text :: GHC.Base.String}
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   data PicWord
     = PicWord {boundingBoxWord :: GHC.Base.String,
                words :: [MicrosoftApiCall.PicText]}
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   axiom Rep_Line::
       GHC.Generics.Rep MicrosoftApiCall.Line
         = GHC.Generics.D1
             ('GHC.Generics.MetaData
                "Line"
                "MicrosoftApiCall"
-               "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+               "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                'GHC.Types.False)
             (GHC.Generics.C1
                ('GHC.Generics.MetaCons
@@ -6457,14 +6457,14 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                       'GHC.Generics.NoSourceStrictness
                                       'GHC.Generics.DecidedLazy)
                                    (GHC.Generics.Rec0 [MicrosoftApiCall.PicWord])))
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   axiom Rep_PicText::
       GHC.Generics.Rep MicrosoftApiCall.PicText
         = GHC.Generics.D1
             ('GHC.Generics.MetaData
                "PicText"
                "MicrosoftApiCall"
-               "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+               "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                'GHC.Types.False)
             (GHC.Generics.C1
                ('GHC.Generics.MetaCons
@@ -6483,14 +6483,14 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                       'GHC.Generics.NoSourceStrictness
                                       'GHC.Generics.DecidedLazy)
                                    (GHC.Generics.Rec0 GHC.Base.String)))
-f72ea900cde1e39ea623f7e8d0ca353c
+b21042039c78280ce0220389cc2f9bdd
   axiom Rep_PicWord::
       GHC.Generics.Rep MicrosoftApiCall.PicWord
         = GHC.Generics.D1
             ('GHC.Generics.MetaData
                "PicWord"
                "MicrosoftApiCall"
-               "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+               "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                'GHC.Types.False)
             (GHC.Generics.C1
                ('GHC.Generics.MetaCons
@@ -6509,14 +6509,14 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                       'GHC.Generics.NoSourceStrictness
                                       'GHC.Generics.DecidedLazy)
                                    (GHC.Generics.Rec0 [MicrosoftApiCall.PicText])))
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   axiom Rep_TextPic::
       GHC.Generics.Rep MicrosoftApiCall.TextPic
         = GHC.Generics.D1
             ('GHC.Generics.MetaData
                "TextPic"
                "MicrosoftApiCall"
-               "microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M"
+               "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
                'GHC.Types.False)
             (GHC.Generics.C1
                ('GHC.Generics.MetaCons
@@ -6549,13 +6549,13 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                                         'GHC.Generics.NoSourceStrictness
                                                         'GHC.Generics.DecidedLazy)
                                                      (GHC.Generics.Rec0 [MicrosoftApiCall.Line]))))
-6cd944930572dab253afbc24be0f0334
+6141b9349aa3c55e44fb00cb234f38b5
   data TextPic
     = TextPic {language :: GHC.Base.String,
                textAngle :: GHC.Types.Double,
                orientation :: GHC.Base.String,
                regions :: [MicrosoftApiCall.Line]}
-6f060c2b799c296c3fdd895e5493bd5c
+08d25cdb5154afba9ac111414430c058
   type TextPicAPI =
     "/vision/v1.0/ocr"
     Servant.API.Sub.:> (Servant.API.Header.Header
@@ -6571,28 +6571,28 @@ f72ea900cde1e39ea623f7e8d0ca353c
                                                                                     Servant.API.Sub.:> Servant.API.Verbs.Post
                                                                                                          '[Servant.API.ContentTypes.JSON]
                                                                                                          MicrosoftApiCall.TextPic))))
-29073c27478fb372d7ba2d7c289dde3c
+3dca3eb1026356aa1fc1261502f458ee
   boundingBox :: MicrosoftApiCall.Line -> GHC.Base.String
   RecSel Left MicrosoftApiCall.Line
   {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: MicrosoftApiCall.Line) ->
                  case ds of wild { MicrosoftApiCall.Line ds1 ds2 -> ds1 }) -}
-8fe791f2af1dc32b342287e95f7ae779
+b391b6467d2954427efd52c10f0e2509
   boundingBoxText :: MicrosoftApiCall.PicText -> GHC.Base.String
   RecSel Left MicrosoftApiCall.PicText
   {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: MicrosoftApiCall.PicText) ->
                  case ds of wild { MicrosoftApiCall.PicText ds1 ds2 -> ds1 }) -}
-3c434cb6cc26632f423908a637d2653e
+62422bda84b908e1a0245475856556e4
   boundingBoxWord :: MicrosoftApiCall.PicWord -> GHC.Base.String
   RecSel Left MicrosoftApiCall.PicWord
   {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: MicrosoftApiCall.PicWord) ->
                  case ds of wild { MicrosoftApiCall.PicWord ds1 ds2 -> ds1 }) -}
-e9ef915ab8a86ff6c82a54682b0374c0
+1ee7153023e0c316e7273dff24ea7592
   language :: MicrosoftApiCall.TextPic -> GHC.Base.String
   RecSel Left MicrosoftApiCall.TextPic
   {- Arity: 1, HasNoCafRefs, Strictness: <S(SLLL),1*U(1*U,A,A,A)>,
@@ -6600,19 +6600,19 @@ e9ef915ab8a86ff6c82a54682b0374c0
                 (\ (ds :: MicrosoftApiCall.TextPic) ->
                  case ds of wild { MicrosoftApiCall.TextPic ds1 ds2 ds3 ds4 ->
                  ds1 }) -}
-9de649ec8c34e2cfa495eff574f60cbe
+a2083e45b8ec511952de7354dfdfd678
   lines :: MicrosoftApiCall.Line -> [MicrosoftApiCall.PicWord]
   RecSel Left MicrosoftApiCall.Line
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: MicrosoftApiCall.Line) ->
                  case ds of wild { MicrosoftApiCall.Line ds1 ds2 -> ds2 }) -}
-b305cc1e54e06b58e7f0d06bf7b578e5
+9a0861c6f9600a927e5b5e25bc7e4995
   microsoftAPI :: Data.Proxy.Proxy MicrosoftApiCall.TextPicAPI
   {- HasNoCafRefs,
      Unfolding: InlineRule (0, True, True)
                 (Data.Proxy.Proxy @ * @ MicrosoftApiCall.TextPicAPI) -}
-edf7a799d0923c0bb611ed0645e23d54
+f9804a2df847eeb1fdae3d70e1aaf72b
   orientation :: MicrosoftApiCall.TextPic -> GHC.Base.String
   RecSel Left MicrosoftApiCall.TextPic
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LLSL),1*U(A,A,1*U,A)>,
@@ -6620,7 +6620,7 @@ edf7a799d0923c0bb611ed0645e23d54
                 (\ (ds :: MicrosoftApiCall.TextPic) ->
                  case ds of wild { MicrosoftApiCall.TextPic ds1 ds2 ds3 ds4 ->
                  ds3 }) -}
-39da8c45e3ec1ec3bdd2b4e6bb970e51
+dc61c8b1d6ff74da86adba35cef5813f
   postImage ::
     GHC.Base.Maybe GHC.Base.String
     -> Data.ByteString.Internal.ByteString
@@ -6675,7 +6675,7 @@ edf7a799d0923c0bb611ed0645e23d54
                                                              <'Network.HTTP.Types.Method.POST>_N
                                                              <'[Servant.API.ContentTypes.JSON]>_N
                                                              <200>_N))))) -}
-90995d986d150728f6d42f5ee8df2f3a
+b8d6e4e9bc05e21f422960215f841837
   postImage1 ::
     GHC.Base.Maybe [GHC.Types.Char]
     -> Servant.Client.Client
@@ -6815,18 +6815,18 @@ edf7a799d0923c0bb611ed0645e23d54
                                                                                '[Servant.API.ContentTypes.JSON]
                                                                                MicrosoftApiCall.TextPic)>_N
                                      <'[]>_N))))) -}
-d1de2d5bef527dca5ede254be41fc050
+e73e8e30f99529919e99ce2a9c85df78
   postImage2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.Base.++
                    @ GHC.Types.Char
                    (GHC.Types.[] @ GHC.Types.Char)
                    MicrosoftApiCall.postImage3) -}
-dda55176de04bca42571dcad36e3e002
+987fc838824e0651ff4875fadd195510
   postImage3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackAppendCString#
                    "/"#
                    MicrosoftApiCall.$sclient2) -}
-46c583ff06d178e3085ec78bff06d22a
+59b12feea0c9692112119c6b72bc774a
   postImage_req :: Servant.Common.Req.Req
   {- Strictness: m,
      Unfolding: (Servant.Common.Req.Req
@@ -6839,7 +6839,7 @@ dda55176de04bca42571dcad36e3e002
                          Network.HTTP.Media.MediaType.Internal.MediaType))
                    (GHC.Types.[] @ Network.HTTP.Media.MediaType.Internal.MediaType)
                    (GHC.Types.[] @ (GHC.Base.String, Data.Text.Internal.Text))) -}
-3c06a50309be434e98dff03a5cc9e957
+34b460002f5c14507bd6c92c03766979
   regions :: MicrosoftApiCall.TextPic -> [MicrosoftApiCall.Line]
   RecSel Left MicrosoftApiCall.TextPic
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LLLS),1*U(A,A,A,1*U)>,
@@ -6847,14 +6847,14 @@ dda55176de04bca42571dcad36e3e002
                 (\ (ds :: MicrosoftApiCall.TextPic) ->
                  case ds of wild { MicrosoftApiCall.TextPic ds1 ds2 ds3 ds4 ->
                  ds4 }) -}
-4b44eb9235d51282974b66fa82bafab6
+3e880f6b5df9e2d9a4ab3a833875adad
   text :: MicrosoftApiCall.PicText -> GHC.Base.String
   RecSel Left MicrosoftApiCall.PicText
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: MicrosoftApiCall.PicText) ->
                  case ds of wild { MicrosoftApiCall.PicText ds1 ds2 -> ds2 }) -}
-2dfeb125afa8c1afb7b87ab004dab0eb
+2dbe97c40b11b33cdc21304d03c4a6e5
   textAngle :: MicrosoftApiCall.TextPic -> GHC.Types.Double
   RecSel Left MicrosoftApiCall.TextPic
   {- Arity: 1, HasNoCafRefs,
@@ -6863,7 +6863,7 @@ dda55176de04bca42571dcad36e3e002
                 (\ (ds :: MicrosoftApiCall.TextPic) ->
                  case ds of wild { MicrosoftApiCall.TextPic ds1 ds2 ds3 ds4 ->
                  ds2 }) -}
-b8a2c976d5152e56b576bf3024ad3863
+75f1e64ed675091b9eba8970d00d76ce
   words :: MicrosoftApiCall.PicWord -> [MicrosoftApiCall.PicText]
   RecSel Left MicrosoftApiCall.PicWord
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
