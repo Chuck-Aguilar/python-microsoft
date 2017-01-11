@@ -1,9 +1,6 @@
 Preprocessing library microsoft-test-0.1.0.0...
-[1 of 2] Compiling MicrosoftApiCall ( src/MicrosoftApiCall.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/MicrosoftApiCall.o )
 [2 of 2] Compiling Lib              ( src/Lib.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Lib.o )
 Preprocessing executable 'microsoft-test-exe' for microsoft-test-0.1.0.0...
-[1 of 1] Compiling Main             ( app/Main.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/microsoft-test-exe/microsoft-test-exe-tmp/Main.o ) [Lib changed]
-Linking .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/microsoft-test-exe/microsoft-test-exe ...
 Installing library in
 /home/chuck/Documents/Working/OCR/python-microsoft/microsoft-test/.stack-work/install/x86_64-linux/lts-7.13/8.0.1/lib/x86_64-linux-ghc-8.0.1/microsoft-test-0.1.0.0-HXegOzT0MriENqd4nhhY3M
 Installing executable(s) in

@@ -47,4 +47,4 @@ imageWork = do
     result <- runExceptT $ postImage (Just "4734fe1f149d45278562726fd47b0393") file (Just "de") (Just "true") manager baseUrl
     case result of
       Left err -> print err
-      Right json -> print $ language json
+      Right json -> print $ regions json
