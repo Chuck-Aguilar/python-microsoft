@@ -52,6 +52,7 @@ library
                      , nat
                      , opencv
                      , primitive
+                     , regex-pcre
                      , regex-posix
                      , servant
                      , servant-server

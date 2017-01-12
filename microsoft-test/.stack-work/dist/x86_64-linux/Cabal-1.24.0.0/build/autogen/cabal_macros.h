@@ -133,6 +133,13 @@
   (major1) == 0 && (major2) <  6 || \
   (major1) == 0 && (major2) == 6 && (minor) <= 1)
 
+/* package regex-pcre-0.94.4 */
+#define VERSION_regex_pcre "0.94.4"
+#define MIN_VERSION_regex_pcre(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  94 || \
+  (major1) == 0 && (major2) == 94 && (minor) <= 4)
+
 /* package regex-posix-0.95.2 */
 #define VERSION_regex_posix "0.95.2"
 #define MIN_VERSION_regex_posix(major1,major2,minor) (\
@@ -315,7 +322,7 @@
   (major1) == 2 && (major2) <  25 || \
   (major1) == 2 && (major2) == 25 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "microsoft-test-0.1.0.0-3vrF7KGO2u5Bn8I9uZiryK"
+#define CURRENT_COMPONENT_ID "microsoft-test-0.1.0.0-40cvx6mycHfGoS6CRy2BuT"
 
-#define CURRENT_PACKAGE_KEY "microsoft-test-0.1.0.0-3vrF7KGO2u5Bn8I9uZiryK"
+#define CURRENT_PACKAGE_KEY "microsoft-test-0.1.0.0-40cvx6mycHfGoS6CRy2BuT"
 
