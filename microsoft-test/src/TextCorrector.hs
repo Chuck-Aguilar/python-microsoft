@@ -5,7 +5,7 @@ import Data.Text as T
 import Data.Text.ICU.Normalize
 import Text.Regex.PCRE
 
-pat = "[a-z]|[A-Z]|[0-9]|ä|ö|ü|ß" :: String
+pat = "[a-z]|[A-Z]|[0-9]|ä|ö|ü|ß|-|/|.|," :: String
 
 correctFile :: [[Text]] -> [[Text]]
 correctFile receipt = do
