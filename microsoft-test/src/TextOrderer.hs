@@ -1,17 +1,20 @@
 module TextOrderer where
 
 import MicrosoftApiCall
+import Data.ByteString as B
 import Data.List.Split
 import Data.List
+import Data.Text as T
+import Data.Text.Encoding as E
 import GHC.Exts
 
 createListOfTuples :: [PicText] -> [((Int, Int), String)]
-createListOfTuples xs = sortWith (snd . fst) (foldl (\acc x -> acc ++ [(getXYFromBox (boundingBoxText x), text x)]) [] xs)
+createListOfTuples xs = sortWith (snd . fst) (Data.List.foldl (\acc x -> acc ++ [(getXYFromBox (boundingBoxText x), text x)]) [] xs)
 
 getXYFromBox :: String -> (Int, Int)
 getXYFromBox boxText = (read (numberArray !! 0) :: Int, read (numberArray !! 1) :: Int)
     where
-        numberArray = (splitOn "," boxText)
+        numberArray = (Data.List.Split.splitOn "," boxText)
 
 getYList :: [((Int, Int), String)] -> [[(Int, String)]]
 getYList (x : xs) = getYList' (x : xs) [] [] (getSndValue x)
@@ -24,17 +27,17 @@ getYList' (x : xs) lineAcc acc lastValue
     where
         currentY = getSndValue x
 
-getFinalList :: [[(Int, String)]] -> [[String]]
+getFinalList :: [[(Int, String)]] -> [[Text]]
 getFinalList xs = getFinalList' xs []
 
-getFinalList' :: [[(Int, String)]] -> [[String]] -> [[String]]
+getFinalList' :: [[(Int, String)]] -> [[Text]] -> [[Text]]
 getFinalList' [] acc = acc
 getFinalList' (x: xs) acc = getFinalList' xs (acc ++ [getJustString sortedList])
     where
-        sortedList = sort x
+        sortedList = Data.List.sort x
 
-getJustString :: [(Int, String)] -> [String]
-getJustString xs = foldl (\acc x -> acc ++ [snd x]) [] xs
+getJustString :: [(Int, String)] -> [Text]
+getJustString xs = Data.List.foldl (\acc x -> acc ++ [T.pack (snd x)]) [] xs
 
 getSndValue :: ((Int, Int), String) -> Int
 getSndValue x = (snd . fst) x
@@ -42,7 +45,7 @@ getSndValue x = (snd . fst) x
 xAndString :: ((Int, Int), String) -> (Int, String)
 xAndString x = ((fst . fst) x,  snd x)
 
-listOfLines :: [PicText] -> [[String]]
+listOfLines :: [PicText] -> [[Text]]
 listOfLines xs = do
     let listOfTuples = createListOfTuples xs
     let listOfX      = getYList listOfTuples

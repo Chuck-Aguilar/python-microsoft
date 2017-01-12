@@ -133,6 +133,13 @@
   (major1) == 0 && (major2) <  6 || \
   (major1) == 0 && (major2) == 6 && (minor) <= 1)
 
+/* package regex-posix-0.95.2 */
+#define VERSION_regex_posix "0.95.2"
+#define MIN_VERSION_regex_posix(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  95 || \
+  (major1) == 0 && (major2) == 95 && (minor) <= 2)
+
 /* package servant-0.8.1 */
 #define VERSION_servant "0.8.1"
 #define MIN_VERSION_servant(major1,major2,minor) (\
@@ -167,6 +174,20 @@
   (major1) <  0 || \
   (major1) == 0 && (major2) <  4 || \
   (major1) == 0 && (major2) == 4 && (minor) <= 0)
+
+/* package text-1.2.2.1 */
+#define VERSION_text "1.2.2.1"
+#define MIN_VERSION_text(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 2)
+
+/* package text-icu-0.7.0.1 */
+#define VERSION_text_icu "0.7.0.1"
+#define MIN_VERSION_text_icu(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  7 || \
+  (major1) == 0 && (major2) == 7 && (minor) <= 0)
 
 /* package time-1.6.0.1 */
 #define VERSION_time "1.6.0.1"
@@ -294,7 +315,7 @@
   (major1) == 2 && (major2) <  25 || \
   (major1) == 2 && (major2) == 25 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
+#define CURRENT_COMPONENT_ID "microsoft-test-0.1.0.0-3vrF7KGO2u5Bn8I9uZiryK"
 
-#define CURRENT_PACKAGE_KEY "microsoft-test-0.1.0.0-BCW4CMIAHZX9jcloKWHSXp"
+#define CURRENT_PACKAGE_KEY "microsoft-test-0.1.0.0-3vrF7KGO2u5Bn8I9uZiryK"
 

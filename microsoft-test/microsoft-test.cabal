@@ -32,6 +32,7 @@ library
   exposed-modules:     Lib
                      , JSONInterpreter
                      , MicrosoftApiCall
+                     , TextCorrector
                      , TextOrderer
   build-depends:       base >= 4.7 && < 5
                      , aeson
@@ -51,11 +52,14 @@ library
                      , nat
                      , opencv
                      , primitive
+                     , regex-posix
                      , servant
                      , servant-server
                      , servant-client
                      , split
                      , string-conversions
+                     , text
+                     , text-icu
                      , time
                      , transformers
                      , vector

@@ -4,6 +4,7 @@ module Lib
 
 import MicrosoftApiCall
 import JSONInterpreter
+import TextCorrector
 import TextOrderer
 import Control.Monad.Except
 import Control.Monad.Reader
@@ -43,10 +44,14 @@ baseUrl = BaseUrl Https "api.projectoxford.ai" 443 ""
 
 imageWork :: IO ()
 imageWork = do
-    file <- B.readFile "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0650.JPG"
+    --file <- B.readFile "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0650.JPG"
+    file <- B.readFile "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0002.JPG"
     img <- return $ CV.imdecode CV.ImreadGrayscale file
     manager <- newManager tlsManagerSettings
     result <- runExceptT $ postImage (Just "4734fe1f149d45278562726fd47b0393") file (Just "de") (Just "true") manager baseUrl
     case result of
       Left err -> print err
-      Right json -> print $ listOfLines (jsonParser (regions json))
+      Right json -> do
+        let receipt = listOfLines (jsonParser (regions json))
+        print $ correctFile receipt
+
