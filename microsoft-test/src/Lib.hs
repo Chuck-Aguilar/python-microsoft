@@ -36,6 +36,9 @@ import qualified Data.ByteString as B
 import qualified OpenCV as CV
 import qualified Text.Blaze.Html
 
+
+import WordCorrector
+
 startApp :: IO ()
 startApp = imageWork
 
@@ -53,5 +56,6 @@ imageWork = do
       Left err -> print err
       Right json -> do
         let receipt = listOfLines (jsonParser (regions json))
-        print $ correctFile receipt
+        --print $ correctFile receipt
+        allwords
 

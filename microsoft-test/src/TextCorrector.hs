@@ -2,8 +2,8 @@ module TextCorrector where
 
 import Data.List
 import Data.Text as T
-import Data.Text.ICU.Normalize
 import Text.Regex.PCRE
+import WordCorrector
 
 pat = "[a-z]|[A-Z]|[0-9]|ä|ö|ü|ß|-|/|.|," :: String
 

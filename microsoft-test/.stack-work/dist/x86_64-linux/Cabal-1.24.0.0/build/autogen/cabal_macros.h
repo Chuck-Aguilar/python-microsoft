@@ -210,6 +210,13 @@
   (major1) == 0 && (major2) <  5 || \
   (major1) == 0 && (major2) == 5 && (minor) <= 2)
 
+/* package unordered-containers-0.2.7.1 */
+#define VERSION_unordered_containers "0.2.7.1"
+#define MIN_VERSION_unordered_containers(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 7)
+
 /* package vector-0.11.0.0 */
 #define VERSION_vector "0.11.0.0"
 #define MIN_VERSION_vector(major1,major2,minor) (\
@@ -322,7 +329,7 @@
   (major1) == 2 && (major2) <  25 || \
   (major1) == 2 && (major2) == 25 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "microsoft-test-0.1.0.0-40cvx6mycHfGoS6CRy2BuT"
+#define CURRENT_COMPONENT_ID "microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX"
 
-#define CURRENT_PACKAGE_KEY "microsoft-test-0.1.0.0-40cvx6mycHfGoS6CRy2BuT"
+#define CURRENT_PACKAGE_KEY "microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX"
 

@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/chuck/Documents/Working/OCR/python-microsoft/microsoft-test/.stack-work/install/x86_64-linux/lts-7.13/8.0.1/bin"
-libdir     = "/home/chuck/Documents/Working/OCR/python-microsoft/microsoft-test/.stack-work/install/x86_64-linux/lts-7.13/8.0.1/lib/x86_64-linux-ghc-8.0.1/microsoft-test-0.1.0.0-40cvx6mycHfGoS6CRy2BuT"
+libdir     = "/home/chuck/Documents/Working/OCR/python-microsoft/microsoft-test/.stack-work/install/x86_64-linux/lts-7.13/8.0.1/lib/x86_64-linux-ghc-8.0.1/microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX"
 datadir    = "/home/chuck/Documents/Working/OCR/python-microsoft/microsoft-test/.stack-work/install/x86_64-linux/lts-7.13/8.0.1/share/x86_64-linux-ghc-8.0.1/microsoft-test-0.1.0.0"
 libexecdir = "/home/chuck/Documents/Working/OCR/python-microsoft/microsoft-test/.stack-work/install/x86_64-linux/lts-7.13/8.0.1/libexec"
 sysconfdir = "/home/chuck/Documents/Working/OCR/python-microsoft/microsoft-test/.stack-work/install/x86_64-linux/lts-7.13/8.0.1/etc"
