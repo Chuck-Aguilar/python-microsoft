@@ -2,6 +2,7 @@ module Lib
     ( startApp
     ) where
 
+import GetWords
 import MicrosoftApiCall
 import JSONInterpreter
 import TextCorrector
@@ -33,11 +34,10 @@ import Network.HTTP.Client (newManager)
 import Network.HTTP.Client.TLS (tlsManagerSettings)
 import qualified Data.Aeson.Parser
 import qualified Data.ByteString as B
+import qualified Data.HashMap.Strict as H
 import qualified OpenCV as CV
 import qualified Text.Blaze.Html
 
-
-import WordCorrector
 
 startApp :: IO ()
 startApp = imageWork
@@ -55,7 +55,7 @@ imageWork = do
     case result of
       Left err -> print err
       Right json -> do
+        trainingWords <- allwords
         let receipt = listOfLines (jsonParser (regions json))
-        --print $ correctFile receipt
-        allwords
-
+        print $ correctFile trainingWords receipt
+        --print $ nWords (H.keys trainingWords)

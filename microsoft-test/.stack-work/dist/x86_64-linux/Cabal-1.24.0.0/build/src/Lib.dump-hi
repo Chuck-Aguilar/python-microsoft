@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-16 14:16:43.76702 UTC
+2017-01-17 12:40:10.054857 UTC
 
 interface microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX:Lib 8001
-  interface hash: ef9b8be257aea46a46447e9b872ccd69
-  ABI hash: 85b093167b5eb07fd294a29e73ca93d1
+  interface hash: e65c71509c5fa005ef758316bd34f820
+  ABI hash: d7c240269a7bc3f97892457e1d9e7e41
   export-list hash: ad84add05f888dd2c0e21e337857982a
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 8b1bd7c28a19048880f5b37bc429c264
@@ -13,8 +13,8 @@ interface microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX:Lib 8001
   where
 exports:
   Lib.startApp
-module dependencies: JSONInterpreter MicrosoftApiCall TextCorrector
-                     TextOrderer WordCorrector
+module dependencies: GetWords JSONInterpreter MicrosoftApiCall
+                     TextCorrector TextOrderer WordCorrector
 package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       StateVar-1.1.0.4@StateVar-1.1.0.4-CJpWsiXJdd89SnV9dZtTwc
                       adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc
@@ -303,6 +303,9 @@ import  -/  http-client-0.4.31.2@http-client-0.4.31.2-81NyMkNcWWADaJ0Cq5FYRE:Net
 import  -/  http-client-tls-0.2.4.1@http-client-tls-0.2.4.1-IQsASD4utohJimtrNCGUuI:Network.HTTP.Client.TLS 52d6e9f186cb7205a7f4ab08457f9d2a
 import  -/  http-media-0.6.4@http-media-0.6.4-82jDVCpdN5H696EFF5l5I4:Network.HTTP.Media 1c5de2273ab85a0c671e60e65691660a
 import  -/  lucid-2.9.7@lucid-2.9.7-KcFbPMesOP0Hxey7hFZLFI:Lucid f5038b9d586b48215a25dda28037565f
+import  -/  GetWords b7c9f88592b03e2ae157cb7f051e0cd9
+  exports: 08fb1579eaf43176ca250568b37f05a3
+  allwords 3b6ceeea3a2cd528a64b66fdad966bcf
 import  -/  JSONInterpreter 3d0100d88770939f2e194a011beb9955
   exports: b26551c9234e4e6dfb6376054bcaa8e6
   jsonParser bf20110ab24dea45802fd3e46d6d2172
@@ -310,14 +313,12 @@ import  -/  MicrosoftApiCall e7da342fe8371d88a000e0c9e536545a
   exports: 6d0612cf31fc3cd45469cf869c91a11d
   postImage de89484366d3a121208c26966f1402c3
   regions 7b85be1481c2b631fd1cd7751d14672e
-import  -/  TextCorrector 49152b3f8c28e24a416565932d250f9e
-  exports: 168f3823a490f27d77bc21f867ee918f
+import  -/  TextCorrector 541c675c0213d5487daacc23f6538ca2
+  exports: f581c2bafee673d98641813100711b0e
+  correctFile 7bb8384fa78fd9f79d0500b440bcdb49
 import  -/  TextOrderer bfe8c02a23cb6c67994db9899debc689
   exports: 6af7e84cf3699028093274bf4b5723b5
   listOfLines 83eebb73d9310a66e16c0888a04f7da9
-import  -/  WordCorrector 55b494c6ce38d3dd51b35f3e64893b68
-  exports: b041c80845bdcd4f47b6ae09bb206463
-  allwords f6172003b75ae936b242f114ac95f963
 import  -/  mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM:Control.Monad.Except 99ba8f4995df0e7f2f512551a0ca666a
 import  -/  mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM:Control.Monad.Reader 859b39f57eb3bed457106c30aac21473
 import  -/  opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz:OpenCV df2798f12b5a86424cd3ea5082e73bcb
@@ -331,6 +332,7 @@ import  -/  servant-server-0.8.1@servant-server-0.8.1-CVE3aaCCZrRO3q9bzeepw:Serv
 import  -/  string-conversions-0.4@string-conversions-0.4-8T0UFmRDEly2gsNJzmHrNQ:Data.String.Conversions 2cb82cfbe9ab1e6a9c90b1e763388d0b
 import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar c8be5acbc5129f0485a6bf8181e46447
 import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Except 71b1d86204f6908788cb5223e3c73193
+import  -/  unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-Eo9jd5DMz45DhBLCG8skzW:Data.HashMap.Strict 5b7474ba841d7985b582123ebcf7b9dc
 import  -/  wai-3.2.1.1@wai-3.2.1.1-f77bMYZGLQBAD3XJrvGiW:Network.Wai f10fb472d685284a8637bf34e58bc7f2
 import  -/  warp-3.2.9@warp-3.2.9-1srGDEsq7RWF9RsucFj6bw:Network.Wai.Handler.Warp 3da15d24b266d35965cd5350be944ee3
 9aa4e7e6f4d563515a98ee54631137a4
@@ -346,12 +348,12 @@ a58554353bc593ce36e328d763a8e189
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX"#) -}
-659588896c10b7c4fcb9b5e92df66ab3
+60278c715633328ea891a2379ffe4593
   startApp :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.startApp1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-c69803ec2c21b06739cd18ae50bc4473
+3913d17f54e63d893ee80b699768525f
   startApp1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -361,7 +363,7 @@ c69803ec2c21b06739cd18ae50bc4473
                         @ GHC.IO.Handle.Types.Handle
                         @ ()
                         @ Data.ByteString.Internal.ByteString
-                        Lib.startApp11
+                        Lib.startApp13
                           `cast`
                         (Sym (GHC.Types.N:IO[0] <GHC.IO.Handle.Types.Handle>_R))
                         GHC.IO.Handle.hClose1
@@ -388,7 +390,7 @@ c69803ec2c21b06739cd18ae50bc4473
                         ww10
                         ww11
                         ipv of ds2 { (#,#) ipv2 ipv3 ->
-                 case ((MicrosoftApiCall.postImage1 Lib.startApp9)
+                 case ((MicrosoftApiCall.postImage1 Lib.startApp11)
                          `cast`
                        (Trans
                             (Sub (Servant.Client.D:R:ClientTYPE:>5[0]
@@ -432,10 +434,10 @@ c69803ec2c21b06739cd18ae50bc4473
                                                                <'[Servant.API.ContentTypes.JSON]>_N
                                                                <200>_N)))))
                          ipv1
+                         Lib.startApp9
                          Lib.startApp7
-                         Lib.startApp5
                          ipv3
-                         Lib.startApp2)
+                         Lib.startApp4)
                         `cast`
                       (Trans
                            (Control.Monad.Trans.Except.N:ExceptT[0]
@@ -454,51 +456,118 @@ c69803ec2c21b06739cd18ae50bc4473
                         GHC.Types.True
                         ipv4
                    Data.Either.Right json
-                   -> WordCorrector.allwords1 ipv4 } } } } }) -}
-050a9b5232eadb3d9d4f75d82cb3e47f
+                   -> case GetWords.allwords1 ipv4 of ds4 { (#,#) ipv6 ipv7 ->
+                      GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (case json of wild1 { MicrosoftApiCall.TextPic ds5 ds6 ds7 ds8 ->
+                         case ds8 of wild2 {
+                           []
+                           -> case Data.OldList.sortBy
+                                     @ ((GHC.Types.Int, GHC.Types.Int), GHC.Base.String)
+                                     TextOrderer.createListOfTuples1
+                                     Lib.startApp3 of wild3 {
+                                [] -> case TextOrderer.getYList1 ret_ty GHC.Base.String of {}
+                                : x xs
+                                -> GHC.Show.showList__
+                                     @ [Data.Text.Internal.Text]
+                                     Data.Text.Show.$fShowText_$cshowList
+                                     (Lib.startApp2 x xs wild3)
+                                     (GHC.Types.[] @ GHC.Types.Char) }
+                           : ipv8 ipv9
+                           -> case Data.OldList.sortBy
+                                     @ ((GHC.Types.Int, GHC.Types.Int), GHC.Base.String)
+                                     TextOrderer.createListOfTuples1
+                                     (TextOrderer.createListOfTuples_go
+                                        (JSONInterpreter.listLinesToListPicText_go
+                                           wild2
+                                           (GHC.Types.[] @ MicrosoftApiCall.PicText))
+                                        (GHC.Types.[]
+                                           @ ((GHC.Types.Int, GHC.Types.Int),
+                                              GHC.Base.String))) of wild3 {
+                                [] -> case TextOrderer.getYList1 ret_ty GHC.Base.String of {}
+                                : x xs
+                                -> GHC.Show.showList__
+                                     @ [Data.Text.Internal.Text]
+                                     Data.Text.Show.$fShowText_$cshowList
+                                     (Lib.startApp2 x xs wild3)
+                                     (GHC.Types.[] @ GHC.Types.Char) } } })
+                        GHC.Types.True
+                        ipv6 } } } } } }) -}
+cfa5efadd83232cfe20b0927eb87e272
   startApp10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "de"#) -}
+d8e64c201f6af6d12bd5b685eaa002b6
+  startApp11 :: GHC.Base.Maybe GHC.Base.String
+  {- Unfolding: (GHC.Base.Just @ GHC.Base.String Lib.startApp12) -}
+0d06e81122a4fe99c3ba2fa109d2487a
+  startApp12 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "4734fe1f149d45278562726fd47b0393"#) -}
-b8a5654a4eb72f5d42337f124bd91b77
-  startApp11 ::
+bd13de8127478cfbdef9078230d7d25c
+  startApp13 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
           GHC.IO.Handle.Types.Handle #)
   {- Arity: 1,
      Unfolding: (GHC.IO.Handle.FD.openBinaryFile1
-                   Lib.startApp12
+                   Lib.startApp14
                    GHC.IO.IOMode.ReadMode) -}
-a82305b1b0b4707e45f28e15a80f4822
-  startApp12 :: [GHC.Types.Char]
+ce2925c43796e65a997c4bc38af8aa3d
+  startApp14 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0650.JPG"#) -}
-3fc09d91334d8a6d1815839613081b0c
-  startApp2 :: Servant.Common.BaseUrl.BaseUrl
+795b101c85bf44995c74b8a167e55d9e
+  startApp2 ::
+    ((GHC.Types.Int, GHC.Types.Int), GHC.Base.String)
+    -> [((GHC.Types.Int, GHC.Types.Int), GHC.Base.String)]
+    -> [((GHC.Types.Int, GHC.Types.Int), GHC.Base.String)]
+    -> [[Data.Text.Internal.Text]]
+  {- Arity: 3, Strictness: <L,U(U(U,U(U)),U)><L,U><S,1*U>,
+     Unfolding: (\ (x :: ((GHC.Types.Int, GHC.Types.Int),
+                          GHC.Base.String))[OneShot]
+                   (xs :: [((GHC.Types.Int, GHC.Types.Int),
+                            GHC.Base.String)])[OneShot]
+                   (wild :: [((GHC.Types.Int, GHC.Types.Int),
+                              GHC.Base.String)])[OneShot] ->
+                 TextCorrector.correctFile_go
+                   (TextCorrector.normalizeText_go
+                      (TextOrderer.getFinalList'
+                         (TextOrderer.getYList'
+                            wild
+                            (GHC.Types.[] @ (GHC.Types.Int, GHC.Base.String))
+                            (GHC.Types.[] @ [(GHC.Types.Int, GHC.Base.String)])
+                            (case x of wild1 { (,) x1 ds1 ->
+                             case x1 of wild2 { (,) ds2 y -> y } }))
+                         (GHC.Types.[] @ [Data.Text.Internal.Text]))
+                      (GHC.Types.[] @ [Data.Text.Internal.Text]))
+                   (GHC.Types.[] @ [Data.Text.Internal.Text])) -}
+c4f41afedae0e9f9c9487fa897208f7f
+  startApp3 :: [((GHC.Types.Int, GHC.Types.Int), GHC.Base.String)]
+  {- Unfolding: (TextOrderer.createListOfTuples_go
+                   (GHC.Types.[] @ MicrosoftApiCall.PicText)
+                   (GHC.Types.[]
+                      @ ((GHC.Types.Int, GHC.Types.Int), GHC.Base.String))) -}
+26a3effde4f5534cb09ad8cd378527e8
+  startApp4 :: Servant.Common.BaseUrl.BaseUrl
   {- Unfolding: (Servant.Common.BaseUrl.BaseUrl
                    Servant.Common.BaseUrl.Https
-                   Lib.startApp4
-                   Lib.startApp3
+                   Lib.startApp6
+                   Lib.startApp5
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-80fe9e466b4c27bc2412861bfe0f926b
-  startApp3 :: GHC.Types.Int
+54faa5bd440f5861a91cb2891099186c
+  startApp5 :: GHC.Types.Int
   {- HasNoCafRefs, Unfolding: (GHC.Types.I# 443#) -}
-c8ab193f567c5a65a426be57aef4fc33
-  startApp4 :: [GHC.Types.Char]
+5bcd24bb8f0c4f1c71e1cbc0a0a80061
+  startApp6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "api.projectoxford.ai"#) -}
-1c1ef9449833f5d1663ab3e33da13fb5
-  startApp5 :: GHC.Base.Maybe GHC.Base.String
-  {- Unfolding: (GHC.Base.Just @ GHC.Base.String Lib.startApp6) -}
-0f0eddd0c3d73fcbc36daf1700ecfa6f
-  startApp6 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "true"#) -}
-f4893cf3899969e0ffe4a5575e3b7b51
+ad16a807d4500893b88864210a61a2f4
   startApp7 :: GHC.Base.Maybe GHC.Base.String
   {- Unfolding: (GHC.Base.Just @ GHC.Base.String Lib.startApp8) -}
-e81421439b97c6d953864a0db76aa981
+e9522289f20cdca29f5fe5fab782f180
   startApp8 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "de"#) -}
-bf31faccecc9047c7c34dcfd8ca52ac8
+  {- Unfolding: (GHC.CString.unpackCString# "true"#) -}
+b1ab373942ae22efb852e8f2a9737e07
   startApp9 :: GHC.Base.Maybe GHC.Base.String
   {- Unfolding: (GHC.Base.Just @ GHC.Base.String Lib.startApp10) -}
 vectorised variables:

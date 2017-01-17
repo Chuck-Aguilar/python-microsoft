@@ -5,12 +5,15 @@ import Data.Text as T
 import Text.Regex.PCRE
 import WordCorrector
 
+import qualified Data.HashMap.Strict as H
+
 pat = "[a-z]|[A-Z]|[0-9]|ä|ö|ü|ß|-|/|.|," :: String
 
-correctFile :: [[Text]] -> [[Text]]
-correctFile receipt = do
+correctFile :: H.HashMap Text Int -> [[Text]] -> [[Text]]
+correctFile trainingWords receipt = do
     let normalizedText = normalizeText receipt
-    normalizedText
+    let correctedText = Data.List.foldl (\acc x -> acc ++ [getFinalLine x trainingWords]) [] normalizedText
+    correctedText
 
 normalizeText :: [[Text]] -> [[Text]]
 normalizeText receipt = Prelude.foldl (\acc x -> acc ++ [normalizeLine x]) [] receipt
@@ -36,12 +39,14 @@ isNumeric :: String -> Bool
 isNumeric s = isInteger s || isDouble s
 
 
-getFinalLine :: [Text] -> [Text]
-getFinalLine line = getFinalLine' line []
+getFinalLine :: [Text] -> H.HashMap Text Int -> [Text]
+getFinalLine line trainingWords = getFinalLine' line [] trainingWords
 
-getFinalLine' :: [Text] -> [Text] -> [Text]
-getFinalLine' (word : line) acc
-    | isNumeric (T.unpack word) = getFinalLine' line (acc ++ [word])
-    | otherwise                 = []
+getFinalLine' :: [Text] -> [Text] ->  H.HashMap Text Int -> [Text]
+getFinalLine' [] acc trainingWords = acc
+getFinalLine' (word : line) acc trainingWords
+    | isNumeric (T.unpack word) = getFinalLine' line (acc ++ [word]) trainingWords
+    | otherwise                 = getFinalLine' line (acc ++ [correct word trainingWords]) trainingWords
 
-
+correct :: Text -> H.HashMap Text Int -> Text
+correct word trainingWords = correctWord word trainingWords
