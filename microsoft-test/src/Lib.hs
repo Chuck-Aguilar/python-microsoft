@@ -47,7 +47,8 @@ baseUrl = BaseUrl Https "api.projectoxford.ai" 443 ""
 
 imageWork :: IO ()
 imageWork = do
-    file <- B.readFile "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0650.JPG"
+    --file <- B.readFile "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0650.JPG"
+    file <- B.readFile "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0001.JPG"
     --file <- B.readFile "/home/chuck/Documents/Working/OCR/ocrexperiments/python_image_processing/test/pics/IMG_0002.JPG"
     img <- return $ CV.imdecode CV.ImreadGrayscale file
     manager <- newManager tlsManagerSettings

@@ -7,7 +7,7 @@ import WordCorrector
 
 import qualified Data.HashMap.Strict as H
 
-pat = "[a-z]|[A-Z]|[0-9]|ä|ö|ü|ß|-|/|.|," :: String
+pat = "[a-z]|[0-9]|ä|ö|ü|ß|-|/|.|," :: String
 
 correctFile :: H.HashMap Text Int -> [[Text]] -> [[Text]]
 correctFile trainingWords receipt = do
@@ -19,7 +19,7 @@ normalizeText :: [[Text]] -> [[Text]]
 normalizeText receipt = Prelude.foldl (\acc x -> acc ++ [normalizeLine x]) [] receipt
 
 normalizeLine :: [Text] -> [Text]
-normalizeLine xs = Prelude.foldl (\acc x -> acc ++ [T.pack (stripCharactersLine (T.unpack x) :: String)]) [] xs
+normalizeLine xs = Prelude.foldl (\acc x -> acc ++ [T.pack (stripCharactersLine (T.unpack (T.toLower x)) :: String)]) [] xs
 
 
 stripCharactersLine :: String -> String
