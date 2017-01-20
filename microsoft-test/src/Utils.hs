@@ -32,3 +32,5 @@ addSpace word = T.pack (' ' : T.unpack word ++ " ")
 isSpace ch = (ch == ' ' || ch == '\n')
 
 isWord word = T.any (\x -> 'a' <= x && x <= 'z') word
+
+isNumber word = T.all (\x -> '0' <= x && x <= '9') word
