@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-18 16:45:51.469167 UTC
+2017-01-20 15:51:21.840576 UTC
 
 interface main@main:Main 8001
-  interface hash: 193c843c8ec1e14f8fe58fb8ef32bbf4
-  ABI hash: c250c9b13da83c5f123a2228d5fdd134
-  export-list hash: 5e68f02b684928022913c1fcda6eb0a9
+  interface hash: 005c495ba1246c460df78bf16f12e564
+  ABI hash: d9c576311d249c6a22e299c25a3efda1
+  export-list hash: 0b02b8414e099efdcf632751c0b2a88d
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 99685cd05dd2b7d3cd40dea392868f89
   sig of: Nothing
@@ -81,7 +81,7 @@ package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE
                       lucid-2.9.7@lucid-2.9.7-KcFbPMesOP0Hxey7hFZLFI
                       memory-0.13@memory-0.13-ABHR5331zHK9scHPRr7afU
-                      microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX
+                      microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL
                       mime-types-0.1.0.7@mime-types-0.1.0.7-AxQ64wFjikqCSdK5pSeZvh
                       mmorph-1.0.9@mmorph-1.0.9-DmSwQqk5nLj7roLAcydGz
                       mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM
@@ -226,7 +226,7 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc:
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V2
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V3
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V4
-                         microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX:MicrosoftApiCall
+                         microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:MicrosoftApiCall
                          network-uri-2.6.1.0@network-uri-2.6.1.0-DDHh2FNiPirBRgkuU9DEt2:Network.URI
                          opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz:OpenCV.Core.Types
                          opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz:OpenCV.Core.Types.Mat.Repa
@@ -282,7 +282,7 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc:
                          zlib-0.6.1.2@zlib-0.6.1.2-4CWLN1T27kOJhNvXgy46ZV:Codec.Compression.Zlib.Stream
 import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
 import  -/  ghc-prim-0.5.0.0:GHC.Types 7378e41b7749213c8c88ceb6b0665d4c
-import  -/  microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX:Lib 20d68c2af62d0ab4e0e90d3d2d1b0e99
+import  -/  microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:Lib fbb8b31500242b27a5d6a5794a849c0f
 d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
@@ -295,12 +295,12 @@ d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "main"#) -}
-ee80e41d52a825bc3eb8d83f20dbf755
+d5ae1b8be61578cec25549a3f9875e8d
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.startApp1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-019e0f3a86339ef8c9e7a547cd23a2e7
+18078c237be777e4851c7a15f651cc02
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)

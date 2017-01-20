@@ -2,6 +2,7 @@ module Lib
     ( startApp
     ) where
 
+import GetUsefulInfo
 import GetWords
 import MicrosoftApiCall
 import JSONInterpreter

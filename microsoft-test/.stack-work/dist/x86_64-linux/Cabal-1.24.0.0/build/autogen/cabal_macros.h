@@ -91,6 +91,13 @@
   (major1) == 0 && (major2) <  6 || \
   (major1) == 0 && (major2) == 6 && (minor) <= 4)
 
+/* package json-0.9.1 */
+#define VERSION_json "0.9.1"
+#define MIN_VERSION_json(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  9 || \
+  (major1) == 0 && (major2) == 9 && (minor) <= 1)
+
 /* package linear-1.20.5 */
 #define VERSION_linear "1.20.5"
 #define MIN_VERSION_linear(major1,major2,minor) (\
@@ -329,7 +336,7 @@
   (major1) == 2 && (major2) <  25 || \
   (major1) == 2 && (major2) == 25 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX"
+#define CURRENT_COMPONENT_ID "microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL"
 
-#define CURRENT_PACKAGE_KEY "microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX"
+#define CURRENT_PACKAGE_KEY "microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL"
 

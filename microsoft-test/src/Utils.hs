@@ -27,3 +27,8 @@ splitAux word n
 
 addSpace :: T.Text -> T.Text
 addSpace word = T.pack (' ' : T.unpack word ++ " ")
+
+
+isSpace ch = (ch == ' ' || ch == '\n')
+
+isWord word = T.any (\x -> 'a' <= x && x <= 'z') word

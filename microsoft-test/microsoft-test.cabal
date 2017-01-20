@@ -30,6 +30,7 @@ library
                        TypeFamilies
                        TypeOperators
   exposed-modules:     Lib
+                     , GetUsefulInfo
                      , GetWords
                      , JSONInterpreter
                      , MicrosoftApiCall
@@ -49,6 +50,7 @@ library
                      , http-client
                      , http-client-tls
                      , http-media
+                     , json
                      , linear
                      , lucid
                      , mtl

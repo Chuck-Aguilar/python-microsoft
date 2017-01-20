@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-20 14:59:42.072319 UTC
+2017-01-20 16:12:13.479732 UTC
 
-interface microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX:Lib 8001
-  interface hash: ff825f65a4e2f205ba81ab0745ecafde
-  ABI hash: 20d68c2af62d0ab4e0e90d3d2d1b0e99
-  export-list hash: ad84add05f888dd2c0e21e337857982a
+interface microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:Lib 8001
+  interface hash: 3ccad7a8388062f8e5679b9316dc971b
+  ABI hash: fbb8b31500242b27a5d6a5794a849c0f
+  export-list hash: 60f1fd5e159ef1eca197779691434940
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 8b1bd7c28a19048880f5b37bc429c264
   sig of: Nothing
@@ -13,8 +13,8 @@ interface microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX:Lib 8001
   where
 exports:
   Lib.startApp
-module dependencies: GetWords JSONInterpreter MicrosoftApiCall
-                     TextCorrector TextOrderer Utils WordCorrector
+module dependencies: GetUsefulInfo GetWords JSONInterpreter
+                     MicrosoftApiCall TextCorrector TextOrderer Utils WordCorrector
 package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       StateVar-1.1.0.4@StateVar-1.1.0.4-CJpWsiXJdd89SnV9dZtTwc
                       adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc
@@ -226,7 +226,8 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc:
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V2
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V3
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V4
-                         microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX:MicrosoftApiCall
+                         microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:GetUsefulInfo
+                         microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:MicrosoftApiCall
                          network-uri-2.6.1.0@network-uri-2.6.1.0-DDHh2FNiPirBRgkuU9DEt2:Network.URI
                          opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz:OpenCV.Core.Types
                          opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz:OpenCV.Core.Types.Mat.Repa
@@ -303,22 +304,24 @@ import  -/  http-client-0.4.31.2@http-client-0.4.31.2-81NyMkNcWWADaJ0Cq5FYRE:Net
 import  -/  http-client-tls-0.2.4.1@http-client-tls-0.2.4.1-IQsASD4utohJimtrNCGUuI:Network.HTTP.Client.TLS 52d6e9f186cb7205a7f4ab08457f9d2a
 import  -/  http-media-0.6.4@http-media-0.6.4-82jDVCpdN5H696EFF5l5I4:Network.HTTP.Media 1c5de2273ab85a0c671e60e65691660a
 import  -/  lucid-2.9.7@lucid-2.9.7-KcFbPMesOP0Hxey7hFZLFI:Lucid f5038b9d586b48215a25dda28037565f
-import  -/  GetWords 603afb9495566eaf327d8b97734e2330
-  exports: 8100f356aaa09fbaf1af33c1ec2507ba
-  allwords 3b6ceeea3a2cd528a64b66fdad966bcf
-import  -/  JSONInterpreter 3d0100d88770939f2e194a011beb9955
-  exports: b26551c9234e4e6dfb6376054bcaa8e6
-  jsonParser bf20110ab24dea45802fd3e46d6d2172
-import  -/  MicrosoftApiCall e7da342fe8371d88a000e0c9e536545a
-  exports: 6d0612cf31fc3cd45469cf869c91a11d
-  postImage de89484366d3a121208c26966f1402c3
-  regions 7b85be1481c2b631fd1cd7751d14672e
-import  -/  TextCorrector d2e49ac55b90e4a6c2b6231336029a6a
-  exports: f581c2bafee673d98641813100711b0e
-  correctFile 295d24fd5166e51b3c9de5c4c4d1e9d4
-import  -/  TextOrderer bfe8c02a23cb6c67994db9899debc689
-  exports: 6af7e84cf3699028093274bf4b5723b5
-  listOfLines 83eebb73d9310a66e16c0888a04f7da9
+import  -/  GetUsefulInfo a83f67d7477842956da03596b23e9016
+  exports: 223d8b157d82dfae3d1eaef91d6dd69b
+import  -/  GetWords 75a62e75b7c4457e8f7cbfcf2fa0fc9f
+  exports: b1dd1f40ed555a0df42e9f8787a449dc
+  allwords 03f50ad56f84682e915b36a7e9a0b3ce
+import  -/  JSONInterpreter c11f5a49dfae502add230e13bf619d78
+  exports: cef10f9ca2ea5f19f2e8f26d9dc317af
+  jsonParser 84b3db5f85fe1d3cf7f67244fbd4d56a
+import  -/  MicrosoftApiCall d62ec20f293e5ef20d8d764907a6a5be
+  exports: a1b3a3a58f8307497463f16e071947eb
+  postImage d809895e6b5abd174329f155825d0479
+  regions 063dd251d1e5b28ba98a015b69461dc9
+import  -/  TextCorrector 97378c6c6e173d575729e046998fc23f
+  exports: e757f09f918b549144f6fa903666d97a
+  correctFile 8993b9e59cc049311342412006ebee6b
+import  -/  TextOrderer 97b94798df58676ca370300eac3ab4f0
+  exports: 10ecc55545fbdf0f22fc01c810ea5ca6
+  listOfLines 64b023fc9bf18f1e33908983c3fbe926
 import  -/  mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM:Control.Monad.Except 99ba8f4995df0e7f2f512551a0ca666a
 import  -/  mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM:Control.Monad.Reader 859b39f57eb3bed457106c30aac21473
 import  -/  opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz:OpenCV df2798f12b5a86424cd3ea5082e73bcb
@@ -335,25 +338,25 @@ import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Except
 import  -/  unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-Eo9jd5DMz45DhBLCG8skzW:Data.HashMap.Strict 5b7474ba841d7985b582123ebcf7b9dc
 import  -/  wai-3.2.1.1@wai-3.2.1.1-f77bMYZGLQBAD3XJrvGiW:Network.Wai f10fb472d685284a8637bf34e58bc7f2
 import  -/  warp-3.2.9@warp-3.2.9-1srGDEsq7RWF9RsucFj6bw:Network.Wai.Handler.Warp 3da15d24b266d35965cd5350be944ee3
-9aa4e7e6f4d563515a98ee54631137a4
+9807d89729875e7aa88bf3adce46d2fa
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module Lib.$trModule2 Lib.$trModule1) -}
-e3180c1770371a52fecd3e62faacb7f1
+cdb249c1bea785440a68896c177dea29
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Lib"#) -}
-a58554353bc593ce36e328d763a8e189
+bfa4eb66e9fb178a1c333700f62a250b
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX"#) -}
-d923061fce4cef8661434c24a30cbeaf
+                   "microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL"#) -}
+715b1334186a5411cbabc35dcbe94d7b
   startApp :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.startApp1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-93b2cbb9283ddcf745d6c1faf5ad8171
+042f43d01d3cb464771283736d92d3c4
   startApp1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)

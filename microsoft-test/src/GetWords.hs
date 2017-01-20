@@ -6,14 +6,10 @@ import qualified Data.Text as T
 import qualified Data.Text.IO as Tio
 import qualified System.Directory as D
 import Data.List
-import Debug.Trace
+
 
 ---------------------The training text should already be formatted---------------------------------
 base = "/home/chuck/Documents/Working/OCR/python-microsoft/microsoft-test/output/"
-
-isSpace ch = (ch == ' ' || ch == '\n')
-
-isWord word = T.any (\x -> 'a' <= x && x <= 'z') word
 
 wrds :: T.Text -> [ T.Text ]
 wrds bs = filter isWord (filter (not . T.null) $ T.split (isSpace) bs)
