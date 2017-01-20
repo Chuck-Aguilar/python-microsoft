@@ -1,0 +1,37 @@
+JET TANKSTELLE
+Michael Brauner
+Landsberger Str.
+München
+FAX:
+Liter
+Super/Self Service EUR
+EUR / Liter
+Summe EUR
+MasterCard EUR
+MWST. A EUR
+Summe Netto EUR
+Kundenbeleg
+Kartenzahlung MasterCard
+Terminal-ID
+TA-Nr. 
+Beleg-Nr.
+Vorgangs-Nr.
+VU-Nummer
+App-ID
+Karten-Nr.
+Kartenfolge-Nr
+Autor-Nr
+Erfassungsart
+Stk/Ltr/kg/Pkt Betrag
+Super
+Betrag EUR
+Zahlung erfolgt
+Info:
+Autorisierung erfolgt
+Datum Zeit Bon POS KNr Schicht
+AUF WIEDERSEHEN UND GUTE FAHRT !
+Steuer-Nr. Station: DE
+Jet im Internet: "www.jet-tankstellen.de"
+Verträgt Ihr Auto E10
+Infos unter "www.dat.de"
+

@@ -1,0 +1,34 @@
+Avanti Tankomat
+Automatentankstelle
+Zillertalstrasse
+Fügen
+Tankstellen Nr.
+RECHNUNG
+Ausgabe Nummer
+Datum
+Säule Super
+Volumen
+Preis
+SUMME
+MwSt
+Netto
+VISA OD
+Händler ID
+Autor.-code
+Genehmigt
+Verfallsdatum
+Terminal ID
+AID
+AC
+Stationsnummer
+Belegnummer
+OMV Refining & Marketing
+GmbH Trabrennstraße
+Wien
+UID: ATU
+Service Hotline
+Tel
+E-Mail: avanti@avanti.at
+Daten aus geeichten
+Anlagenteilen sind durch
+gekennzeichnet

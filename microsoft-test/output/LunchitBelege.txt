@@ -1,0 +1,170 @@
+Belege LUNCHIT
+Nr. Name des Unternehmens Straße/Nr. PLZ Stadt Nettobetrag Bruttobetrag Währung Mwst. Satz in Mwst. in Euro Steuer-Nr. Umsatz-ID Datum Uhrzeit Rechnungsnr.
+Lidl Behringstraße b Planegg Euro DE
+Zöttl Frischmarkt Waltherstraße München Euro
+Paulaner Bräuhaus Kapuzinerplatz Brauhaus GmbH Kapuzinerplatz München Euro DE
+Aral Tankstelle Münchner Straße Gauting Euro DE
+Theresa Theresienstraße München Euro d
+EDEKA Theresie Theresienhöhe München Euro
+ALDI SÜD Theresienhöhe München Euro
+TIMBALLO Babelsbergerstr. München Euro
+McDonalds Deutschland Inc. Goethestrasse München Euro
+ZÖTTL FRISCHMARKT Waltherstraße München Euro DE
+ROSSMANN Mein Drogeriemarkt Barer Straße München Euro DE
+Man vs. Machine Müllerstr. München Euro
+Metzgerei BONEBERGER GmbH Gauting Euro
+Vinzenz Zöttl Bäckerei-Konditorei Adi-Maislinger-Str. München Euro
+PICNIC Weltklasse Essen Euro DE
+NAM GIAO Vietnamesisches Restaurant Maistr. München Euro
+Konditorei-Bäckerei Stemerowitz Emil-Riedel-Str. München Euro
+Burger House Rablstrasse München Euro
+Gutshof Menterschwaige GENIESSEN WO´S GEFÄLLT Menterschwaigstrasse München Euro DE
+Glockenbach Gastronomie GmbH Müllerstrasse München Euro
+IMMER EINE GUTE IDEE Kaiser´s Tengelamnn GmbH Hauptplatz Gauting Euro
+HOFPFISTEREI Kapuzinerstr. Euro DE
+Dean and David M Leopoldstraße GmbH Leopoldstr. München Euro
+a pureburrito Lindwurmstrasse München Euro DE
+b pureburrito Lindwurmstrasse München Euro DE
+Steinberg gastronomie GmbH Innere Wiener Straße München Euro DE AR
+Buchhaus Wittwer Königstraße Stuttgart Euro DE
+Cha Cha Restaurant Berlin Mitte Friedrichstraße Berlin Euro AR
+Schönborn Cafe-Restaurant-Bar Am Markt Würzburg Euro
+IL PICCOLO PRINCIPE Kapuzinerstr. Euro
+FONTANA Beim Grafeneckart Würzburg Euro
+Sasou GmbH Marienplatz München Euro
+Zum Franziskaner München Perusastr. München Euro DE
+FRISCHEMARKT CHRISTIAN KOCH Am Goetheplatz München Euro
+Schumanns Tagesbar Maffeistrasse München Euro DE
+CAFÈHAUS Michel Marktplatz Würzburg Euro
+a *METZGEREI* GEORG SCHLAGBAUER Euro
+b *METZGEREI* GEORG SCHLAGBAUER Euro
+Meat in Bun Kapuzinerstraße München Euro
+Vivace Focacceria Gräfstr. Frankfurt Euro
+VietHa Vietnam Cuisine Landsberger Strasse München Euro
+KISMET Forster Lang Lorenz GbR Löwengrube München Euro DE
+Herzogliches Bräustüberl Tegernsee Peter Hubert GmbH Co. KG Schloßplatz Tegernsee Euro DE
+hans im glück BURGERGRILL BAR Luisenstrasse München Euro DE
+JET-TANKSTELLE Michael Brauner Landesberger Str. München Euro DE
+san francisco coffee place Theresienhöhe München Euro DE
+Gutshof Menterschwaige GENIESSEN WO´S GEFÄLLT Menterschwaigstrasse München Euro DE
+James T. Hunt Bar Schellingstrasse München Euro DE
+Bavaria Petrol Konrad Stockenreiter Unterhachinger Str. Ottobrunn Euro
+REWE CENTER Rosenkavalierplatz München Euro DE
+LIDL Luisenstr. München Euro DE
+JET-TANKSTELLE Michael Brauner Landsberger Strasse München Euro DE
+RESTAURANT KAISERGARTEN Kaiserstr. München Euro
+FRISTO GETRAENKEMARKT Behringerstr. B Planegg Euro
+pureburrito Lindwurmstrasse München Euro DE
+NAM GIAO Vietnamesisches Restaurant Maistr. München Euro
+Viva Maria Rothmundstr. München Euro DE
+m.c.mueller m.c.art event GmbH Fraunhoferstrasse München Euro
+Glockenbach Gastronomie GmbH Müllerstrasse München Euro
+IZAKAYA J-Bar Maistrasse München Euro
+KaffeeKüche GbR Weißenburger Straße München Euro
+VietHa Vietnam Cuisine Landsberger Strasse München Euro
+a FA. JAKOB FALTERMEIER KG Felix-Wankel Str. Filderstadt Euro
+b FA. JAKOB FALTERMEIER KG Felix-Wankel Str. Filderstadt Euro
+Asam-Schlössl Historische gastwirtschaft Maria-Einsiedelstraße München Euro DE
+Bäckerei Konditorei Kuhn e.K. Münchnerstrasse Dürnbach Euro DE
+Ringlers Valerie Martin Ringler GbR Sendlinger Str. München Euro DE
+TRATTORIA *AUGUSTO* Herzogenstraße Würzburg Euro
+Avanti Tankomat Automatentankstelle Zillertalstrasse Fügen Euro
+Glück Goethe UG Goetheplatz München Euro DE
+a DB Fernverkehr AG Stephensonstr. Frankfurt am Main Euro DE
+b DB Fernverkehr AG Stephensonstr. Frankfurt am Main Euro DE
+PENNY-MARKT GmbH Thalkirchner Str. München Euro DE
+GRATITUDE RESTAURANT Türkenstrasse München Euro
+Allguth Station Landsberger Str. Gilching Euro DE
+Retail Operating Company Deutschl. GmbH Passauer Str. München Euro DE
+No Junk GmbH Biergarten am Muffatwerk München Euro
+Vapiano München I Theatinerstr München Euro DE
+Pfälzer Residenz Weinstube Residenzstraße München Euro
+a dm-drogerie markt Steinkirchner Straße München Euro
+b dm-drogerie markt Steinkirchner Straße München Euro
+Vieider Erna Co. KG Despar Gemischtwaren Dorf Oberbozen Euro
+vinzenzmurr Qulität aus München Rosenstr. München Euro
+Bürofachgeschäft am Marienplatz Rosenstraße München Euro DE
+Douglas Theatinerstraße München Euro DE KB
+Pasing Pasinger Bahnhofsplatz Euro DE
+Forestella Muenchenerstr. Gauting Euro
+Nadams Urban S.N.C. Piazza Erbe-Obstplatz N. Bolzano Euro
+Osteria-Cafe-Pizzeria TARULLO´S Kreuzstraße München Euro
+PRINCE Rosa-Luxemburg-Str. Berlin Euro
+Luigi Tambosi am Hofgarten Odeonsplatz München Euro
+Commercial Bar-Enoteca Theatinerstrasse München Euro DE
+Sushiko GmbH Co.KG Schweizer Str. Frankfurt Euro
+Le MIGON Bonne Terrasse Ramatuelle Euro
+a Tony´s Pizza Heim- und Partyservice Fürstenrieder Str. München Euro
+b Tony´s Pizza Heim- und Partyservice Fürstenrieder Str. München Euro
+Oggi Universität Sila Trade GmbH Frankfurter Ring München Euro
+Meier Bäckermeisterei Bahnhofstr. Gauting Euro
+NORMA Maximilianstraße Bayreuth Euro DE
+Ocui open cuisine Gastro System GmbH München Euro
+Bachmeier GmbH Lindwurmstrasse München Euro DE
+ANNA BLUME Kulinarische floristische Spezialitäten Kollwitzstraße Berlin Euro
+Maredo Gaststätten GmbH&Co Betriebs KG Rindermarkt München Euro DE
+Osteria La Corte dell´Angelo´´ Perlacher Straße München Euro
+Wiggle Wiggle GmbH Ledererstr. München Euro DE
+Wirtshaus zur Marienburg Hohensalzaerstr. München Euro
+Gartencenter Kiefl Neuriederstr. Buchendorf Euro DE
+L'OSTERIA Künstlerhaus Lenbachplatz München Euro
+Bavarese Eherengutstrasse München Euro
+Dean&David fresh to eat Schellingstr. München Euro
+La Piazzetta Stadtplatz Miesbach Euro DE
+Orange Beach Seepromenade Starnberg Euro
+Rachls Backstubn Bäck.u.Kond.Rackl GmbH Co. KG Johann-G.-Gutenberg-Str. Olchi Euro DE
+Santo Anger Blumenstrasse München Euro DE
+Markt-Metzger Viktualienmarkt München Euro
+Griech.Restaurant ANESIS Schmellerstrasse München Euro
+Tengri Tagh Uyghur Restaurant Häberlstr. am Goetheplatz München Euro
+Centro Espanol Daiserstr. München Euro
+Patisserie Cafe Dukatz St. Anna Str. München Euro
+Adria Ristorante Bar Lounge Leopoldstrasse München Euro
+Kafehaus Karameel Verena Eichmann Nymphenburger Str. München Euro
+Cafe Rothmund Rothmundstr. München Euro
+Kuffler München Kleinhesselohe München Euro
+Kapuzino Tumblingerstr. München Euro
+Raabe's Wirtshaus Weßlingerstr. Steinebach Euro
+FORUM cafe_bar_restaurant Corneliusstr. München Euro
+Korean well being cuisine Fraunhoferstr. München Euro DE
+Nürnberger Bratwurst Glöckl am Dom Frauenplatz München Euro DE
+Cafe Dupont Landsberger Str. München Euro
+Biergarten Schloss Berg Seestraße Berg Euro
+Korbinianhütte Hoher Kranzberg Mittenwald Euro
+Biobäckerei Wagner Simbacher Str. Pocking Euro DE
+Bäckerei Schütz Westendstr. München Euro
+Pasta e Basta Fraunhofer Straße München Euro
+Locando Busento Fürstenrieder Str. München Euro
+IKEA FOOD SERVICES Brunntaler Str. Euro DE
+Indisches Restaurant NATRAJ Nymphenburger Str. München Euro
+Rastanlage Aurach Süd Herzogenaurach Euro DE
+süßmund essen trinken Westermühlstraße München Euro
+CA PHE MAI Klenzestr. München Euro
+Trachtenvogel Cafe-Lounge Reichenbachstrasse München Euro
+Franz Josef Nymphenburger Str. München Euro DE
+COTIDIANO the bakery restaurant Gärtnerplatz München Euro DE
+platz
+platz
+Filiale
+Filiale
+Filiale
+www.Zoettl.de
+www.Zoettl.de
+www.Zoettl.de
+Summe
+Summe
+Summe
+Stk
+Stk
+Stk
+Gesamtsumme
+Gesamtsumme
+Gesamtsumme
+Gesamtsumme
+total
+total
+total
+Total
+Total
+Total
+Euro Euro Euro Euro

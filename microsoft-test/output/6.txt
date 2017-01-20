@@ -1,0 +1,21 @@
+Kundenbeleg
+Forestella
+Muenchenerstr.
+Gauting
+Tel.
+Datum Uhr
+Beleg-Nr. 
+Trace-Nr.
+Kartenzahlung
+girocard
+Nr. 
+gültig bis
+VU-Nr.
+Genehmigungs-Nr. 
+Terminal-ID
+Pos-Info
+AS-Zeit Uhr
+weitere Daten
+Betrag EUR
+Zahlung erfolgt
+Bitte Beleg aufbewahren

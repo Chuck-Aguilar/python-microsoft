@@ -1,0 +1,18 @@
+KaffeeKüche GbR
+Weißenburger Straße 6
+München
+Rechnung für Tisch
+Datum
+Uhrzeit
+Belegnummer
+Steuernummer
+Es bediente Sie: KaffeeKüche
+Menge Artikel Preis Summe
+Cappuccino doppio
+Espresso doppio
+Sojamilch
+Cupcake
+Stück Kuchen
+Nettobetrag
+BETRAG EUR 13,70
+Vielen Dank für Ihren Besuch!

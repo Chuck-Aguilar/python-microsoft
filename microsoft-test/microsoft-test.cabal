@@ -35,6 +35,7 @@ library
                      , MicrosoftApiCall
                      , TextCorrector
                      , TextOrderer
+                     , Utils
                      , WordCorrector
   build-depends:       base >= 4.7 && < 5
                      , aeson

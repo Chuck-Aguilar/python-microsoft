@@ -25,7 +25,6 @@ normalizeLine xs = Prelude.foldl (\acc x -> acc ++ [T.pack (stripCharactersLine 
 stripCharactersLine :: String -> String
 stripCharactersLine text = Data.List.intercalate "" (getAllTextMatches (text =~ pat  :: AllTextMatches [] String))
 
--------------This could be optimized, it's not necessary to iterate two times the list -------------
 
 isInteger s = case reads s :: [(Integer, String)] of
   [(_, "")] -> True

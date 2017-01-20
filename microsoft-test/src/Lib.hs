@@ -59,4 +59,3 @@ imageWork = do
         trainingWords <- allwords
         let receipt = listOfLines (jsonParser (regions json))
         print $ correctFile trainingWords receipt
-        --print $ nWords (H.keys trainingWords)

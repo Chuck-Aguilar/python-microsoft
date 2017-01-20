@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-18 16:47:54.790399 UTC
+2017-01-20 14:59:42.072319 UTC
 
 interface microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX:Lib 8001
-  interface hash: 36d64f501cb045d5b1dccc3032dbe258
+  interface hash: ff825f65a4e2f205ba81ab0745ecafde
   ABI hash: 20d68c2af62d0ab4e0e90d3d2d1b0e99
   export-list hash: ad84add05f888dd2c0e21e337857982a
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -14,7 +14,7 @@ interface microsoft-test-0.1.0.0-GrVJTUwvQDT6UxMc70QnEX:Lib 8001
 exports:
   Lib.startApp
 module dependencies: GetWords JSONInterpreter MicrosoftApiCall
-                     TextCorrector TextOrderer WordCorrector
+                     TextCorrector TextOrderer Utils WordCorrector
 package dependencies: QuickCheck-2.8.2@QuickCheck-2.8.2-B7cXgOk7OAiKrNRsk2SfuA
                       StateVar-1.1.0.4@StateVar-1.1.0.4-CJpWsiXJdd89SnV9dZtTwc
                       adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc
@@ -303,8 +303,8 @@ import  -/  http-client-0.4.31.2@http-client-0.4.31.2-81NyMkNcWWADaJ0Cq5FYRE:Net
 import  -/  http-client-tls-0.2.4.1@http-client-tls-0.2.4.1-IQsASD4utohJimtrNCGUuI:Network.HTTP.Client.TLS 52d6e9f186cb7205a7f4ab08457f9d2a
 import  -/  http-media-0.6.4@http-media-0.6.4-82jDVCpdN5H696EFF5l5I4:Network.HTTP.Media 1c5de2273ab85a0c671e60e65691660a
 import  -/  lucid-2.9.7@lucid-2.9.7-KcFbPMesOP0Hxey7hFZLFI:Lucid f5038b9d586b48215a25dda28037565f
-import  -/  GetWords b7c9f88592b03e2ae157cb7f051e0cd9
-  exports: 08fb1579eaf43176ca250568b37f05a3
+import  -/  GetWords 603afb9495566eaf327d8b97734e2330
+  exports: 8100f356aaa09fbaf1af33c1ec2507ba
   allwords 3b6ceeea3a2cd528a64b66fdad966bcf
 import  -/  JSONInterpreter 3d0100d88770939f2e194a011beb9955
   exports: b26551c9234e4e6dfb6376054bcaa8e6
@@ -313,7 +313,7 @@ import  -/  MicrosoftApiCall e7da342fe8371d88a000e0c9e536545a
   exports: 6d0612cf31fc3cd45469cf869c91a11d
   postImage de89484366d3a121208c26966f1402c3
   regions 7b85be1481c2b631fd1cd7751d14672e
-import  -/  TextCorrector 2ca5afba49531631838acada70bb070f
+import  -/  TextCorrector d2e49ac55b90e4a6c2b6231336029a6a
   exports: f581c2bafee673d98641813100711b0e
   correctFile 295d24fd5166e51b3c9de5c4c4d1e9d4
 import  -/  TextOrderer bfe8c02a23cb6c67994db9899debc689
