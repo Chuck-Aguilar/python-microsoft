@@ -33,4 +33,25 @@ isSpace ch = (ch == ' ' || ch == '\n')
 
 isWord word = T.any (\x -> 'a' <= x && x <= 'z') word
 
-isNumber word = T.all (\x -> '0' <= x && x <= '9') word
+isNumber word
+ | T.pack "" /= word = T.all (\x -> '0' <= x && x <= '9') word
+ | otherwise         = False
+
+
+isInteger s = case reads s :: [(Integer, String)] of
+  [(_, "")] -> True
+  _         -> False
+
+isDouble s = case reads s :: [(Double, String)] of
+  [(_, "")] -> True
+  _         -> False
+
+isNumeric :: String -> Bool
+isNumeric s = isInteger s || isDouble s
+
+getDoubleNumber s = case reads s :: [(Double, String)] of
+  [(n, "")] -> n
+  _         -> 0.0
+
+myRound :: (Fractional a, Integral b, RealFrac r) => r -> b -> a
+myRound number n = (fromInteger $ round $ number * (10^n)) / (10.0^^n)

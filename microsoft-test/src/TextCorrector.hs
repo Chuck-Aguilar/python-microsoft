@@ -1,5 +1,7 @@
 module TextCorrector where
 
+import Utils
+
 import Data.List
 import Data.Text as T
 import Text.Regex.PCRE
@@ -24,18 +26,6 @@ normalizeLine xs = Prelude.foldl (\acc x -> acc ++ [T.pack (stripCharactersLine 
 
 stripCharactersLine :: String -> String
 stripCharactersLine text = Data.List.intercalate "" (getAllTextMatches (text =~ pat  :: AllTextMatches [] String))
-
-
-isInteger s = case reads s :: [(Integer, String)] of
-  [(_, "")] -> True
-  _         -> False
-
-isDouble s = case reads s :: [(Double, String)] of
-  [(_, "")] -> True
-  _         -> False
-
-isNumeric :: String -> Bool
-isNumeric s = isInteger s || isDouble s
 
 
 getFinalLine :: [Text] -> H.HashMap Text Int -> [Text]

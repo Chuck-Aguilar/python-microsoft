@@ -35,6 +35,7 @@ getInfo' index companyNext (line : document) (ReceiptInfo a ad n d p c)
         if T.length line >= 4 && isWord line  -- This could be better
             then getInfo' (index + 1) False document (ReceiptInfo a ad line d p c)
             else getInfo' (index + 1) companyNext document (ReceiptInfo a ad n d p c)
+    -- Here the desition (str), (total), etc...
     | otherwise                 = getInfo' (index + 1) False document (ReceiptInfo a ad n d p c)
 
 
@@ -44,12 +45,33 @@ getSumme line = do
     let newLine = T.splitOn (T.pack " ") line
     let check = T.pack ""
     let amount = getSumme' check  newLine
+    if convert
+        then getBruttoAmount amount
+        else amount
 
 getSumme' :: T.Text -> [T.Text] -> T.Text
-getSumme' check [] = T.pack ""
+getSumme' check [] = check
 getSumme' check (word:line) = do
     let newWord = T.replace (T.pack "€") (T.pack "") word
     if isNumber check && isNumber newWord
         then T.append check (T.append (T.pack ".") newWord)
-        else
+        else if isNumber newWord
+            then getSumme' newWord line
+            else if isNumeric (T.unpack newWord)
+                then newWord
+                else getSumme' check line
 
+
+getBruttoAmount :: T.Text -> T.Text
+getBruttoAmount amount = T.pack $ show (myRound ((getDoubleNumber (T.unpack amount)) * 1.19) 2)
+
+
+fillAddress :: T.Text -> T.Text -> T.Text
+fillAddress address currentLine
+    | address == initialText = currentLine
+    | otherwise              = address
+
+
+--getPLZCity :: T.Text -> (T.Text, T.Text)
+--getPLZCity line = do
+    --let newLine = T.splitOn (T.pack " ") line

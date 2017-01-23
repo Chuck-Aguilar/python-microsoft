@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-20 16:12:13.479732 UTC
+2017-01-23 17:00:01.474523 UTC
 
 interface microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:Lib 8001
-  interface hash: 3ccad7a8388062f8e5679b9316dc971b
+  interface hash: c6e99dc6891e367b7892df85d5100cd4
   ABI hash: fbb8b31500242b27a5d6a5794a849c0f
   export-list hash: 60f1fd5e159ef1eca197779691434940
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -304,10 +304,10 @@ import  -/  http-client-0.4.31.2@http-client-0.4.31.2-81NyMkNcWWADaJ0Cq5FYRE:Net
 import  -/  http-client-tls-0.2.4.1@http-client-tls-0.2.4.1-IQsASD4utohJimtrNCGUuI:Network.HTTP.Client.TLS 52d6e9f186cb7205a7f4ab08457f9d2a
 import  -/  http-media-0.6.4@http-media-0.6.4-82jDVCpdN5H696EFF5l5I4:Network.HTTP.Media 1c5de2273ab85a0c671e60e65691660a
 import  -/  lucid-2.9.7@lucid-2.9.7-KcFbPMesOP0Hxey7hFZLFI:Lucid f5038b9d586b48215a25dda28037565f
-import  -/  GetUsefulInfo a83f67d7477842956da03596b23e9016
-  exports: 223d8b157d82dfae3d1eaef91d6dd69b
-import  -/  GetWords 75a62e75b7c4457e8f7cbfcf2fa0fc9f
-  exports: b1dd1f40ed555a0df42e9f8787a449dc
+import  -/  GetUsefulInfo df1fc07223a5e9ea7cc23f78a07941e1
+  exports: c58e6c825641548c850105dc5cebf5d7
+import  -/  GetWords 862cc8ea64db175d474c59a748e72cde
+  exports: e9ab69fd3289c6e9b7d1c2c31b42f67c
   allwords 03f50ad56f84682e915b36a7e9a0b3ce
 import  -/  JSONInterpreter c11f5a49dfae502add230e13bf619d78
   exports: cef10f9ca2ea5f19f2e8f26d9dc317af
@@ -316,8 +316,8 @@ import  -/  MicrosoftApiCall d62ec20f293e5ef20d8d764907a6a5be
   exports: a1b3a3a58f8307497463f16e071947eb
   postImage d809895e6b5abd174329f155825d0479
   regions 063dd251d1e5b28ba98a015b69461dc9
-import  -/  TextCorrector 97378c6c6e173d575729e046998fc23f
-  exports: e757f09f918b549144f6fa903666d97a
+import  -/  TextCorrector 4b2d5f40c50843869ce695a69b67549a
+  exports: 224ab3f7a5beeb91dc5b523f76436245
   correctFile 8993b9e59cc049311342412006ebee6b
 import  -/  TextOrderer 97b94798df58676ca370300eac3ab4f0
   exports: 10ecc55545fbdf0f22fc01c810ea5ca6
