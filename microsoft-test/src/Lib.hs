@@ -58,5 +58,8 @@ imageWork = do
       Left err -> print err
       Right json -> do
         trainingWords <- allwords
-        let receipt = listOfLines (jsonParser (regions json))
-        print $ correctFile trainingWords receipt
+        plzDict <- plzCity
+        let receipt       = listOfLines (jsonParser (regions json))
+        let correctedFile = correctFile trainingWords receipt
+        --print $ correctedFile
+        print $ getInfo correctedFile plzDict

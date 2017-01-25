@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-23 17:00:01.474523 UTC
+2017-01-25 13:23:44.436677 UTC
 
 interface microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:Lib 8001
-  interface hash: c6e99dc6891e367b7892df85d5100cd4
+  interface hash: 7720972e6bc9991637c6e11bf0f3fffd
   ABI hash: fbb8b31500242b27a5d6a5794a849c0f
   export-list hash: 60f1fd5e159ef1eca197779691434940
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -304,11 +304,13 @@ import  -/  http-client-0.4.31.2@http-client-0.4.31.2-81NyMkNcWWADaJ0Cq5FYRE:Net
 import  -/  http-client-tls-0.2.4.1@http-client-tls-0.2.4.1-IQsASD4utohJimtrNCGUuI:Network.HTTP.Client.TLS 52d6e9f186cb7205a7f4ab08457f9d2a
 import  -/  http-media-0.6.4@http-media-0.6.4-82jDVCpdN5H696EFF5l5I4:Network.HTTP.Media 1c5de2273ab85a0c671e60e65691660a
 import  -/  lucid-2.9.7@lucid-2.9.7-KcFbPMesOP0Hxey7hFZLFI:Lucid f5038b9d586b48215a25dda28037565f
-import  -/  GetUsefulInfo df1fc07223a5e9ea7cc23f78a07941e1
-  exports: c58e6c825641548c850105dc5cebf5d7
-import  -/  GetWords 862cc8ea64db175d474c59a748e72cde
-  exports: e9ab69fd3289c6e9b7d1c2c31b42f67c
+import  -/  GetUsefulInfo 8c360b088619647a125f8af3c8439711
+  exports: 55750754cee097f9a555e5988b0fdaea
+  getInfo db68755884482d301482defe7a05ae3b
+import  -/  GetWords da9143c119b651d56925187572e59ca0
+  exports: 68b0af44a130fa4fcd29bf6d1beb405b
   allwords 03f50ad56f84682e915b36a7e9a0b3ce
+  plzCity 331269c96d6297befad5f4a9e545b1f2
 import  -/  JSONInterpreter c11f5a49dfae502add230e13bf619d78
   exports: cef10f9ca2ea5f19f2e8f26d9dc317af
   jsonParser 84b3db5f85fe1d3cf7f67244fbd4d56a
@@ -316,9 +318,9 @@ import  -/  MicrosoftApiCall d62ec20f293e5ef20d8d764907a6a5be
   exports: a1b3a3a58f8307497463f16e071947eb
   postImage d809895e6b5abd174329f155825d0479
   regions 063dd251d1e5b28ba98a015b69461dc9
-import  -/  TextCorrector 4b2d5f40c50843869ce695a69b67549a
+import  -/  TextCorrector 8e6e5974378365d47cbc5d2a6eecec17
   exports: 224ab3f7a5beeb91dc5b523f76436245
-  correctFile 8993b9e59cc049311342412006ebee6b
+  correctFile b9cb1a28b06f8ffaeb22fe523ca0b907
 import  -/  TextOrderer 97b94798df58676ca370300eac3ab4f0
   exports: 10ecc55545fbdf0f22fc01c810ea5ca6
   listOfLines 64b023fc9bf18f1e33908983c3fbe926

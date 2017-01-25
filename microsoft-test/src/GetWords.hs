@@ -1,6 +1,7 @@
 module GetWords where
 
 import Utils
+
 import qualified Data.HashMap.Strict as H
 import qualified Data.Text as T
 import qualified Data.Text.IO as Tio
@@ -11,7 +12,7 @@ import Data.List
 ---------------------The training text should already be formatted---------------------------------
 base = "/home/chuck/Documents/Working/OCR/python-microsoft/microsoft-test/output/"
 dataBase = "/home/chuck/Documents/Working/OCR/python-microsoft/microsoft-test/data/"
-plz = "plz.txt"
+plzTXT = "plz.txt"
 
 wrds :: T.Text -> [ T.Text ]
 wrds bs = filter isWord (filter (not . T.null) $ T.split (isSpace) bs)
@@ -43,9 +44,9 @@ makeFile count filePaths files = do
                 listFiles <- files
                 makeFile (count - 1) filePaths (return (T.append listFiles (T.append file (T.pack "\n"))))
 
---plzCity :: IO (H.HashMap T.Text T.Text)
-plzCity :: IO()
+plzCity :: IO(H.HashMap T.Text T.Text)
 plzCity = do
-    allPlzCitiesDoc <- Tio.readFile (dataBase ++ plz)
+    allPlzCitiesDoc <- Tio.readFile (dataBase ++ plzTXT)
     allPlzCities <- return $ T.splitOn (T.pack "\n") allPlzCitiesDoc
-    print $ allPlzCities
+    let plzDict = foldl addTexttoPLZ H.empty allPlzCities
+    return plzDict

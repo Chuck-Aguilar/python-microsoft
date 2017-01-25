@@ -12,6 +12,12 @@ addNGram h w = H.insert w (splitInNGrams w) h
 
 addHamming h word realWord = H.insert word (getHammingDistance word realWord) h
 
+addTexttoPLZ h plzW = H.insert plz w h
+    where
+        separation = T.splitOn (T.pack ",") plzW
+        plz  = separation !! 0
+        w = separation !! 1
+
 getHammingDistance :: T.Text -> T.Text -> Int
 getHammingDistance realWord word = sum [1 | (x1, y1) <- T.zip realWord word, x1 /= y1]
 
@@ -55,3 +61,6 @@ getDoubleNumber s = case reads s :: [(Double, String)] of
 
 myRound :: (Fractional a, Integral b, RealFrac r) => r -> b -> a
 myRound number n = (fromInteger $ round $ number * (10^n)) / (10.0^^n)
+
+takeManyFrom :: Int -> Int -> T.Text -> T.Text
+takeManyFrom t d word = T.take t $ T.drop d word

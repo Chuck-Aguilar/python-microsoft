@@ -11,10 +11,10 @@ import qualified Data.HashMap.Strict as H
 
 pat = "[a-z]|[0-9]|ä|ö|ü|ß|-|/|.|," :: String
 
-correctFile :: H.HashMap Text Int -> [[Text]] -> [[Text]]
+correctFile :: H.HashMap Text Int -> [[Text]] -> [Text]
 correctFile trainingWords receipt = do
     let normalizedText = normalizeText receipt
-    let correctedText = Data.List.foldl (\acc x -> acc ++ [getFinalLine x trainingWords]) [] normalizedText
+    let correctedText = Data.List.foldl (\acc x -> acc ++ [T.unwords (getFinalLine x trainingWords)]) [] normalizedText
     correctedText
 
 normalizeText :: [[Text]] -> [[Text]]
