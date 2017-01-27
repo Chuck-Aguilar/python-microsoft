@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-20 15:51:21.840576 UTC
+2017-01-27 11:55:05.736961 UTC
 
 interface main@main:Main 8001
-  interface hash: 005c495ba1246c460df78bf16f12e564
+  interface hash: 8c44cbc641c3b4723bf507f8847bb0d6
   ABI hash: d9c576311d249c6a22e299c25a3efda1
   export-list hash: 0b02b8414e099efdcf632751c0b2a88d
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -226,6 +226,7 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc:
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V2
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V3
                          linear-1.20.5@linear-1.20.5-3v0Vnv0EhozHZMMKRrqPcE:Linear.V4
+                         microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:GetUsefulInfo
                          microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:MicrosoftApiCall
                          network-uri-2.6.1.0@network-uri-2.6.1.0-DDHh2FNiPirBRgkuU9DEt2:Network.URI
                          opencv-0.0.0@opencv-0.0.0-8JpdBAyidfO5V8I1hJAHiz:OpenCV.Core.Types
@@ -282,7 +283,7 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-3ol9sWZt3In19pwXwPv3Xc:
                          zlib-0.6.1.2@zlib-0.6.1.2-4CWLN1T27kOJhNvXgy46ZV:Codec.Compression.Zlib.Stream
 import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
 import  -/  ghc-prim-0.5.0.0:GHC.Types 7378e41b7749213c8c88ceb6b0665d4c
-import  -/  microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:Lib fbb8b31500242b27a5d6a5794a849c0f
+import  -/  microsoft-test-0.1.0.0@microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:Lib 13388f2652e92372f06f5a60bae666fe
 d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,

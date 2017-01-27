@@ -44,7 +44,7 @@ makeFile count filePaths files = do
                 listFiles <- files
                 makeFile (count - 1) filePaths (return (T.append listFiles (T.append file (T.pack "\n"))))
 
-plzCity :: IO(H.HashMap T.Text T.Text)
+plzCity :: IO (H.HashMap T.Text T.Text)
 plzCity = do
     allPlzCitiesDoc <- Tio.readFile (dataBase ++ plzTXT)
     allPlzCities <- return $ T.splitOn (T.pack "\n") allPlzCitiesDoc

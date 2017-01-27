@@ -32,34 +32,30 @@ addresse_list = [T.pack "str", T.pack "platz"]
 
 
 getInfo :: [T.Text] -> H.HashMap T.Text T.Text -> ByteString
-getInfo document plzDict = getInfo' 0 True document (ReceiptInfo {amount = initialText, address = initialText,
+getInfo document plzDict = getInfo' True document (ReceiptInfo {amount = initialText, address = initialText,
     name = initialText, date = initialText, plz = initialText, city = initialText}) plzDict
 
-getInfo' :: Int -> Bool -> [T.Text] -> ReceiptInfo -> H.HashMap T.Text T.Text -> ByteString
-getInfo' index companyNext [] receiptInfo plzDict = trace ("doc length: " ++ show (index)) $ encode receiptInfo
-getInfo' index companyNext (line : document) (ReceiptInfo a ad n d p c) plzDict
-    | index == 0 || companyNext == True = trace ("doc length: " ++ show (Prelude.length document)) $ do
-        if T.length line >= 4 && isWord line  -- This could be better
-            then trace (show (ReceiptInfo a ad line d p c)) $ getInfo' (index + 1) False document (ReceiptInfo a ad line d p c) plzDict
-            else trace ("b") $ getInfo' (index + 1) companyNext document (ReceiptInfo a ad n d p c) plzDict
-    -- Here the desition (str), (total), etc...
-    | otherwise                 = do
-        let newLine = trace ("doc length: " ++ show (Prelude.length document)) $ T.toLower line
-        let newLine = T.replace (T.pack ",") (T.pack ".") newLine
-        if T.isInfixOf (sume_list !! 0) newLine || T.isInfixOf (sume_list !! 1) newLine ||
+getInfo' :: Bool -> [T.Text] -> ReceiptInfo -> H.HashMap T.Text T.Text -> ByteString
+getInfo' companyNext [] receiptInfo plzDict = encode receiptInfo
+getInfo' companyNext (line : document) (ReceiptInfo a ad n d p c) plzDict
+    | companyNext && T.length line >= 4 && isWord line = getInfo' False (line : document) (ReceiptInfo a ad line d p c) plzDict
+    | otherwise                                        = do
+        let newLine = T.replace (T.pack ",") (T.pack ".") (T.toLower line)
+        if (T.isInfixOf (sume_list !! 0) newLine || T.isInfixOf (sume_list !! 1) newLine ||
             T.isInfixOf (sume_list !! 2) newLine || T.isInfixOf (sume_list !! 3) newLine ||
-            T.isInfixOf (sume_list !! 4) newLine || T.isInfixOf (sume_list !! 5) newLine
-            then getInfo' (index + 1) False document (ReceiptInfo (getSumme newLine) ad n d p c) plzDict
-            else if T.isInfixOf (addresse_list !! 0) newLine || T.isInfixOf (addresse_list !! 1) newLine
-                then getInfo' (index + 1) False document (ReceiptInfo a (fillAddress ad newLine) n d p c) plzDict
+            T.isInfixOf (sume_list !! 4) newLine || T.isInfixOf (sume_list !! 5) newLine) && a == initialText
+            then getInfo' companyNext document (ReceiptInfo (getSumme newLine) ad n d p c) plzDict
+            else if (T.isInfixOf (addresse_list !! 0) newLine || T.isInfixOf (addresse_list !! 1) newLine) && ad == initialText
+                then do
+                    let trying = getPLZCity p c newLine plzDict
+                    getInfo' companyNext document (ReceiptInfo a (fillAddress ad newLine) n d (fst trying) (snd trying)) plzDict
                 else do
-                    let p = fst (getPLZCity newLine plzDict)
-                    let c = snd (getPLZCity newLine plzDict)
-                    let d = getDate newLine
-                    getInfo' (index + 1) False document (ReceiptInfo a ad n d p c) plzDict
+                    let trying = getPLZCity p c newLine plzDict
+                    getInfo' companyNext document (ReceiptInfo a ad n (getDate newLine d) (fst trying) (snd trying)) plzDict
 
 
--- | otherwise                 = getInfo' (index + 1) False document (ReceiptInfo a ad n d p c)
+testFunc :: T.Text -> IO ()
+testFunc newLine = print $ newLine
 
 getSumme :: T.Text -> T.Text
 getSumme line = do
@@ -94,10 +90,12 @@ fillAddress address currentLine
     | otherwise              = address
 
 
-getPLZCity :: T.Text -> H.HashMap T.Text T.Text -> (T.Text, T.Text)
-getPLZCity line plzDict = do
-    let newLine = T.splitOn (T.pack " ") line
-    getPLZCity' newLine plzDict
+getPLZCity :: T.Text -> T.Text -> T.Text -> H.HashMap T.Text T.Text -> (T.Text, T.Text)
+getPLZCity plz city line plzDict
+    | plz == initialText = do
+        let newLine = T.splitOn (T.pack " ") line
+        getPLZCity' newLine plzDict
+    | otherwise          = (plz, city)
 
 getPLZCity' :: [T.Text] -> H.HashMap T.Text T.Text -> (T.Text, T.Text)
 getPLZCity' [] plzDict = (T.pack "", T.pack "")
@@ -106,10 +104,12 @@ getPLZCity' (word : lineList) plzDict
     | otherwise             = getPLZCity' lineList plzDict
 
 
-getDate :: T.Text -> T.Text
-getDate line = do
-    let newLine = T.splitOn (T.pack " ") line
-    getDate' newLine
+getDate :: T.Text -> T.Text -> T.Text
+getDate line currentDate
+    | currentDate == initialText = do
+        let newLine = T.splitOn (T.pack " ") line
+        getDate' newLine
+    | otherwise                  = currentDate
 
 getDate' :: [T.Text] -> T.Text
 getDate' [] = T.pack ""

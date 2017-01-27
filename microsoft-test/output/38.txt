@@ -3,7 +3,7 @@ Zöttl
 Vinzenz
 Zöttl
 Bäckerei-Konditorei
-Adi—Maislinger
+Maislinger-Str
 
 Str.
 12;
@@ -11,6 +11,7 @@ Str.
 München
 Filiale
 Fraunhofer
+adi
 89
 85631716
 www.
@@ -28,6 +29,8 @@ Frischkaese
 Heißes
 Hähnchen
 Baguette
+Adi
+Adi
 3,85
 Gesamtsumme
 6.53

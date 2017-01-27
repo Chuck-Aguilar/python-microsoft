@@ -1,12 +1,12 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-25 13:23:44.436677 UTC
+2017-01-27 13:22:20.659483 UTC
 
 interface microsoft-test-0.1.0.0-7IehWSpQc654CyzvyDLtL:Lib 8001
-  interface hash: 7720972e6bc9991637c6e11bf0f3fffd
-  ABI hash: fbb8b31500242b27a5d6a5794a849c0f
-  export-list hash: 60f1fd5e159ef1eca197779691434940
-  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  interface hash: e68ff0177821831ec1bb23399737c240
+  ABI hash: 13388f2652e92372f06f5a60bae666fe
+  export-list hash: c8d3677e4e5386f8c34b428ef647fdb5
+  orphan hash: ea882356ef33437ef6d05b88f884a984
   flag hash: 8b1bd7c28a19048880f5b37bc429c264
   sig of: Nothing
   used TH splices: False
@@ -304,9 +304,9 @@ import  -/  http-client-0.4.31.2@http-client-0.4.31.2-81NyMkNcWWADaJ0Cq5FYRE:Net
 import  -/  http-client-tls-0.2.4.1@http-client-tls-0.2.4.1-IQsASD4utohJimtrNCGUuI:Network.HTTP.Client.TLS 52d6e9f186cb7205a7f4ab08457f9d2a
 import  -/  http-media-0.6.4@http-media-0.6.4-82jDVCpdN5H696EFF5l5I4:Network.HTTP.Media 1c5de2273ab85a0c671e60e65691660a
 import  -/  lucid-2.9.7@lucid-2.9.7-KcFbPMesOP0Hxey7hFZLFI:Lucid f5038b9d586b48215a25dda28037565f
-import  -/  GetUsefulInfo 8c360b088619647a125f8af3c8439711
-  exports: 55750754cee097f9a555e5988b0fdaea
-  getInfo db68755884482d301482defe7a05ae3b
+import  -/  GetUsefulInfo b3ccf64991e04dfa14e3c9f833881cec
+  exports: 6f9f17b2d581ebf4a1bc0f385c036357
+  getInfo d1d6cc87df2d8f3994277050977119a9
 import  -/  GetWords da9143c119b651d56925187572e59ca0
   exports: 68b0af44a130fa4fcd29bf6d1beb405b
   allwords 03f50ad56f84682e915b36a7e9a0b3ce
@@ -318,8 +318,8 @@ import  -/  MicrosoftApiCall d62ec20f293e5ef20d8d764907a6a5be
   exports: a1b3a3a58f8307497463f16e071947eb
   postImage d809895e6b5abd174329f155825d0479
   regions 063dd251d1e5b28ba98a015b69461dc9
-import  -/  TextCorrector 8e6e5974378365d47cbc5d2a6eecec17
-  exports: 224ab3f7a5beeb91dc5b523f76436245
+import  -/  TextCorrector 28e641219d4e522f4a774ef1cfb6be04
+  exports: 42e1eba46d8cdca736b607ceb597da83
   correctFile b9cb1a28b06f8ffaeb22fe523ca0b907
 import  -/  TextOrderer 97b94798df58676ca370300eac3ab4f0
   exports: 10ecc55545fbdf0f22fc01c810ea5ca6
@@ -340,6 +340,25 @@ import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Except
 import  -/  unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-Eo9jd5DMz45DhBLCG8skzW:Data.HashMap.Strict 5b7474ba841d7985b582123ebcf7b9dc
 import  -/  wai-3.2.1.1@wai-3.2.1.1-f77bMYZGLQBAD3XJrvGiW:Network.Wai f10fb472d685284a8637bf34e58bc7f2
 import  -/  warp-3.2.9@warp-3.2.9-1srGDEsq7RWF9RsucFj6bw:Network.Wai.Handler.Warp 3da15d24b266d35965cd5350be944ee3
+e82e5c2de2be2ec3b34e2a44bdf1a49f
+  $s$fShow[]1 :: [[Data.Text.Internal.Text]] -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: [[Data.Text.Internal.Text]]) ->
+                 GHC.Show.showList__
+                   @ [Data.Text.Internal.Text]
+                   Data.Text.Show.$fShowText_$cshowList
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+13159a6045d9cbc5aa9261a9b27135c6
+  $s$fShow[]_$s$fShow[]_$cshow ::
+    [Data.Text.Internal.Text] -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: [Data.Text.Internal.Text]) ->
+                 Data.Text.Show.$fShowText_$cshowList
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
 9807d89729875e7aa88bf3adce46d2fa
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
@@ -363,6 +382,10 @@ bfa4eb66e9fb178a1c333700f62a250b
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <S,U> -}
+"SPEC/Lib $fShow[]_$cshow @ Text" [ALWAYS] forall ($dShow :: GHC.Show.Show
+                                                               Data.Text.Internal.Text)
+  GHC.Show.$fShow[]_$cshow @ Data.Text.Internal.Text $dShow
+  = Lib.$s$fShow[]_$s$fShow[]_$cshow
 vectorised variables:
 vectorised tycons:
 vectorised reused tycons:

@@ -1,7 +1,11 @@
 import qualified Data.Text as T
 import System.Directory as D
 
-getHammingDistance :: T.Text -> T.Text -> Int
-getHammingDistance realWord word = sum [1 | (x1, y1) <- T.zip realWord word, x1 /= y1]
-
-texts = D.listDirectory "output/"
+simpleFunc :: Bool -> [Int] -> Bool
+simpleFunc companyNext [] = companyNext
+simpleFunc companyNext (x:xs)
+    | x<= 5 || companyNext = do
+        if x == 0
+            then simpleFunc False xs
+            else simpleFunc companyNext xs
+    | otherwise            = simpleFunc companyNext xs
